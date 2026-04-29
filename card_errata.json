@@ -1,0 +1,116 @@
+[
+    {
+        "type": "card_errata",
+        "card_codes": ["01006", "01008", "01010", "01012", "01014", "01506", "01508", "01510", "01512", "01514"],
+        "ruling": "These cards have no level (instead of being level 0).",
+        "citation": "faq-1.0"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["01014", "01514"],
+        "ruling": "This card's <b>Forced</b> ability should read: \"<b>Forced</b> - After you play an event or discard an event from play...\"",
+        "citation": "faq-1.9"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["50004"],
+        "ruling": "This card's constant ability should read: \"Each time a non-[[Elite]] enemy would spawn at attached location, spawn it at a connecting location instead, if able.\"",
+        "citation": "faq-1.4"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["02001"],
+        "ruling": "This card's <b>Deckbuilding Options</b> should read: \"... up to five other level 0 cards from any other classes ([seeker], [rogue], [mystic], and/or [survivor]).\"",
+        "citation": "faq-1.5"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["02002"],
+        "ruling": "This card's <b>Deckbuilding Options</b> should read: \"... up to five other level 0 cards from any other classes ([guardian], [rogue], [mystic], and/or [survivor]).\"",
+        "citation": "faq-1.5"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["02003", "98001"],
+        "ruling": "This card's <b>Deckbuilding Options</b> should read: \"... up to five other level 0 cards from any other classes ([guardian], [seeker], [mystic], and/or [survivor]).\"",
+        "citation": "faq-1.5"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["02004"],
+        "ruling": "This card's <b>Deckbuilding Options</b> should read: \"... up to five other level 0 cards from any other classes ([guardian], [seeker], [rogue], and/or [survivor]).\"",
+        "citation": "faq-1.5"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["02005"],
+        "ruling": "This card's <b>Deckbuilding Options</b> should read: \"... up to five other level 0 cards from any other classes ([guardian], [seeker], [rogue], and/or [mystic]).\"",
+        "citation": "faq-1.5"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["02007"],
+        "ruling": "This card's <b>Forced</b> ability should read: \"When the game ends, if attached enemy is in play: Zoey Samaras suffers 1 mental trauma.\"",
+        "citation": "faq-1.0"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["02011"],
+        "ruling": "This card's <b>Forced</b> ability should read: \"When the game ends, if Searching for Izzie is in play: Jenny Barnes suffers 1 mental trauma.\"",
+        "citation": "faq-1.0"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["02020"],
+        "ruling": "This card's first ability should read: \"Your maximum hand size is increased by 2.\"",
+        "citation": "faq-1.6"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["02040"],
+        "ruling": "This card's [reaction] ability should read: \"After you draw a non-weakness card, discard that card...\"",
+        "citation": "faq-1.3"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["02078"],
+        "ruling": "This enemy's traits should be \"[[Humanoid]]. [[Criminal]]. [[Elite]].\"",
+        "citation": "faq-1.2"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["02079", "02097", "02098"],
+        "ruling": "The [[Human]] trait on each of these cards should read [[Humanoid]] instead.",
+        "citation": "faq-1.2"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["02205"],
+        "ruling": "This card's first ability, on the revealed side, should read: \"<b>Forced</b> - After you fail a skill test while investigating the Burned Ruins: Flip 1 clue token on the Burned Ruins to its doom side.\"",
+        "citation": "faq-1.1"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["02230"],
+        "ruling": "This card's [reaction] ability should read: \"When you reveal a non-[auto_fail] chaos token, spend 2 resources: Ignore that chaos token and reveal another one to resolve. If that token has a [auto_fail] symbol, remove Lucky Dice from the game (cannot be ignored/canceled).\"",
+        "citation": "faq-1.1"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["02262", "02263", "02264", "03192", "03193", "04230", "04231", "06236", "06237", "06238", "07191", "07192", "51004", "52004", "53004", "60229", "60230"],
+        "ruling": "The purchase restriction on each of these cards should be replaced with the keyword: \"Researched.\"",
+        "citation": "faq-2.0"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["02277"],
+        "ruling": "The two instructions on <b>Act 1b</b> should be reversed, as follows: \"Remove all clues from each location in play. The arcane presence masking the path further up the hill has faded. Reveal Ascending Path.\"",
+        "citation": "faq-1.6"
+    },
+    {
+        "type": "card_errata",
+        "card_codes": ["02302"],
+        "ruling": "This card's [reaction] ability should read: \"When you draw an encounter card from the encounter deck...",
+        "citation": "faq-1.2"
+    }
+]
