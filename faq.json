@@ -413,5 +413,96 @@
         "question": "How exactly does the ability on Discipline work? Can I use it to trigger a fight ability that requires multiple actions, such as the triple-action ability on Sledgehammer? If so, does it ignore the additional action cost of that ability?",
         "ruling": "This ability allows you to \"take up to 3 different fight or evade actions.\" This effectively grants you (up to) 3 additional actions, which each must be spent to trigger a different fight or evade ability. One of the 3 fight or evade actions taken by Discipline can be a multi-action ability, but if so, you must still pay the additional action cost of that ability, and those additional actions would have to come from your standard pool of actions or from a source other than Discipline. You cannot use Discipline to use Sledgehammer's triple-action on its own, nor can you use it to dodge the additional action cost of that ability.",
         "citation": "faq-2.0"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["05322", "06072", "04064"],
+        "question": "When I investigate using Sixth Sense and reveal one of the listed symbol tokens, how do I resolve investigating 2 locations? How do I resolve any additional effects that would trigger as a result of investigating the second location?",
+        "ruling": "To investigate 2 locations with the upgraded Sixth Sense, you perform one investigation test, choosing the shroud value of either your current location or the chosen location, and then you apply the results of the test to both locations. Each effect on either location that would trigger during that investigation still triggers, so long as you haven't passed its initiation point. For example, if you choose Experimental Therapies Ward, you may resolve its triggered ability of taking 1 horror to give it -2 shroud for the investigation. By that same logic, the Forced effect on Grand Chamber will trigger if you do not succeed the skill test by at least 2.",
+        "citation": "faq-2.1"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["06117", "10101", "01174"],
+        "question": "Does Read the Signs allow me to ignore Locked Door or other effects that would prevent an investigation?",
+        "ruling": "No. Read the Signs only allows you to ignore triggered abilities such as the haunted keyword or forced effects on your location. It cannot ignore constant effects, such as the one on Locked Door.",
+        "citation": "faq-2.1"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["60502"],
+        "question": "What kind of \"effects of the failed skill test\" does Neither Rain nor Snow allow you to cancel?",
+        "ruling": "Neither Rain nor Snow may cancel effects that trigger during Steps 6 & 7 of a failed skill test. This may include keywords such as alert, retaliate, and haunted, as well as negative effects on the scenario reference card that might trigger as a result of the failed skill test.",
+        "citation": "faq-2.1"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["05032", "05280", "05015"],
+        "question": "How does the \"for each\" or \"for every\" ruling work with a card that allows me to ignore an effect, such as Deny Existence?",
+        "ruling": "Deny Existence only allows you to ignore a single effect, such as one instance of horror, or one instance of discarding cards. Whether an effect is a \"single cumulative effect\" or \"separate effects\" depends on whether the effect forces the investigator to make a choice.\nFor example, Terrible Secret must be resolved as \"separate effects\", because the investigator is choosing whether to discard or take 1 horror for each card beneath Diana Stanley. Deny Existence can only ignore discarding one card or taking one horror; it cannot ignore all horror or all cards that would be discarded, as these are separate effects.",
+        "citation": "faq-2.1"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["09009", "08094", "08096", "08014a"],
+        "question": "When a card such as Grappling Hook or Sledgehammer instructs me to perform a different number of actions than the cost of the ability, how do I determine how many actions I have performed for the purposes of card effects?",
+        "ruling": "When resolving an ability, the investigator is considered to have performed as many actions as specified by the effect. For example, Grappling Hook or Discipline instruct you to perform 3 different actions. Regardless of the cost paid to initiate the ability, you have performed 3 actions (assuming you took each available action). Conversely, an investigator activating the second ability on Sledgehammer has only performed one action, although they spent two actions to do so.",
+        "citation": "faq-2.1"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["08100", "60317"],
+        "question": "If an effect allows you to take or perform multiple consecutive actions, such as with Eon Chart ( 100) or Nimble ( 17), are there player windows between these actions where I'd be able to play a fast card or resolve a free triggered ability?",
+        "ruling": "No, there are no player windows between multiple consecutive actions.",
+        "citation": "faq-2.1"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["08070", "08090", "08092", "06244", "54008"],
+        "question": "What does it mean to treat True Magick as a revealed [[Spell]] asset?",
+        "ruling": "When you reveal a [[Spell]] asset using True Magick's ability, True Magick essentially becomes a copy of the revealed asset, including its cost, name, text box, and [[Trait]]s. Charges on True Magick may be spent while resolving that asset's abilities. For example, when resolving the ability on Brand of Cthugha, you may spend charges from True Magick to deal that much damage for your attack.\nAs True Magick copies the revealed asset's traits, it may interact with abilities such as the reaction ability on Twila Katherine Price and Sign Magick.",
+        "citation": "faq-2.1"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["06015", "06004"],
+        "question": "Can an enemy spawn or move into Dream Gate while Luke Robinson is at Dream-Gate?",
+        "ruling": "Enemies cannot spawn at Dream-Gate. If an enemy would spawn at Luke Robinson's location while he is at Dream-Gate, it is discarded instead. If Luke Robinson moves into Dream-Gate while engaged with an enemy, that enemy disengages (but does not exhaust) and does not move with him. While at Dream-Gate, Luke Robinson cannot be chosen as an investigator for the purposes of enemy movement.",
+        "citation": "faq-2.1"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["06015", "06004", "04089"],
+        "question": "If Luke Robinson has Entombed in his threat area when the <b>Forced</b> effect on Dream-Gate triggers, what happens?",
+        "ruling": "While Entombed would prevent Luke Robinson from moving, an investigator cannot be at \"no location\" unless explicitly stated. When Dream-Gate's forced effect would move Luke Robinson at the investigation phase, you may ignore the effect on Entombed long enough to place Luke in a revealed location.",
+        "citation": "faq-2.1"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["09123", "04149", "10032"],
+        "question": "How does the ability of Soul Sanctification interact with Second Wind when I have either 1 or no damage on my investigator?",
+        "ruling": "Soul Sanctification grants you the ability to heal damage or horror in excess of a target's maximum health or sanity. Normally, you would not be able to play Second Wind when you have no damage on your investigator, but with Soul Sanctification, you can play Second Wind when you have no damage on your investigator to place 2 offerings on Soul Sanctification. (Note: You will still draw 1 card from Second Wind's effect if you used it to place charges on Soul Sanctification).",
+        "citation": "faq-2.1"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["05320", "03012"],
+        "question": "Does the ability on Double, Double allow me to replay an event that removes itself from the game such as The Painted World?",
+        "ruling": "No. While Double, Double's [reaction] ability allows you to replay an event \"as if it were in your hand\", it does not allow you to replay an event that has removed itself from the game as part of its effect.",
+        "citation": "faq-2.1"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["08059"],
+        "question": "Can Down the Rabbit Hole reduce the experience cost to upgrade a customizable card?",
+        "ruling": "Yes. Spending experience on a customizable card's upgrade sheet counts as upgrading that card. You may only use Down the Rabbit Hole's effect once per customizable card when upgrading between scenarios.",
+        "citation": "faq-2.1"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["08059"],
+        "question": "When purchasing level 0 cards to reach legal deck size, does Down the Rabbit Hole increase the cost to purchase those cards?",
+        "ruling": "No, when purchasing level 0 cards to reach a legal deck size, those cards cost 0 XP until reaching a legal deck size again, even if the investigator has included Down the Rabbit Hole in their deck.",
+        "citation": "faq-2.1"
     }
 ]
