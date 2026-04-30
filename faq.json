@@ -355,7 +355,7 @@
     {
         "type": "faq",
         "card_codes": ["01170"],
-        "question": "While playing a “Return to” scenario, what do I do if a campaign guide instruction or card ability refers to a card from an encounter set that has been replaced with a new encounter set?",
+        "question": "While playing a \"Return to\" scenario, what do I do if a campaign guide instruction or card ability refers to a card from an encounter set that has been replaced with a new encounter set?",
         "ruling": "If it is a setup instruction or an instruction to search for that card and put it into play, the investigators should find the matching card from the new encounter set that replaced it and follow the instructions using that card, instead. (If it is unclear which is the matching card, use the encounter numbers to help guide you. For example, Wizard of the Order is card 4/6 of the Dark Cult set; if that set was replaced, the matching card would be card 4/6 of the new set.)\nIf it is a gameplay effect other than the above, ignore it.",
         "citation": "faq-2.0"
     },
@@ -365,6 +365,13 @@
         "question": "What happens if I am Entombed and use Ethereal Form and am already engaged with an enemy? One says I cannot disengage from enemies, the other says enemies cannot be engaged with me.",
         "ruling": "When two cards directly contradict one another in a way that is impossible to reconcile, the text of the encounter card takes precedence. In this case, Entombed would take precedence over Ethereal Form, and the enemy would remain engaged with you <i>(see The Silver Rule)</i>.",
         "citation": "faq-2.0"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["60530", "07024"],
+        "question": "Does Quick Learner increase the difficulty of skill tests during the mythos phase?",
+        "ruling": "Quick Learner's ability only affects skill tests during your turn. A skill test that initiates when your turn begins, or at any point before the resolution of the first action of your turn, gets +1 difficulty. (Likewise, Plan of Action ( 24) gains a [willpower] and [agility] icon at this same timing point, but not during the mythos phase).",
+        "citation": "faq-2.4"
     },
     {
         "type": "faq",
@@ -397,7 +404,7 @@
         "type": "faq",
         "card_codes": ["90017", "01012", "01512", "90018", "06024"],
         "question": "Which triggers first: Parallel Agnes's ability or Heirloom of Hyberborea? What about Crystallizer of Dreams?",
-        "ruling": "An event card is placed on top of its owner's discard pile during step 4 of the play/initiation sequence, so any effect that modifies where the event goes (such as Parallel Agnes Baker or Crystallizer of Dreams) must occur during that step. An effect that triggers “after you play” an event but does not modify where the event goes (such as Heirloom of Hyberborea's ability) would naturally trigger just after step 4.",
+        "ruling": "An event card is placed on top of its owner's discard pile during step 4 of the play/initiation sequence, so any effect that modifies where the event goes (such as Parallel Agnes Baker or Crystallizer of Dreams) must occur during that step. An effect that triggers \"after you play\" an event but does not modify where the event goes (such as Heirloom of Hyberborea's ability) would naturally trigger just after step 4.",
         "citation": "faq-2.0"
     },
     {
@@ -514,6 +521,13 @@
     },
     {
         "type": "faq",
+        "card_codes": ["09042"],
+        "question": "Can I use the [reaction] ability on The Raven Quill to mark additional checkboxes on its upgrade sheet beyond my deckbuilding access?",
+        "ruling": "No. A customizable card's level is equal to half the total number of checked boxes, rounded up. For example, if your investigator has deckbuilding access to Seeker ([seeker]) cards level 0-2, you cannot choose to mark more than 4 checkboxes on The Raven Quill's upgrade sheet.",
+        "citation": "faq-2.4"
+    },
+    {
+        "type": "faq",
         "card_codes": ["09101"],
         "question": "Can I commit Grizzled when investigating a location that has one of its chosen traits?",
         "ruling": "Yes. Location cards are onsidered a type of encounter card, so if a location has one of the chosen traits for Grizzled, you can commit Grizzled to the investigation skill test.",
@@ -537,8 +551,8 @@
         "type": "faq",
         "card_codes": ["10010"],
         "question": "If I have a copy of Beguile attached to an enemy at a different location than me, what happens if I choose to activate Beguile's [action] ability to perform an evade action there?",
-        "ruling": "If you choose to activate Beguile's [action] ability and evade, you can choose any enemy at the attached enemy's location (including the attached enemy itself) and perform an evasion test against that enemy's evade value. If you succeed, exhaust that enemy and disengage it from all investigators (and if you fail, discard that copy of Beguile per its ability).",
-        "citation": "faq-2.2"
+        "ruling": "If you choose to activate Beguile's [action] ability and evade, you can choose any enemy at the attached enemy's location (including the attached enemy itself) and perform an evasion test against that enemy's evade value. If you succeed, exhaust that enemy and disengage it from all investigators (and if you fail, discard that copy of Beguile per its ability). If the targeted enemy has the alert keyword and you fail, that enemy attacks you, even though you are not at its location.",
+        "citation": "faq-2.4"
     },
     {
         "type": "faq",
@@ -553,6 +567,13 @@
         "question": "When playing Subject 5U-21/\"Suzi\", can I play Refine to upgrade customizable cards during a scenario?",
         "ruling": "Generally no. By default, Suzi can only upgrade cards from a class via the ability on the back of her investigator card, meaning she can't use Refine on most cards. The one exception is Hyperphysical Shotcaster; Suzi can use Refine on the Shotcaster because it's a neutral customizable card.",
         "citation": "faq-2.2"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["89001"],
+        "question": "Given her unique deckbuilding, how can I play Subject 5U-21/\"Suzi\" in standalone mode?",
+        "ruling": "When playing Suzi in standalone mode, you may choose to embrace the chaos! After building a level 0 deck (following all deckbuilding restrictions), randomly choose cards with level 1-5 from your collection to upgrade her deck. Continue this process until your deck contains your desired amount of experience. <i>(This process may be accomplished by shuffling 1 copy of each leveled card in your collection together.)</i>",
+        "citation": "faq-2.4"
     },
     {
         "type": "faq",
@@ -605,9 +626,163 @@
     },
     {
         "type": "faq",
+        "question": "Does an effect that moves damage/horror from one card to another count as \"healing\" the damage or horror?",
+        "ruling": "No. Moving tokens does not count as healing for the purpose of card effects.",
+        "citation": "faq-2.4"
+    },
+    {
+        "type": "faq",
         "card_codes": ["06239"],
         "question": "Do parley actions count as actions for the purpose of card abilities such as Haste?",
         "ruling": "Yes. Parley is its own unique action type. You could trigger Haste's [reaction] ability after taking two parley actions.",
         "citation": "faq-2.3"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["90081", "10024", "90038", "07225", "10013"],
+        "question": "When can I use parallel Father Mateo's [reaction] ability?",
+        "ruling": "When an investigator with a [bless] token sealed on them would reveal a chaos token for any reason (either via a skill test or when resolving a card such as Absolution), you may trigger Father Mateo's [reaction] ability for that investigator to use the [bless] token sealed on them for that skill test or card ability (this counts either as \"revealing\" or \"resolving\" the token for the purposes of that ability).\nThis interpretation may also be applied to cards such as Tidal Memento, Eye of the Djinn, and Book of Living Myths.",
+        "citation": "faq-2.4"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["11007", "11008", "01043", "01543"],
+        "question": "When my turn ends, can I use Agatha Crane's [reaction] ability to play an event that normally can only be played during my turn?",
+        "ruling": "You resolve Agatha Crane's ability at the end of your turn, which is still during your turn. So you could play an event such as Cryptic Research with the text \"Fast. Play only during your turn.\"",
+        "citation": "faq-2.4"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["11014", "98019", "11073"],
+        "question": "When Gloria Goldberg chooses the order in which investigators draw from the encounter deck during the mythos phase, are these cards drawn all at once and distributed in the chosen order, or are they drawn and resolved one at a time?",
+        "ruling": "The encounter cards are drawn and resolved one at a time. By extension, Eye of Ghatanothoa allows you to see each encounter card in turn before distributing these encounter cards.",
+        "citation": "faq-2.4"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["11017", "11019"],
+        "question": "If I'm playing George Barnaby and I draw Cast Adrift during the upkeep phase, when and how is my hand size calculated?",
+        "ruling": "George Barnaby's first ability is a constant ability. If the number of cards beneath George Barnaby changes, your maximum hand size immediately changes to the new number.\nIf you draw Cast Adrift during step 4.4 of the upkeep phase, you immediately discard each card beneath George Barnaby, which sets your maximum hand size to 0. You can then trigger George's [reaction] ability to place 1 discarded card beneath him and draw 1 card, setting your maximum hand size to 1. Then at step 4.5 of the upkeep phase, your hand size is equal to your current maximum.",
+        "citation": "faq-2.4"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["11062"],
+        "question": "Since the upgraded Robert Castiagne's [fast] ability states I \"may\" discard the revealed asset or play it, can I choose neither option?",
+        "ruling": "Correct. The \"may\" in his [fast] ability means that you can choose to do one of the two options, or neither of them.",
+        "citation": "faq-2.4"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["11076", "04002", "08004", "08005"],
+        "question": "Can I still use my investigator's signature cards after using Transfiguration to treat the front of my investigator card as if it were a different investigator card?",
+        "ruling": "Yes. You are considered to be both investigators; the front of your investigator card is treated as the new investigator, but the back is still the old investigator. If you transfigure from Norman Withers into Ursula Downs, you can still play your signature Livre d'Eibon.",
+        "citation": "faq-2.4"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["11076"],
+        "question": "If I use Transfiguration and have cards placed beneath my investigator, what happens to those cards?",
+        "ruling": "Any cards placed beneath your investigator would remain there after using Transfiguration. If the new investigator card interacts with cards in the same state (faceup/facedown beneath the investigator card), the new investigator can interact with those cards.",
+        "citation": "faq-2.4"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["11125"],
+        "question": "If I use Memories of Another Life to play a card that summons 1 or more bonded cards, can I summon those cards even though they were not set aside at the beginning of the game?",
+        "ruling": "Yes. Although bonded cards should normally be set aside when the game begins, you would set any corresponding bonded cards aside, out of play, when you play a card with Memories of Another Life.",
+        "citation": "faq-2.4"
+    },
+    {
+        "type": "faq",
+        "question": "What happens when an enemy with the patrol keyword is already at its target location at the start of the enemy phase?",
+        "ruling": "If a patrol enemy is at the target location indicated by its patrol ability at the start of step 3.2 of the enemy phase, that enemy does not move.",
+        "citation": "faq-2.5"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["10047"],
+        "question": "When playing Testing Sprint, do I stop investigating when I fail one time, or when I finish succeeding or failing to investigate each eligible location?",
+        "ruling": "The former. If you fail one investigate test before you've investigated each eligible location, you do not continue investigating other locations.",
+        "citation": "faq-2.5"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["11017", "60205", "10109"],
+        "question": "Can George Barnaby's hand size be modified further beyond what his ability states?",
+        "ruling": "Yes. While George Barnaby's ability sets his base maximum hand size to be equal to the number of facedown cards beneath him (rather than the default value of 8), this value can then be modified by other abilities. (e.g. Arcane Enlightenment, Pelt Shipment, etc.)",
+        "citation": "faq-2.5"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["11068b"],
+        "question": "What happens if the Lost Homunculus attempts to exile a card from their deck?",
+        "ruling": "Exiling a card or removing a card from the game as a cost cannot be canceled or ignored. Therefore, the Lost Homunculus will successfully exile the card in question. Note that if they do so, they are not able to purchase any cards when the scenario ends, and they have no defined \"legal deck size\" to maintain.",
+        "citation": "faq-2.5"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["06156"],
+        "question": "If I only resolve the surge keyword on a treachery, can I still play \"Fool me once...\" and attach the treachery to it?",
+        "ruling": "Yes, resolving the surge keyword on a treachery counts as resolving an effect of the card.",
+        "citation": "faq-2.5"
+    },
+    {
+        "type": "faq",
+        "question": "If I exile the last copy of an upgraded customizable card from my deck, would it retain those upgrades if I repurchase the card?",
+        "ruling": "No. If all copies of a customizable card are removed from your deck, any upgrades on the upgrade sheet are also removed. If those cards are later repurchased, treat them as newly purchased cards with blank upgrade sheets.",
+        "citation": "faq-2.5"
+    },
+    {
+        "type": "faq",
+        "question": "If I have 2 copies of an upgraded customizable card in my deck, and exile 1 of them, what would be the experience cost to repurchase that card?",
+        "ruling": "You have two options to repurchase an exiled customizable card: either paying the cost of the card as indicated by its upgrade sheet, or if you're able spending experience on the card's upgrade sheet to add a copy of that card for free to your deck.",
+        "citation": "faq-2.5"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["10067"],
+        "question": "Does Fox Mask replenish an offering when an enemy moves with me (for example, if I am engaged with an enemy and take a move action)?",
+        "ruling": "No. For Fox Mask to replenish an offering, there must be an enemy remaining in the location you moved out of.",
+        "citation": "faq-2.5"
+    },
+    {
+        "type": "faq",
+        "question": "Does an enemy exhaust when an effect causes it to attack \"as if it were the enemy phase?\" What about an effect that causes an enemy to attack without that text?",
+        "ruling": "Yes, if an enemy attacks \"as if it were the enemy phase,\" it will exhaust after attacking. However, if an effect causes an enemy to attack without that phrasing, the enemy does not exhaust after attacking.",
+        "citation": "faq-2.5"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["60117", "60132"],
+        "question": "If I initiate a skill test at a given location, then trigger an effect that causes me to move before that test finishes resolving, what happens to that skill test?",
+        "ruling": "Once you initiate a skill test or ability, you'll resolve that test or ability as completely as possible, regardless of your location (unless another effect cancels or interrupts it). For example, if you attacked an elusive enemy with One-Two Punch, you could attack that same enemy with the card's second fight, even though it has moved to a connecting location.",
+        "citation": "faq-2.5"
+    },
+    {
+        "type": "faq",
+        "question": "If I play or take control of another investigator's customizable card, does that card retain its upgrades?",
+        "ruling": "Yes. Any upgrades purchased for a customizable card by its owner are considered to be printed on that card, regardless of who plays or controls it.",
+        "citation": "faq-2.5"
+    },
+    {
+        "type": "faq",
+        "question": "If an effect allows me to play a card \"at no cost,\" does that mean all resource costs, additional costs, etc. are ignored?",
+        "ruling": "No. Playing a card \"at no cost\" only ignores its resource cost. Any additional costs applied to the card must still be paid.",
+        "citation": "faq-2.5"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["11067", "11069"],
+        "question": "If I use Katarina Sojka's ability while revealing tokens with Eyes of the Dreamer, does Katarinas ability to \"ignore\" unresolved tokens combo with Eyes checking \"ignored\" tokens for a match?",
+        "ruling": "Yes. A token ignored via Katarina Sojka's ability counts as \"an ignored token\" for Eyes of the Dreamer's ability.",
+        "citation": "faq-2.5"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["11010"],
+        "question": "How does Glimpse the Void interact with other abilities that reveal tokens?",
+        "ruling": "Glimpse the Void causes you to reveal and resolve 1 additional token on top of any you would normally reveal and resolve by/for the test or effect. This token is targeted, chosen, or ignored separately from the other token(s) revealed by/for the test or effect.",
+        "citation": "faq-2.5"
     }
 ]
