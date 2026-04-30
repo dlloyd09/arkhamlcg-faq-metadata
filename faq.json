@@ -28,6 +28,12 @@
     },
     {
         "type": "faq",
+        "question": "If I use an [action] ability or play an event with a bold action type (like <b>Fight</b>, <b>Evade</b>, or <b>Investigate</b>), do I need to spend one action to use the ability and another action to initiate the action listed? Or just one action?",
+        "ruling": "Paying the cost of the ability is enough to initiate the action designated. There is no need to spend an additional action.",
+        "citation": "faq-1.0"
+    },
+    {
+        "type": "faq",
         "card_codes": ["01016", "01516"],
         "question": "Can I trigger the [action] abilities on two copies of .45 Automatic for +2 [combat] and +2 damage?",
         "ruling": "No. Each [action] ability is a separate action that must be resolved in full before you have the opportunity to take another action.",
@@ -425,7 +431,7 @@
         "type": "faq",
         "card_codes": ["05322", "06072", "04064"],
         "question": "When I investigate using Sixth Sense and reveal one of the listed symbol tokens, how do I resolve investigating 2 locations? How do I resolve any additional effects that would trigger as a result of investigating the second location?",
-        "ruling": "To investigate 2 locations with the upgraded Sixth Sense, you perform one investigation test, choosing the shroud value of either your current location or the chosen location, and then you apply the results of the test to both locations. Each effect on either location that would trigger during that investigation still triggers, so long as you haven't passed its initiation point. For example, if you choose Experimental Therapies Ward, you may resolve its triggered ability of taking 1 horror to give it -2 shroud for the investigation. By that same logic, the Forced effect on Grand Chamber will trigger if you do not succeed the skill test by at least 2.",
+        "ruling": "To investigate 2 locations with the upgraded Sixth Sense, you perform one investigation test, choosing the shroud value of either your current location or the chosen location, and then you apply the results of the test to both locations. Each effect on either location that would trigger during that investigation still triggers, so long as you haven't passed its initiation point. For example, if you choose Experimental Therapies Ward, you may resolve its triggered ability of taking 1 horror to give it -2 shroud for the investigation. By that same logic, the <b>Forced</b> effect on Grand Chamber will trigger if you do not succeed the skill test by at least 2.",
         "citation": "faq-2.1"
     },
     {
@@ -459,7 +465,7 @@
     {
         "type": "faq",
         "card_codes": ["08100", "60317"],
-        "question": "If an effect allows you to take or perform multiple consecutive actions, such as with Eon Chart ( 100) or Nimble ( 17), are there player windows between these actions where I'd be able to play a fast card or resolve a free triggered ability?",
+        "question": "If an effect allows you to take or perform multiple consecutive actions, such as with Eon Chart or Nimble, are there player windows between these actions where I'd be able to play a fast card or resolve a free triggered ability?",
         "ruling": "No, there are no player windows between multiple consecutive actions.",
         "citation": "faq-2.1"
     },
@@ -515,7 +521,7 @@
     {
         "type": "faq",
         "card_codes": ["04236", "53010"],
-        "question": "On Your Own and On Your Own ( 10) are the same level, although the latter has the exceptional keyword. Can I upgrade the former into the latter version?",
+        "question": "On Your Own and On Your Own are the same level, although the latter has the exceptional keyword. Can I upgrade the former into the latter version?",
         "ruling": "Yes, you can upgrade the version of On Your Own without exceptional into the version with exceptional by spending 3 experience.",
         "citation": "faq-2.2"
     },
@@ -586,7 +592,7 @@
         "type": "faq",
         "card_codes": ["60117", "60132"],
         "question": "If I use One-Two Punch on an enemy with the elusive keyword, and that enemy leaves my location after the first attack, does the rest of the attack resolve?",
-        "ruling": "Yes. If an investigator uses an ability that allows them to perform         sequential attacks against a ready enemy with the elusive keyword, they resolve each of those attacks against that enemy in succession, even if that enemy changes location while the ability resolves.",
+        "ruling": "Yes. If an investigator uses an ability that allows them to perform sequential attacks against a ready enemy with the elusive keyword, they resolve each of those attacks against that enemy in succession, even if that enemy changes location while the ability resolves.",
         "citation": "faq-2.3"
     },
     {
@@ -595,6 +601,13 @@
         "question": "Can I play Foresight while resolving an effect that instructs me to draw multiple cards simultaneously? What about while resolving an effect that lets me search my deck for a card and draw it?",
         "ruling": "Yes to both. You can play Foresight before drawing multiple simultaneous cards, and if the card that you name is among the drawn cards, you may resolve the choice on Foresight for that one card. You can also play Foresight while resolving an effect that has you search your deck for a card, however, you must name the card you're drawing before searching your deck.",
         "citation": "faq-2.3"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["10043", "60213", "60223"],
+        "question": "When an act or agenda instructs the players to reveal or put a new location into play, who is considered to have revealed it or put it into play for the purposes of card effects such as Mouse Mask or Whitton Greene that trigger \"after you put a location into play?\"",
+        "ruling": "Because acts and agendas are advanced by the players, as a group, each investigator is considered to have put the location(s) into play.",
+        "citation": "faq-2.5",
     },
     {
         "type": "faq",
