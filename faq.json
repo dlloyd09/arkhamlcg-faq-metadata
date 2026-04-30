@@ -504,5 +504,110 @@
         "question": "When purchasing level 0 cards to reach legal deck size, does Down the Rabbit Hole increase the cost to purchase those cards?",
         "ruling": "No, when purchasing level 0 cards to reach a legal deck size, those cards cost 0 XP until reaching a legal deck size again, even if the investigator has included Down the Rabbit Hole in their deck.",
         "citation": "faq-2.1"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["04236", "53010"],
+        "question": "On Your Own and On Your Own ( 10) are the same level, although the latter has the exceptional keyword. Can I upgrade the former into the latter version?",
+        "ruling": "Yes, you can upgrade the version of On Your Own without exceptional into the version with exceptional by spending 3 experience.",
+        "citation": "faq-2.2"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["09101"],
+        "question": "Can I commit Grizzled when investigating a location that has one of its chosen traits?",
+        "ruling": "Yes. Location cards are onsidered a type of encounter card, so if a location has one of the chosen traits for Grizzled, you can commit Grizzled to the investigation skill test.",
+        "citation": "faq-2.2"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["90046", "09100"],
+        "question": "I'm playing Parallel \"Ashcan\" Pete and my Makeshift Trap in play has the Explosive Device upgrade with no \"time\" left. Can I use Pete's ability to return it to my hand and still deal damage?",
+        "ruling": "No. Using Parallel Pete's [reaction] ability on Makeshift Trap replaces the discarding of Makeshift Trap, meaning its Explosive Device upgrade ability cannot resolve.",
+        "citation": "faq-2.2"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["10010"],
+        "question": "If I activate the [action] ability on Beguile, will I provoke attacks of opportunity if I choose to investigate?",
+        "ruling": "No. The [action] ability on Beguile is one action that is multiple types simultaneously; it always has the \"parley\" action type in addition to its other types (activate/investigate/evade), so it never triggers attacks of opportunity.",
+        "citation": "faq-2.2"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["10010"],
+        "question": "If I have a copy of Beguile attached to an enemy at a different location than me, what happens if I choose to activate Beguile's [action] ability to perform an evade action there?",
+        "ruling": "If you choose to activate Beguile's [action] ability and evade, you can choose any enemy at the attached enemy's location (including the attached enemy itself) and perform an evasion test against that enemy's evade value. If you succeed, exhaust that enemy and disengage it from all investigators (and if you fail, discard that copy of Beguile per its ability).",
+        "citation": "faq-2.2"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["89001"],
+        "question": "When playing Subject 5U-21/\"Suzi\", can I devour permanents,investigator cards, investigator mini-cards, or weaknesses?",
+        "ruling": "Suzi cannot devour permanents, investigator cards, or investigator minicards. However, Suzi can devour certain weakness cards, specifically ones that enter play under their bearer's control and that don't have any abilities preventing them from leaving play.",
+        "citation": "faq-2.2"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["89001", "09121", "09119"],
+        "question": "When playing Subject 5U-21/\"Suzi\", can I play Refine to upgrade customizable cards during a scenario?",
+        "ruling": "Generally no. By default, Suzi can only upgrade cards from a class via the ability on the back of her investigator card, meaning she can't use Refine on most cards. The one exception is Hyperphysical Shotcaster; Suzi can use Refine on the Shotcaster because it's a neutral customizable card.",
+        "citation": "faq-2.2"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["09071", "09116", "05186", "05011"],
+        "question": "What types of abilities can cause me to trigger the [reaction] ability on Stylish Coat?",
+        "ruling": "The [reaction] ability on Stylish Coat can be used when a card effect specifically instructs you to \"gain\" resources, such as with Salvage. Any other card abilities that \"place\" resources, such as with .45 Thompson, or \"move\" resources from one card to another or from one card to your resource pool, such as the ability on Family Inheritance, do not trigger Stylish Coat's ability.",
+        "citation": "faq-2.2"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["60117", "60132"],
+        "question": "If I use One-Two Punch on an enemy with the elusive keyword, and that enemy leaves my location after the first attack, does the rest of the attack resolve?",
+        "ruling": "Yes. If an investigator uses an ability that allows them to perform         sequential attacks against a ready enemy with the elusive keyword, they resolve each of those attacks against that enemy in succession, even if that enemy changes location while the ability resolves.",
+        "citation": "faq-2.3"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["08064"],
+        "question": "Can I play Foresight while resolving an effect that instructs me to draw multiple cards simultaneously? What about while resolving an effect that lets me search my deck for a card and draw it?",
+        "ruling": "Yes to both. You can play Foresight before drawing multiple simultaneous cards, and if the card that you name is among the drawn cards, you may resolve the choice on Foresight for that one card. You can also play Foresight while resolving an effect that has you search your deck for a card, however, you must name the card you're drawing before searching your deck.",
+        "citation": "faq-2.3"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["10030"],
+        "question": "When a card ability allows me to resolve an ability \"without paying its [action] cost\" such as on Hand-Eye Coordination does it allow me to avoid paying all [action] costs?",
+        "ruling": "If instructed to resolve an ability \"without paying its [action] cost,\" the investigator ignores only the first \"[action]\" in the ability cost, if any. For each additional \"[action]\" beyond the first, the investigator must spend an action to activate that ability. The investigator must also pay any other costs required for the ability.",
+        "citation": "faq-2.3"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["10028", "10010"],
+        "question": "If I use Eldritch Tongue to play an event that attaches to another card, such as Beguile, when does that event get removed from the game?",
+        "ruling": "An event that attaches to another card is considered \"resolved\" when all abilities and effects triggered by it entering play resolve, including its attachment effect. If you play Beguile using Eldritch Tongue, Beguile will attach to the enemy, then immediately get removed from the game.",
+        "citation": "faq-2.3"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["10085", "10098", "05158", "05322", "10107"],
+        "question": "If I use the ability on Rod of Carnamagos within a free player window of a skill test, does that count as chaos tokens revealed \"during\" that test?",
+        "ruling": "Yes, the tokens revealed with Rod of Carnamagos this way are revealed \"during\" the skill test, and can trigger abilities like the ones on Sixth Sense or Servant of Brass. However, the tokens revealed with Rod of Carnamagos have no effect outside of these abilities, and are ignored at all other points of the skill test; they have no modifiers, no auto-success or auto-fail effect, etc.",
+        "citation": "faq-2.3"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["10115"],
+        "question": "If a card ability allows me to move damage/horror to another card, can I move that damage/horror to a card without a health or sanity value?",
+        "ruling": "No. An effect that can \"move\" damage/horror from one card to another - such as Wrong Place, Right Time - must move that damage/horror to a card that has a health or sanity value, respectively.",
+        "citation": "faq-2.3"
+    },
+    {
+        "type": "faq",
+        "card_codes": ["06239"],
+        "question": "Do parley actions count as actions for the purpose of card abilities such as Haste?",
+        "ruling": "Yes. Parley is its own unique action type. You could trigger Haste's [reaction] ability after taking two parley actions.",
+        "citation": "faq-2.3"
     }
 ]
