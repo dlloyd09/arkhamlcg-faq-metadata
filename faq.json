@@ -607,7 +607,7 @@
         "card_codes": ["10043", "60213", "60223"],
         "question": "When an act or agenda instructs the players to reveal or put a new location into play, who is considered to have revealed it or put it into play for the purposes of card effects such as Mouse Mask or Whitton Greene that trigger \"after you put a location into play?\"",
         "ruling": "Because acts and agendas are advanced by the players, as a group, each investigator is considered to have put the location(s) into play.",
-        "citation": "faq-2.5",
+        "citation": "faq-2.5"
     },
     {
         "type": "faq",
