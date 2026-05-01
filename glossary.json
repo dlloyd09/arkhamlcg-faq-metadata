@@ -1,0 +1,394 @@
+[
+    {
+        "type": "glossary",
+        "id": 10,
+        "section": "Ability",
+        "ruling": "An ability is the specialized game text that indicates how a card affects the game. The various types of card abilities are: constant abilities, forced abilities, revelation abilities, triggered abilities, keyword abilities, and enemy instructions such as spawn.\n- Card abilities only interact with other game elements if the card bearing that ability is in play, unless the ability (or the rules for the cardtype) specifically references its use from an out-of-play area.\n- Card abilities only interact with other cards that are in play, unless that ability (or the rules for the cardtype) specifically references an interaction with cards in an out-of-play area.\n- If multiple instances of the same ability are in play, each instance interacts with (or may interact with) its target individually.",
+        "references": [300, "Forced Ability", "Keywords", "Revelation", "Triggered Abilities"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 20,
+        "section": "Act Cards",
+        "ruling": "Act is a cardtype. One or more sequentially-numbered act cards make up the act deck, which represents the progress the investigators make during the current scenario. Generally, advancing the act deck is good for the investigators.\n- An act card will generally advance through the investigators spending clues, fulfilling an Objective ability, or resolving a Forced effect on its revealed side.\n- Act decks typically contain a requisite clue threshold to advance. As a [fast] player ability, investigators may spend the requisite clues, as a group, to advance during any player window.\n-- An act card may indicate a flat value (such as \"4\") or a per investigator value (as indicated by the [per_investigator] icon).\n-- <i>Reminder: Even if 1 or more investigators are eliminated during a scenario, the [per_investigator] icon's value stays the same.</i>/n- Some act decks have additional objectives which must be met, which may specify when and how investigators must advance. \"<b>Objective</b> -\" instructions override or add additional requirements to advancing, in addition to any clues that must be spent.\n- If an act card has an Objective ability, the act must advance at the specified timing point if its conditions are met, unless the ability specifies that players \"may\" advance.\n- If an Objective ability specifies players \"may\" advance, but does not specify a timing window for this advancement, it may be advanced during any [fast] player window.\n- Any constant abilities and/or forced abilities on an act card's \"a\" side are in effect while resolving the text on its \"b\" side.",
+        "references": [30, 250],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 30,
+        "section": "Act Deck and Agenda Deck",
+        "ruling": "In a given scenario, the act deck represents the progress the investigators can make during their investigations, while the agenda deck represents the progress and objectives of the dark forces arrayed against them. Generally, advancing the act deck is good for the investigators, and advancing the agenda deck is bad for the investigators.\n- The act deck advances if the investigators, as a group, spend the requisite number of clues (as indicated by the act card). An act card may indicate a flat value (such as \"4\") or a \"per investigator\" value (as indicated by the [per_investigator] icon). This is normally done as a [fast] player ability. Any or all investigators may contribute any number of clues toward the total number of clues required to advance the act. If the act has an \"<b>Objective</b> -\" instruction, that instruction overrides or adds additional requirements to the spending of those clues.\n- The agenda deck advances if the requisite number of doom is in play (doom on the agenda card as well as doom on any other cards in play), as indicated by the agenda card. An agenda card may indicate a flat value or a \"per investigator\" value. If the agenda has an \"<b>Objective</b> -\" instruction, that instruction overrides or adds additional requirements to meeting this doom requirement.\n- The act/agenda card on top of the act/agenda deck is referred to as the \"current\" act/agenda.\nTo advance the act deck or the agenda deck, follow these steps, in order:\n1. Remove all tokens from the card to be advanced. If the agenda deck is advancing, remove all doom from each card in play.\n2. Flip the advancing card over and follow the instructions on the reverse (\"b\") side. Any constant abilities and/or forced abilities on an act card's \"a\" side remain in effect while following these instructions.\n3. If the reverse side of the act or agenda is an encounter card, follow the rules for resolving that encounter cardtype. Otherwise, simply follow the instructions on the card.\n4. Sometimes, the advancing act/agenda specifies which card becomes the next act/agenda. If it does not, the next card in the deck becomes the current act/agenda. As a new card becomes the current act/agenda,the advancing card is simultaneously removed from the game.\n-- Some instructions in the act and agenda decks (as well as on other encounter cardtypes) contain resolution points, in the format of: \"<b>(→R#)</b>.\" If a resolution point is reached, the scenario ends. Read the designated resolution in the campaign guide.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 40,
+        "section": "Action",
+        "ruling": "During their turn, an investigator is permitted to take three actions by default. When performing an action, all costs of the action are first paid. Then, the consequences of the action resolve.\n- At the beginning of an investigator's turn, they gain 3 actions.\n- At the end of an investigator's turn, they forfeit all unspent actions.\n- If an investigator is instructed to lose 1 or more actions outside of their turn, they have that many fewer actions to take during their next turn.\n- If an investigator is instructed to gain 1 or more actions outside of their turn, they may take that many additional actions during their next turn.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 50,
+        "section": "Action Designators",
+        "ruling": "Some abilities have one or more bold action designators (such as <b>Fight</b>, <b>Evade</b>, <b>Investigate</b>, or <b>Move</b>). Activating such an ability allows an investigator to perform the effects of the designated action(s) as described in the rules, modified according to that ability's text.\n- If the ability requires a skill test, the skill being tested for that ability is indicated after the bold action designator. <i>(For example, [action] Fight ([combat]) indicates that the skill being tested is [combat].)</i>",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 60,
+        "section": "Activate Action",
+        "ruling": "\"Activate\" is an action an investigator may take during their turn.\nWhen this action is taken, the investigator initiates an ability that specifies one or more [action] icons as part of its ability cost. The number of [action] icons in the ability's cost determines how many actions the investigator is required to use for this activate action. When performing an activate action, all of that action's costs are simultaneously paid. Then, the consequences of that action resolve.\nAn investigator is permitted to activate abilities from the following sources:\n- A card in play and under their control. This includes their investigator card.\n- A scenario card that is in play and at the same location as the investigator. This includes the location itself, encounter cards placed at that location, and all encounter cards in the threat area of any investigator at that location.\n- The current act or current agenda card.\nAn activate action provokes attacks of opportunity unless it is also another action type. <i>(For example, triggering the [action] ability on Cosmic Flame counts as both an activate action and a fight action, and thus does not provoke an attack of opportunity).</i>",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 70,
+        "section": "Active Player",
+        "ruling": "The active player is the player currently taking their turn during the investigation phase.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 80,
+        "section": "After",
+        "ruling": "The word \"after\" refers to the moment immediately after the specified timing point or triggering condition has fully resolved, but before moving on to the next game step.\n<i>(For example, an ability that reads \"After you draw an enemy card\" initiates immediately after resolving all of the steps for drawing an enemy - resolving its revelation ability, spawning it, etc.)</i>",
+        "references": [10, "Priority of Simultaneous Resolution", "Triggering Condition"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 90,
+        "section": "Agenda Cards",
+        "ruling": "Agenda is a cardtype. The agenda deck is a deck of sequentially numbered agenda cards, beginning with agenda 1a, 2a, etc.\nAgenda cards are part of the agenda deck, and represent the progress and objectives of the dark forces arrayed against the investigators during the current scenario. Generally, advancing the agenda deck is bad for the investigators",
+        "references": [30, 250],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 100,
+        "section": "Alert",
+        "ruling": "Alert is a keyword ability.\nEach time an investigator fails a skill test while attempting to evade a ready enemy with the alert keyword, after applying all results for that skill test, that enemy performs an attack against the evading investigator. An enemy does not exhaust after performing an alert attack.\n- This attack occurs whether or not the enemy is engaged with the evading investigator, but does not occur if the enemy is exhausted.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 110,
+        "section": "Aloof",
+        "ruling": "Aloof is a keyword ability.\nAn enemy with the aloof keyword does not automatically engage investigators at its location.\n- When an aloof enemy spawns, it spawns unengaged.\n- An investigator may use an engage action or a card ability to engage an aloof enemy.\n- An investigator cannot attack an aloof enemy while that enemy is not engaged with an investigator.",
+        "references": ["Evade, Evade Action", "Fight Action"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 120,
+        "section": "\"As If\"",
+        "ruling": "Some card abilities allow an investigator to resolve that ability or another ability, or to perform an action, as if a certain aspect of the game state were altered. Such abilities are indicated by the use of the phrase \"as if...\" in their ability text. The indicated ability or action is resolved with the altered game state in mind, but the actual game state remains unchanged.\n- Unless otherwise stated, the game state is considered to be altered only <b>during</b> the resolution of the ability or action. All costs must be paid and attacks of opportunity must resolve before resolving the effects.\n-- <i>For example, enemies in an investigator's threat area (and massive enemies at their location) make attacks of opportunity against the investigator initiating the ability when costs are paid, before resolving an ability \"as if\" that investigator is at another location or engaged with other enemies.</i>\n- Play restrictions, costs, and triggering conditions for an \"as if\" ability are considered with the altered game state in mind.\n-- <i>For example, an investigator resolves an ability that lets them play an event \"as if\" they are at a connecting location. The event they wish to play can only be played \"if there is a clue at your location\"; this play restriction is considered fulfilled as long as the location at which they are playing it via the \"as if\" ability has a clue on it, even if their original location, where the ability is initiated, has none.</i>\n- Valid targets for an \"as if\" ability are determined and chosen with the altered game state in mind.\n- While resolving \"as if\" abilities, the altered game state is only considered as it pertains to the resolution of the specified ability or action. Other card abilities or game effects resolve under consideration of the actual game state.\n-- <i>For example, Trish Scarborough uses a card ability to investigate \"as if\" she is at a connecting location. While resolving the skill test, she may trigger the [fast] action ability on Olivier Bishop to move to a connecting location. Even though she is resolving a different ability \"as if\" she is at another location, the [fast] ability on Olivier Bishop may only move her mini-card or investigator token to a location connected to the location where Trish is considered to be under the actual, un-altered game state (in other words, the location at which her mini-card or investigator token is physically present).</i>\n- Unless otherwise stated, resolving an \"as if \" ability does not inherently alter the contents of an investigator's threat area.",
+        "references": ["Threat Area", "Triggering Condition", "Initiation Sequence"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 130,
+        "section": "Asset Cards",
+        "ruling": "Asset is a cardtype.\nAsset cards represent items, allies, talents, spells, and other reserves that may assist or be used by an investigator during a scenario.\n- When an investigator plays an asset, it is placed in your play area. Generally, assets remain in play unless discarded by a card ability or game step.\n- Some assets have health and/or sanity. When an investigator is dealt damage or horror, that investigator may assign some or all of that damage or horror to eligible asset cards they control.\n- Most assets take up one or more slots while in play.\n- Some assets have an encounter set icon and no level indicator. Such assets are known as Story Assets. Story Assets are part of an encounter set and may not be included in a player's deck unless the resolution or setup of a scenario makes that player its bearer.",
+        "references": ["Dealing Damage/Horror", "Slots"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 140,
+        "section": "At",
+        "ruling": "The word \"at\" refers to the moment simultaneous to the resolution of the specified timing point or triggering condition.\n- An effect that triggers \"if\" a triggering condition is met should be treated as conditionally triggering \"at\" that timing point.\n- \"At\" and \"if\" abilities trigger in between any \"when\" abilities and any \"after\" abilities with the same triggering condition.\n(For example, an ability that reads \"At the end of the round\" initiates and resolves simultaneously to the round ending, whereas an ability that reads \"If you reveal a [skull] token\" initiates and resolves simultaneously to a chaos token being revealed, but only if its specific triggering condition was met.)",
+        "references": [10, "Priority of Simultaneous Resolution", "Triggering Condition"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 145,
+        "section": "Attachments, \"Attach To\"",
+        "ruling": "A card including the phrase \"attach to\" indicates that as it enters play, it must be attached to (placed beneath and slightly overlapped by) the target game element. Once attached, such a card is referred to as an attachment.\n- The \"attach to\" phrase is checked for legality each time a card would be attached to a game element, but is not checked again after that attachment occurs. If the initial \"attach to\" check does not pass, the card is not able to be attached, and remains in its prior state or game area. If such a card cannot remain in its prior state or game area,discard it.\n- Once in play, an attachment remains attached until either the attachment or the game element to which it is attached leaves play (in which case the attachment is discarded), or unless a card ability explicitly detaches the card.\n- An attachment exhausts and readies independently of the game element to which it is attached.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 150,
+        "section": "Attacker, Attacked",
+        "ruling": "An \"attacker\" is an entity (usually an enemy or investigator) that is resolving an attack against another entity. The entity being attacked is referred to as the \"target,\" the \"targeted enemy/investigator/card,\" or the \"attacked enemy/investigator.\"",
+        "references": ["Fight Action", "Target"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 160,
+        "section": "Attack of Opportunity",
+        "ruling": "Each time an investigator engaged with one or more ready enemies takes an action other than <b>Fight</b>, <b>Evade</b>, <b>Parley</b>, or <b>Resign</b>, each engaged enemy attacks them. This is called an attack of opportunity.\n- The investigator who triggered the attack(s) of opportunity chooses the order in which attacks of opportunity resolve.\n- An attack of opportunity is made immediately after the investigator has paid all costs for initiating the action that provoked the attack of opportunity, but before that action's effects are resolved.\n- An ability that costs more than one action only provokes one attack of opportunity from each engaged enemy.\n- An enemy does not exhaust while making an attack of opportunity.\n- After all attacks of opportunity are made, the investigator resolves the action which provoked the attack.\n- Attacks of opportunity count as enemy attacks for the purposes of card abilities.\n- An investigator provokes an attack of opportunity if they spend 1 or more actions to perform an ability or action. [fast] abilities with a bold action designator do not provoke attacks of opportunity.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 170,
+        "section": "Automatic Failure/Success",
+        "ruling": "Some card or token abilities may cause a skill test to automatically fail or to automatically succeed. If a skill test automatically fails or automatically succeeds, it does so during step \"ST.6\" of the \"Skill Test Timing\" process.\n- If a skill test automatically fails, the investigator's total skill value for that test is considered 0, and they fail ties during this skill test.\n- If a skill test automatically succeeds, the total difficulty of that test is considered 0.\n- If it is known that an investigator automatically succeeds or fails at a skill test before Step 3 (\"Reveal chaos token\") occurs, that step is skipped, along with Step 4. No chaos token(s) are revealed from the chaos bag, and the investigator immediately moves to Step 5. All other steps of the skill test resolve as normal.\n- If an ability \"automatically evades\" one or more enemies, this is not the same as automatically succeeding at an evasion attempt.",
+        "references": ["Evade, Evade Action"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 180,
+        "section": "Base Value",
+        "ruling": "Base value is the value of an element before any modifiers are applied. Unless otherwise specified, the base value of an element derived from a card is the value printed on that card.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 190,
+        "section": "Basic Actions",
+        "ruling": "Basic actions are actions that can be taken with no other modifiers, cards or abilities. Types of basic actions available to players are:\n- <b>Draw</b> 1 card.\n- Gain 1 <b>Resource</b>.\n- <b>Move</b> to a connecting location.\n- <b>Engage</b> an enemy at their location.\n- <b>Fight</b> an enemy at their location using [combat].\n- <b>Evade</b> an enemy they are engaged with using [agility].\n- <b>Investigate</b> their location using [intellect].\n<b>Play</b>, <b>Activate</b>, <b>Parley</b>, and <b>Resign</b> actions are not basic actions, as they require cards or card abilities to initiate.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 200,
+        "section": "Bearer",
+        "ruling": "An investigator who has a specific card in their deck is the \"bearer\" of that card.\n- If a game effect instructs an investigator to become the bearer of a specific card (generally a weakness or story asset), that card is added to their deck, ignoring all deckbuilding restrictions. That card does not count toward its bearer's deck size.\n- The bearer of a weakness is the investigator who started the game with that weakness in their deck or play area, or who became its bearer (thus adding it to their deck) during the game.",
+        "references": ["Weakness"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 210,
+        "section": "Blank",
+        "ruling": "If a card's printed text box is considered \"blank\" by an ability, that text box is treated as if it did not have any of its printed content. Text and/or icons gained from another source are not blanked.\nA card's text box includes: traits, keywords, card text and abilities.\n- Cards with the permanent keyword do not lose the permanent keyword if their text is blanked.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 220,
+        "section": "Campaign Play",
+        "ruling": "See the \"Campaign Play\" section of the Grimoire.",
+        "references": ["Deckbuilding", "Elimination", "Experience"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 230,
+        "section": "Cancel",
+        "ruling": "Some card abilities can \"cancel\" other card or game effects. Cancel abilities interrupt the initiation of an effect, and prevent the effect from initiating.\nIf an effect is canceled, it is considered not to have happened for the purposes of card abilities. (For example, if all damage from a certain game effect is canceled, that investigator is not considered to have taken damage for the purposes of a card effect such as the [reaction] ability on Jim Culver).",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 240,
+        "section": "Cannot",
+        "ruling": "The word \"cannot\" is absolute, and cannot be countermanded by other abilities.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 250,
+        "section": "Cardtypes",
+        "ruling": "The game's cardtypes are introduced in the \"Card Anatomy\" section of the Grimoire.\nIf an ability causes a card to change its cardtype, it loses all other cardtypes it might possess and functions as would any card of the new cardtype.\nAsset, event, skill, and investigator cards are generally referred to as <b>Player Cards</b>, while act, agenda, enemy, location, scenario reference, story, and treachery cards are generally referred to as <b>Scenario Cards</b>. Enemy and treachery cards are also referred to as <b>Encounter Cards</b>, a sub-category of scenario cards.\nThe primary exceptions to the above rules are weakness cards, a card sub-type which are considered to be player cards while in their bearer's deck, and either encounter cards or player cards (depending on their primary cardtype) while they are being resolved or are in play.\n<b>Act Cards</b> are part of the act deck, and represent the progress the investigators make during the current scenario. Generally, advancing the act deck is good for the investigators.\n<b>Agenda Cards</b> are part of the agenda deck, and represent the progress and objectives of the dark forces arrayed against the investigators during the current scenario. Generally, advancing the agenda deck is bad for the investigators.\n<b>Asset Cards</b> represent items, allies, talents, spells, and other reserves that may assist or be used by an investigator during the current scenario. When an investigator plays an asset, it is placed in their play area. Generally, assets remain in play unless discarded by a card ability or scenario effect.\n- Some assets have health and/or sanity. When an investigator is dealt damage or horror, that investigator may assign some or all of that damage or horror to eligible asset cards they control, up to that asset's health/sanity value(s).\n- Most assets take up one or more slots while in play.<b>Enemy Cards</b> represent villains, cultists, terrible monsters, and unfathomable entities from alternate dimensions or the cosmos beyond. Enemies are drawn from the encounter deck and may attack investigators during their turn, the enemy phase, and/or during the mythos phase.\n<b>Event Cards</b> represent tactical actions, maneuvers, spells, tricks, and other instantaneous effects at a player's disposal. Any time a player plays an event card, its cost is paid, its effects are resolved (or canceled), and the card is placed in that investigator's discard pile.\n<b>Investigator Cards</b> represent the brave individuals make their stand (willingly or otherwise) against the dark forces of the Mythos.\nInvestigator cards are chosen at the beginning of deckbuilding and begin each scenario in play. They define an investigator's skills, most innate abilities, and the kinds of other cards they can employ or call upon during the course of a campaign.\n<b>Location Cards</b> represent the places the investigators may explore during a scenario. Place an investigator token or mini-card at a location to indicate where the investigator is located. While an investigator is at a location, that investigator, each of their assets, and each card in that investigator's threat area are considered to be at the same location.\nThe <b>Scenario Reference Card</b> is placed next to the agenda deck during scenario setup. The scenario reference card provides a list of effects for each symbol token used during that scenario.\n<b>Skill Cards</b> represent innate or learned attributes or character traits that improve an investigator's skill tests. Skill cards do not have a cost and cannot be played from a player's hand. In order to resolve its ability, a skill card must be committed to a skill test.\n<b>Story Cards</b> serve as an avenue for additional narrative and typically appear as the reverse side of another scenario card. Players may be instructed to resolve story cards or the story card side of some scenario cards during the course of a game.\n<b>Treachery Cards</b> represent curses, afflictions, madnesses, obstacles, disasters, or other unexpected occurrences an investigator may encounter throughout the course of a scenario. When a treachery card is drawn by an investigator, that investigator must resolve its effects. Then, that card is placed in its discard pile unless otherwise instructed by an ability.",
+        "references": ["Act Cards", "Agenda Cards", "Slots"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 260,
+        "section": "Chaos Tokens",
+        "ruling": "Chaos tokens are revealed from the chaos bag during skill tests to modify or influence the results of a skill test.\n- Skull ([skull]), Cultist ([cultist]), Tablet ([tablet]), Elder Thing ([elder_thing) - If any of these tokens are revealed for a skill test, resolve the effect for that symbol as indicated on the scenario reference card for the current scenario.\n- Auto-fail ([auto_fail])- If this token is revealed for a skill test, it indicates that the investigator automatically fails the test.\n- Elder Sign ([elder_sign]) - If this token is revealed for a skill test, resolve the [elder_sign] effect on the investigator card belonging to the player performing the skill test.\n- If a revealed chaos token (or the effect referenced by a chaos token) has a numerical modifier, that modifier is applied to the investigator's skill value for this test.\n- If a card ability references a \"symbol token,\" it refers to any non-numerical token.",
+        "references": ["Skill Tests", "Automatic Failure/Success"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 270,
+        "section": "Clues",
+        "ruling": "Clue tokens represent the progress the investigators can make toward solving a mystery, unraveling a conspiracy, and/or advancing the story.\n- The first time an investigator enters an unrevealed location (even during setup), that location is revealed (turned faceup) and a number of clues equal to its clue value are placed on that location from the token pool. Most clue values use a \"per investigator ([per_investigator])\" value.\n- A clue on a location can be discovered by successfully investigating that location, or by a card ability. If an investigator discovers a clue, they take a clue from that location and place it on their investigator card, under their control.\n- If the current act has a clue value (usually conveyed as a \"per investigator\" value) and no \"<b>Objective</b> -\" requirements for advancing, during any investigator's turn the investigators may, as a group, spend the requisite number of clues from their investigator cards to advance the act deck. This is normally done as a [fast] player ability. Any number of investigators may contribute clues toward the total number of clues required to advance the act.\n- A card ability that refers to clues \"at a location\" or \"on a location\" is referring to the undiscovered clue tokens that are currently on that location card.\n-- At the end of a scenario, any location with victory X and no undiscovered clues on it is added to the victory display.\n- If a player card such as an investigator or asset is defeated or discarded, place all clues that are on that player card on its current location.",
+        "references": ["Location Cards", "Investigate Action", "Victory X"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 280,
+        "section": "The Codex [codex]",
+        "ruling": "Some cards have the codex symbol ([codex]) on them. During a scenario, some card effects and abilities may direct players to read a specific codex entry. While playing, keep the campaign guide on hand for easy reference.\nCertain locations, allies, enemies, and other game entities have codex entries, marked with ([codex] X). To read a codex entry, pay all costs and/or resolve all effects associated with its triggering ability, then read the corresponding entry for the current scenario in the campaign guide and resolve its text.\n- Each codex entry cannot be resolved more than once per scenario unless otherwise stated.\n- When resolving a codex entry, the player who triggered that entry resolves all its effects (resolving a test, dealing damage, paying resources, and so forth). If it is unclear who triggered the codex entry, the lead investigator resolves the entry.\n- Codex entries that are triggered via a specific action type (such as <b>Fight</b>, <b>Evade</b>, <b>Parley</b>, etc.) are considered to be that action type throughout the resolution of that codex entry.\n- While resolving a codex entry, a player only reads the section(s) for which they meet the requirements. If they do not meet the requirements to resolve the first section of a codex entry, skip to the following section.\n- If a card effect directs players to resolve a codex entry that does not exist for the scenario being played, that effect fails.\n- After resolving a codex entry and making any changes to the game and/or in the campaign log, resume play.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 290,
+        "section": "Collection",
+        "ruling": "If an ability refers to a player's collection (for example, \"search the collection\"), the collection of cards from which that player's deck was assembled is used.\n- Cards that are currently in use by the game are not also present in a player's collection. <i>(For example, Sean and Etienne are each using a deck built from Sean's collection. If Etienne is instructed to \"search the collection,\" he searches Sean's collection, but cannot search his own deck, discard pile, hand, etc.)</i>.\n- If a player owns multiple copies of a single product, their collection is still only defined (for the purposes of game effects) as a single copy of each unique product they own.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 300,
+        "section": "Constant Ability",
+        "ruling": "A constant ability is a type of card ability.\nA constant ability is always interacting with other game elements as long as the card it is printed on is in play.\n- Some constant abilities require a specific condition to be met. These abilities are denoted by words such as \"during\" or \"while,\" and the effects of such abilities are active whenever the specified condition is met.\n- Constant abilities do not trigger at any specific point.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 310,
+        "section": "Control",
+        "ruling": null,
+        "references": ["Ownership and Control"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 320,
+        "section": "Copy",
+        "ruling": "A copy of a card is defined by title. A second copy of a card is any other card that shares the same title, regardless of cardtype, text, artwork, or any other differing characteristics between the cards.\nWhen a card exits and re-enters play, it is considered to be a new copy of itself. As a result, any aspect of the game state that applied to it previously no longer applies.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 330,
+        "section": "Costs",
+        "ruling": "Most card abilities require a cost to be paid in order to initiate. There are two types of costs in the game: resource costs and ability costs.\nA card's <b>resource cost</b> is the numerical value that must be paid (in resources) to play the card from hand. To pay a resource cost, an investigator takes the specified number of resources from their resource pool and places them in the token pool.\nAn <b>ability cost</b> is presented in a \"cost: effect\" construct. Some card abilities require players to spend additional resources, take damage/horror, or meet other conditions in order to trigger. In such a construct, the ability costs and triggering conditions precede the colon, and all of the text following the colon is that ability's effect.\n- If playing a card or triggering an ability with multiple costs, those costs must be paid simultaneously.\n- Only the controller of the card or ability may pay its costs.\n- When a player is exhausting, discarding, or otherwise using cards to pay costs, only cards that are in play and under that player's control may be used, unless the cost specifies an out-of-play state.\n- If a cost involves a game element that is not in play (such as discarding one or more cards from hand), the player paying that cost may only use game elements they control, such as their hand or deck, to pay the cost.\n- If the investigators are instructed to pay a cost as a group, each investigator (or each investigator in the group defined by the ability) may contribute to paying the cost.\n- An ability with a target cannot be initiated—and therefore its costs cannot be paid—if the resolution of its effect will not affect or change its target.\n- If an investigator takes damage or horror as an ability cost and assigns any of it to an asset they control, the cost is still considered paid.\nSome cards add <b>additional costs</b> that must be paid in order to perform certain effects or actions, in the form of \"As an additional cost to (Campaignspecifed effect/action) you must (additional cost)\" or \"You must (additional cost) to (specifed effect/action).\"\n- Additional costs are costs that can be paid outside the normal timing point of paying costs (for instance, during the resolution of an effect).\n- If an effect that requires an additional cost would resolve, the additional cost must be paid at that time. If the additional cost cannot be paid, that aspect of the effect fails to resolve.\n- Additional costs do not have to be paid when a mandatory instruction <i>(such as in the campaign guide, or on the back of an act or agenda card)</i> requires an investigator to resolve an effect.",
+        "references": ["Ignore"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 340,
+        "section": "Dealing Damage/Horror",
+        "ruling": "There are two primary types of afflictions that may beset an investigator in the game: damage and horror. Damage afflicts an investigator's health, and horror afflicts an investigator's sanity.\nWhen an investigator or enemy is dealt damage and/or horror, follow these steps, in order:\n<b>1. Assign Damage/Horror</b>: Determine the amount of damage and/or horror being dealt. Place damage and/or horror tokens equal to the amount of damage and horror being dealt next to the cards that will be taking the damage/horror.\n-- When an investigator is dealt damage or horror, that investigator may assign it to eligible asset cards they control. To be eligible, an asset card must have health in order to be assigned damage, and it must have sanity in order to be assigned horror.\n-- An asset cannot be assigned damage beyond the amount of damage it would take to defeat the card, and cannot be assigned horror beyond the amount of horror it would take to defeat the card.\n-- All damage/horror that cannot be assigned to an asset must be assigned to the investigator.\n<b>2. Apply Damage/Horror</b>: Any assigned damage/horror that has not been prevented is now placed on each card to which it has been assigned, simultaneously. If no damage/horror is applied in this step, no damage/horror has been successfully dealt.\n-- Abilities that prevent, reduce, or reassign damage and/or horror that is being dealt are resolved between steps 1 and 2.\n-- After applying damage/horror, if an investigator has damage equal to or higher than their health or horror equal to or higher than their sanity, they are defeated. When an investigator is defeated, they are eliminated from the scenario.\n-- After applying damage/horror, if an enemy has damage equal to or higher than its health, it is defeated and placed in the encounter discard pile (or in its owner's discard pile if it is a weakness).\n-- After applying damage/horror, if an asset has damage equal to or higher than its health or horror equal to or higher than its sanity, it is defeated and placed in its owner's discard pile.",
+        "references": ["Defeat", "Elimination", "Health and Damage", "Sanity and Horror"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 350,
+        "section": "Deck",
+        "ruling": "There are 4 main types of decks that appear in any game: the investigator deck, the encounter deck, the act deck, and the agenda deck.\n- The order of cards within a deck may not be altered unless a player is instructed to do so by a card ability.\n- For card effects that instruct an investigator to \"draw X cards,\" those cards are drawn from that investigator's deck unless otherwise stated.",
+        "references": ["Act Deck and Agenda", "Encounter Deck", "Investigator Deck"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 360,
+        "section": "Deckbuilding",
+        "ruling": "See the \"Deck Customization\" section of the Grimoire.",
+        "references": [],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 370,
+        "section": "Defeat",
+        "ruling": "Taking damage and/or horror may cause an investigator, enemy, or asset to be defeated.\n- If an investigator has damage on their investigator card equal to or greater than the card's health value, that investigator is defeated. If an investigator has horror on their investigator card equal to or greater than the card's sanity value, that investigator is defeated. A card ability may also defeat an investigator. When an investigator is defeated, they are eliminated from the current scenario.\n- In campaign play, an investigator who is defeated by taking damage equal to or greater than their health suffers 1 physical trauma. An investigator who is defeated by taking horror equal to their sanity suffers 1 mental trauma. Taking trauma may cause an investigator to be killed or driven insane.\n- If an enemy has damage on it equal to or greater than its health value, that enemy is defeated and placed in the encounter discard pile (or in its owner's discard pile if it is a weakness). Defeated enemies with <b>victory X</b> are placed in the victory display.\n- If an asset has damage on it equal to or greater than its health value, it is defeated. If an asset has horror on it equal to or greater than its sanity value, it is defeated. A defeated asset is placed in its owner's discard pile.",
+        "references": ["Elimination", "Trauma, Death, and Insanity"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 380,
+        "section": "Delayed Effects",
+        "ruling": "Some abilities create delayed effects. Such abilities specify a future timing point, or indicate a future condition that may arise, and dictate an effect that will happen at that time.\n- Each delayed effect initiates automatically and immediately (as a forced ability) if its future timing point or future condition occurs.\n- A delayed effect affects all specified entities that are in the specified game area and eligible at the time the delayed effect resolves.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 390,
+        "section": "\"Different\"",
+        "ruling": "Some card abilities refer to “different” cards. Different cards are cards with different titles (excluding subtitles). (For example, two copies of Ward of Protection are not considered to be “different,” even if they have different levels.)\nSome card abilities refer to “different” actions or “different” abilities. An ability or action is different from another ability/action if the two are non-identical abilities, separate abilities on the same card, or abilities on two different cards. (For example, the two separate <b>Fight</b> abilities on Sledgehammer are different from one another, however identical <b>Fight</b> abilities on two copies of Machete are not different from one another, nor are two basic <b>Fight</b> actions).\n- Location cards are an exception to this rule. Separate location cards are, by their very nature, not the same location. Therefore, multiple copies of a location with the same title are still considered to be different locations.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 400,
+        "section": "Difficulty (Level)",
+        "ruling": "<i>Arkham Horror: The Card Game</i> has four levels of difficulty: Easy, Standard, Hard, and Expert. At the beginning of a campaign or standalone scenario, the players choose which difficulty level to use. The campaign setup section of that campaign or scenario’s campaign guide indicates which chaos tokens should be placed into the chaos bag when playing on each difficulty level.\n- When playing in Easy or Standard mode, use the “Easy/Standard” side of each scenario’s reference card. When playing in Hard or Expert mode, use the “Hard/Expert” side of each scenario’s reference card instead.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 410,
+        "section": "Difficulty (Skill Tests)",
+        "ruling": "The difficulty of a skill test is the target number an investigator is trying to equal or exceed with their modified skill value to pass that test.\n- When attacking an enemy, the base difficulty of the skill test is the enemy’s fight value.\n- When investigating a location, the base difficulty of the skill test is the location’s shroud value.\n- When attempting to evade an enemy, the base difficulty for the skill test is the enemy’s evade value.\n- When resolving a skill test created by a card ability, the base difficulty is indicated as a parenthetical value following the indication of which skill is being tested. <i>(For example, an Intellect test with a difficulty of 3 would be indicated by the following: [intellect] (3))</i>.",
+        "references": ["Skill Test Timing"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 420,
+        "section": "Direct Damage, Direct Horror",
+        "ruling": "If an ability causes a card to take direct damage or direct horror, that damage or horror must be assigned directly to the specified card, and cannot be assigned or re-assigned elsewhere.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 430,
+        "section": "Discard Piles",
+        "ruling": "Any time a card is discarded, it is placed faceup on top of its owner’s discard pile. Encounter cards are owned by the encounter deck.\n- Each discard pile is an out-of-play area.\n- Each investigator has their own discard pile, and the encounter deck has its own discard pile.\n- Each discard pile is open information, and may be looked at by any player at any time.\n- The order of cards in a discard pile may not be altered unless a player is instructed to do so by a card ability.\n- If multiple cards are discarded simultaneously, the owner of the cards may physically place them on top of their discard pile one at a time, in any order. If multiple encounter cards are discarded simultaneously, they are placed on top of the encounter discard pile in any order (determined by lead investigator).\n- Any ability that would shuffle a discard pile of zero cards back into a deck does not shuffle the deck.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 440,
+        "section": "Doom",
+        "ruling": "Doom tokens represent the progress the forces of the Mythos make toward completing foul rituals, summoning cosmic entities, and/or advancing the story in an unfavorable direction.\n- During each Mythos phase, 1 doom is placed on the current agenda.\n- If the current agenda has a doom value and no “<b>Objective</b> -\" requirements for advancing the current agenda, and the requisite amount of doom is in play (among the agenda and all cards in play), the agenda advances during step 2 of the mythos phase. Unless a card or keyword ability specifies that it can advance the agenda, this is the only time at which the agenda can advance.\nDoom on cards other than the agenda (such as enemies, allies, locations, etc.) counts toward the amount of doom in play.",
+        "references": ["Mythos Phase"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 450,
+        "section": "Doomed",
+        "ruling": "Doomed is a keyword ability.\nWhen an enemy with the doomed keyword is defeated (either by an investigator or a scenario effect), place 1 doom on the current agenda. This effect can cause the current agenda to advance.\n- An effect that “discards” an enemy is not considered to defeat that enemy and does not trigger the doomed keyword.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 460,
+        "section": "Draw Action",
+        "ruling": "“Draw” is an action an investigator may take during their turn in the investigation phase.\nWhen an investigator takes this action, that investigator draws one card from their deck.\n- Taking a draw action provokes attacks of opportunity.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 470,
+        "section": "Drawing Cards",
+        "ruling": "When a player is instructed to draw one or more cards, those cards are drawn from the top of their investigator deck and added to their hand.\nWhen a player is instructed to draw one or more encounter cards, those cards are drawn from the top of the encounter deck, and resolved following the rules for drawing encounter cards under framework step 1.4, “Each investigator draws 1 encounter card.”.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "id": 10,
+        "section": "RULE",
+        "ruling": "",
+        "references": [],
+        "citation": "grimoire-1.0"
+    }
+]
