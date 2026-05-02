@@ -453,5 +453,138 @@
         "ruling": "Some card abilities reference the \"farthest\" entity or location.\nThis is determined by finding the entity or location from which the shortest distance (by movement) to the subject of the ability is the highest out of all eligible entities or locations. In the event of a tie, the lead investigator decides which location or entity is the \"farthest.\"\n<i>For example: Location A is 5 connections away from investigator A and 1 connection away from investigator B. Location B is 3 connections away from investigator A and 4 connections away from investigator B. Location B is therefore the \" farthest from all investigators,\" because its distance to the nearest investigator is greater than that of location A. (This is true even though location A is farther from investigator A.)</i>",
         "references": null,
         "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Fast",
+        "ruling": "Fast is a keyword ability. A fast card does not cost an action to be played and is not played using the \"Play\" action.\n- Playing a fast card does not provoke attacks of opportunity because it does not cost an action to play.\n- A fast asset may only be played by an investigator during a player window on their turn.\n- A fast event may be played from a player's hand any time its play instructions specify.\n- If a card's play instructions specify that it is played \"when/after\" a specific timing point, that timing point is the triggering condition for playing the card.\n- If a card's play instructions specify that it is played during a specific duration or period of time, it may be played during any player window within that period.\n- If a card's instructions specify both a \"when/after\" timing point and a specific duration or period of time, it may be played in reference to any instance of the specified triggering condition during any player window within that time period.",
+        "references": ["Keywords"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Fight Action",
+        "ruling": "\"Fight\" is an action an investigator may take during their turn in the investigation phase.\nTo fight an enemy at their location, an investigator resolves an attack against that enemy by making a combat ([combat]) test against the enemy's fight value.\nIf the test is successful, the attack succeeds and 1 damage is dealt to the attacked enemy (during Step 7 of the skill test).\n- By default, an attack deals 1 damage. Weapons, spells, skills, and other card effects may modify this damage.\nIf the test fails, no damage is dealt to the attacked enemy. However, if an investigator fails this test against an enemy that is engaged with another single investigator, the damage of the attack is dealt to the investigator engaged with that enemy.\n- Taking a fight action (either by playing a card with a bolded Fight ability, activating a bolded Fight ability on a card, or taking a basic fight action) does not provoke attacks of opportunity.\n- An investigator may fight any enemy at their location, including: an enemy they are engaged with, an unengaged enemy at the same location, or an enemy engaged with another investigator who is at the same location.",
+        "references": ["Aloof", "Skill Tests"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Flavor Text",
+        "ruling": "Flavor text is additional text that provides thematic context to a card and/or its abilities. Flavor text does not interact with the game in any manner.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Forced Ability",
+        "ruling": "A forced ability is a type of card ability.\nForced abilities are identified by a bold \"<b>Forced</b> -\" instruction. Forced abilities trigger at a specific timing point. Such a timing point is usually indicated by words such as: \"when,\" \"after,\" \"if,\" or \"at.\"\n- A forced ability with a target does not trigger if it cannot affect its target.\n- A forced ability <b>must</b> trigger each time its specified timing point is met.\n- A forced ability that triggers \"when\" its timing point occurs is triggered as soon as the specified timing point is met, but before its impact upon the game resolves. <i>(For example, an effect that states \"<b>Forced</b> - When you play an asset: Take 1 horror.\" deals 1 horror when the asset is being played, but before that asset enters play.)</i>\n- A forced ability that triggers \"after\" its timing point occurs is triggered immediately after that timing point's impact upon the game resolves.\n- Forced abilities take precedence over player card abilities. All forced abilities triggered at a specific timing point must be resolved in full before triggering any [reaction] abilities referencing the same timing point.",
+        "references": ["Ability"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "\"For each\" or \"for every\"",
+        "ruling": "Some card effects instruct an investigator to perform an effect multiple times for each instance of a particular condition (For example, \"for each horror on you,\" or \"for every asset you control\"). If such an effect can be calculated and resolved simultaneously, it should be resolved (and may be canceled, ignored, or prevented) as a single cumulative effect.\nIf a card effect cannot be resolved simultaneously, each instance should be resolved as a separate effect (and must be canceled, ignored, or prevented independently of each other effect).\n- This typically occurs if an effect has multiple steps, a choice, or other dependencies. <i>(For example: A treachery card instructs you to \"take 1 horror for each point you fail by.\" Since you can calculate how many points you fail by and resolve the dealt horror simultaneously, it can be resolved as a single instance of horror, and can be treated as such for the purposes of card abilities. A different treachery card reads: \"For each point you fail by, you must either lose 1 action or take 1 horror.\" This treachery must be resolved as separate effects; each point failed by requires you to make a choice, whether that choice is to lose an action or to take a horror. Each instance must be resolved separately, even if the resulting outcome only causes you to take horror.)</i>",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Gains",
+        "ruling": "The word \"gains\" is used in multiple contexts.\n- If a player gains one or more resources, the player takes the specified number of resources from the token pool and adds them to their resource pool.\n- If an investigator gains an action, that investigator is permitted one additional action to spend during the specified time period.\n-- If an investigator gains an action outside of their turn, they may spend that action during their next turn.\n- If a card gains a characteristic (such as an icon, a trait, a keyword, or ability text), the card functions as if it possesses the gained characteristic.\n- \"Gained\" characteristics are not considered to be \"printed\" on the card. If an ability refers to the printed characteristics of a card, it does not refer to gained characteristics.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Game",
+        "ruling": "A \"game\" consists of a single scenario, not an entire campaign. In a campaign, the beginning of a new scenario marks the start of a new game.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Hand Size",
+        "ruling": "Each investigator's maximum hand size is 8 by default. This value is checked only during the upkeep phase, after drawing 1 card and gaining 1 resource.",
+        "references": ["Upkeep phase"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Haunted",
+        "ruling": "Haunted is an ability that appears on some locations.\nEach time an investigator fails a skill test while investigating a location, after applying all results for that skill test, that investigator must resolve all \"<b>Haunted</b> -\" abilities on that location.\n- A location is \"haunted\" for the purposes of other card effects if it has at least one \"<b>Haunted</b> -\" ability (printed or otherwise).",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Heal",
+        "ruling": "\"Heal\" is an instruction to remove the indicated amount of damage or the indicated amount of horror from a card.\n- If a card is healed for more damage or horror than it currently has on it, remove as much of the indicated amount as possible. Any remaining damage/horror that was not healed is considered to have been healed \"in excess\" of the card's maximum health/sanity.\n- Moving damage and/or horror from one card to another is not considered to be healing for the purposes of card effects, nor is it considered to be \"damaging\" them.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Health and Damage",
+        "ruling": "Health represents a card's physical fortitude. Damage tokens track the physical harm that has been done to a card during a scenario.\n- When a card takes damage, place that many damage tokens on the card.\n- If an investigator card has damage on it equal to or greater than its health value, that investigator is defeated. When an investigator is defeated, they are eliminated from the current scenario.\n- In campaign play, an investigator who is defeated by damage suffers 1 physical trauma. Taking physical trauma may cause an investigator to be <b>killed</b>.\n- If an enemy has damage on it equal to or greater than its health value, that enemy is defeated.\n- If an asset has damage on it equal to or greater than its health value, it is defeated.\n- An asset card without a health value cannot be assigned damage.\n- A card's remaining health is its health value, plus or minus any active health modifiers, minus the amount of damage on it.\n- If an investigator takes \"direct damage\" that damage must be assigned to their investigator card.",
+        "references": ["Dealing Damage/Horror", "Defeat", "Elimination"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Hidden",
+        "ruling": "Hidden is a keyword ability.\nHidden cards have <b>Revelation</b> abilities that secretly add them to an investigator's hand. This should be done without revealing that card or its text to the other investigators. While a hidden card is in an investigator's hand, they treat it as if it were in their threat area. Its constant abilities are active, and abilities on it can be triggered, but only by that investigator.\n- A hidden card counts toward an investigator's maximum hand size, but it cannot be discarded from hand by any means except those described on the card.\n- When discarded, hidden cards are placed in the encounter discard pile.\n- For the best experience, players are encouraged to stay \"in character\" and not share information about hidden cards in their hand.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Hunter",
+        "ruling": "Hunter is a keyword ability.\nAt the start of the enemy phase, each ready, unengaged enemy with the hunter keyword moves to a connecting location, along the shortest path toward the nearest investigator. Enemies at a location with one or more investigators do not move.\n- Some enemies may target specific prey, indicated in parentheses next to the prey keyword.\n- If there are multiple equidistant investigators who qualify as \"the nearest investigator,\" the hunter enemy moves toward the one who best meets its designated prey. If none do, or if the enemy has no prey keyword, the lead investigator decides.\n- If a hunter enemy would be compelled to move into a location but is blocked by a card ability, that enemy does not move.",
+        "references": ["Prey"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Ignore",
+        "ruling": "Some card abilities can “ignore” the costs or effects of other abilities or game actions. Ignore abilities either bypass the paying of costs without interfering with the resolution of a card or ability’s effects, or prevent one or more of a card, token, or ability’s effects without interfering with other non-ignored effects or cancelling the ability’s initiation.\n- If a cost is ignored, it is no longer required to be paid in order for the card or ability in question to resolve.\n-- Some cards allow an investigator to play a card or activate an ability, “ignoring all costs.” These effects only ignore the costs of activating an ability; they do not ignore additional costs that may or must be paid while resolving that ability. <i>(In other words, anything “before the colon” is ignored, but any additional costs “after the colon” must be paid as normal.)</i>\n-- If a card or ability has X cost, where X is defined by a granted player choice, and that cost is ignored, X is considered to be 0 throughout the resolution of that card or ability.\n- If an effect is ignored, it is considered not to have resolved for the purposes of card abilities. However, the corresponding ability or game action was still initiated, and thus other abilities can still react to it. <i>(For example, while a “cancelled” chaos token is considered to have never been drawn in the first place, an “ignored” chaos token was still drawn, but neither its modifier nor any of its effects will resolve or be applied to the current test or ability.)</i>\n- Costs or effects that exile a card and/or remove a card from the game cannot be ignored.",
+        "references": ["Costs", "Exile", "The Letter 'X'"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Immune",
+        "ruling": "If a card is immune to a specified set of effects (for example, “immune to treachery card effects,” or “immune to player card effects”), it cannot be affected or targeted by effects belonging to that set. Only the card itself is protected; other entities associated with an immune card (such as attached assets, tokens placed on, or abilities originating from an immune card) are not themselves immune.\n- If a card gains immunity to an effect, pre-existing lasting effects that have been applied to the card are not removed. If a card loses immunity to an effect, pre-existing lasting effects of that nature are not applied to the card.\n- Immunity only protects a card from effects. It does not protect a card from costs.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "In Play and Out of Play",
+        "ruling": "The cards that a player controls in their play area are considered in play.\nThe current act, the current agenda, the scenario reference card, each location in the play space, and each encounter card in an investigator’s threat area or at a location are all considered in play.\nCards in a player’s hand, in any deck, in any discard pile, in the victory display, and those that have been set aside and/or removed from the game are all considered out of play.\n- A card enters play when it transitions from an out-of-play origin to an in-play destination.\n- A card leaves play when it transitions from an in-play origin to an out-of-play destination.\n- Tokens on cards that are in play are considered in-play. Resources in each investigator’s resource pool are also considered in-play",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "In Player Order",
+        "ruling": "If the players are instructed to perform a sequence “in player order,” the lead investigator performs their part of the sequence first, followed by the other players in clockwise order. The phrase “the next player” is used in this context to refer to the next player (clockwise) to act in player order.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Instead",
+        "ruling": "The word “instead” is indicative of a replacement effect. A replacement effect is an effect that replaces the resolution of a triggering condition with an alternate means of resolution.\n-If multiple replacement effects are initiated against the same triggering condition and create a conflict in how to resolve the triggering condition, the most recent replacement effect is the one that is used for the resolution of the triggering condition.\n- The word \"would\" is used to define the triggering condition of some abilities, and establishes a higher priority for those abilities than abilities referencing the same triggering condition without the word “would.” <i>(For instance, “When X would occur” resolves before “When X occurs.”)</i>\n-If a replacement effect that uses the word “would” changes the nature of a triggering condition, the original triggering condition is replaced with the new triggering condition. No further abilities referencing the original triggering condition may be used.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Investigate Action",
+        "ruling": "“Investigate” is an action an investigator may take during their turn in the investigation phase.\nEach time an investigator takes this action, they make an intellect () test against the shroud value of that location.\nIf the test is successful, the investigator has succeeded in investigating the location, and they discover one clue at the location (during step 7 of the skill test).\nAny time an investigator discovers a clue from a location, that player takes the clue from the location and places it on their investigator card, under their control.\nIf the test is failed, the investigator has failed in investigating the location and no clues are discovered.\n- An investigator may take an investigate action even if their location has no clues on it. No clues are discovered if they succeed.",
+        "references": ["Skill Tests", "ST.7 Apply skill test results"],
+        "citation": "grimoire-1.0"
     }
 ]
