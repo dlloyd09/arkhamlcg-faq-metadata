@@ -404,5 +404,54 @@
         "ruling": "The phrase \"enters play\" refers to any time a card makes a transition from an out-of-play area to a play area.\n- If an ability (either on the card itself or from another card) causes a card to enter play in a state different from that specified by the rules,there is no transition to that state. It merely enters play in that state.",
         "references": ["In Play and Out of Play"],
         "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Evade, Evade Action",
+        "ruling": "\"Evade\" is an action an investigator may take during their turn in the investigation phase.\nTo evade an enemy engaged with an investigator, that investigator makes an agility ([agility]) test against the enemy's evade value. If the test is successful, that investigator evades the enemy (during Step 7 of the skill test).\n- If the test fails, the investigator does not evade the enemy, and it remains engaged with them.\nAny time an enemy is evaded, the enemy is exhausted (if it was ready) and the investigator disengages from the enemy. Move the enemy from the investigator's threat area to the investigator's location to mark that it is no longer engaged with that investigator.\n- Unlike the fight, engage or parley actions, by default an investigator can only perform an evade action against an enemy engaged with them.\n- Taking an evade action does not provoke attacks of opportunity.\n- If an ability \"automatically\" evades one or more enemies, no skill test is made for the evasion attempt. Consequently, it is not considered a \"successful\" evasion. The investigator simply follows the steps for evading an enemy (exhausting it and breaking its engagement) for each enemy evaded in this way.",
+        "references": ["Automatic Failure/Success", "Skill Tests", "Skill Test Timing"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Event Cards",
+        "ruling": "Event cards represent tactical actions, maneuvers, spells, tricks, and other instantaneous effects at a player's disposal.\n- If an event card does not have the fast keyword, it may only be played from a player's hand by performing a \"Play\" action during their turn. That player must follow all play permissions/restrictions that card has.\n- A fast event card may be played from a player's hand any time its play instructions specify <i>(typically during any player window, or in response to a triggering condition)</i>.\n- Any time a player plays an event card, its costs are paid, its effects are resolved (or canceled), and the card is placed in its owner's discard pile after those effects resolve (or are canceled).\n- If the effects of an event card are canceled, the card is still considered to have been played, and its costs remain paid. Only the effects have been canceled.\n- Playing an event card from hand (or not playing it) is always optional for a player, unless the event uses the word \"must\" in its play instructions.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Exceptional",
+        "ruling": "Exceptional is a deckbuilding keyword ability.\n- A card with the exceptional keyword costs twice its printed experience cost (the card's level) to purchase.\n - An investigator deck cannot include more than one copy (by title) of an exceptional card.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Exhaust, Exhausted",
+        "ruling": "A card that is rotated 90 degrees sideways is considered to be exhausted.\nA card can become exhausted either as part of an ability cost or other game effect. When a card exhausts, it is rotated 90 degrees (sideways).\n- An exhausted card cannot exhaust again until it is readied (typically during the upkeep phase or via a card ability).",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Exile",
+        "ruling": "Exile is an ability that may appear on some player cards and in the campaign guide.\nSome player cards must be exiled when they are used. When a card is exiled, it is removed from the game and returned to the collection.\n- During campaign play, a non-level-0 card that has been exiled must be purchased again with experience points (between scenarios) before an investigator can add it back into their deck.\n- If exiling one or more cards would reduce an investigator's deck below their deck size, when purchasing cards between scenarios, they must purchase cards so that a legal deck size is maintained. <i>(Reminder: when purchasing cards in this manner, an investigator may purchase level 0 cards for 0 experience cost until a legal deck size is reached).</i>",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Experience",
+        "ruling": "After recording the results of a scenario, the investigators are ready to reflect on their experiences and purchase new cards for their decks. To do this, follow these steps, in order:\n<b>1. Count experience.</b> Each investigator earns experience equal to the total victory value of all cards in the victory display plus or minus any bonuses or penalties indicated by the campaign guide for that resolution. This total is added to any unspent experience an investigator has recorded from previous scenarios in the campaign.\n<b>2. Purchase new cards.</b> New cards may be purchased and added to a player's deck by spending experience equal to the card's level (denoted by a number of pips in the upper left hand corner of the card). While purchasing new cards, observe the following rules:\n-- An investigator's deckbuilding guidelines (found on the back of the investigator card) must be observed while that investigator is purchasing new cards. Only cards the investigator has access to may be purchased. The deck-size requirement must also be maintained, so that for each (non-Permanent) card purchased and added to a deck, a different card is removed from the deck. Weakness cards and cards that must be included in an investigator's deck may not be removed while that investigator is purchasing new cards.\n-- Each card costs experience equal to the card's level, to a minimum of 1 (purchasing a level zero card still costs 1 experience). The number of pips beneath a card's cost indicates the card's level.\n-- When purchasing a higher level version of a card with the same title, the investigator may choose to \"upgrade\" that card by paying only the difference in experience (to a minimum of 1) between the two cards and removing the lower level version of the card from their deck.\n-- New cards are purchased (or upgraded) individually. If an investigator wishes to purchase more than 1 copy of a new card, each copy must be paid for separately, and one card must be removed from that investigator's deck for each copy purchased.\n-- The above processes, and any specific instructions provided by the campaign guide, are the only methods by which a player may modify their deck during a campaign.\n<b>3. Record unspent experience.</b> Each investigator records any unspent experience on the campaign log. This experience may be spent at a later time during this campaign.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Farthest",
+        "ruling": "Some card abilities reference the \"farthest\" entity or location.\nThis is determined by finding the entity or location from which the shortest distance (by movement) to the subject of the ability is the highest out of all eligible entities or locations. In the event of a tie, the lead investigator decides which location or entity is the \"farthest.\"\n<i>For example: Location A is 5 connections away from investigator A and 1 connection away from investigator B. Location B is 3 connections away from investigator A and 4 connections away from investigator B. Location B is therefore the \" farthest from all investigators,\" because its distance to the nearest investigator is greater than that of location A. (This is true even though location A is farther from investigator A.)</i>",
+        "references": null,
+        "citation": "grimoire-1.0"
     }
 ]
