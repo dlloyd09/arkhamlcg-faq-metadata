@@ -957,5 +957,26 @@
         "ruling": "Some enemies, when drawn from an encounter or investigator deck, spawn in a particular location, indicated by a bold \"spawn\" instruction in the text box.\n- An enemy's spawn instruction resolves as the enemy enters play, regardless of how it entered play.\n- If an enemy has no spawn instruction, it spawns engaged with the investigator who drew it.\n- If an enemy has no legal location to spawn at (for example, if its spawn instruction directs it to a specific location that is not in play, or if no location in play satisfies its \"spawn\" instruction), it does not spawn, and is discarded instead.\n- If an enemy's spawn instruction has multiple valid locations, the investigator spawning that enemy decides among those locations.\n- If a card ability instructs the players to spawn an enemy in a particular location (for example: \"Search the encounter deck for an Acolyte and spawn it in Southside\"), treat the ability causing the card to enter play as the enemy's spawn instruction, overriding any other spawn instruction.",
         "references": null,
         "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Standalone Mode",
+        "ruling":"Players may choose to play a single scenario as a one-off adventure, removed from its campaign. This is called Standalone Mode. When playing a standalone game, the following rules apply:\n- When building a deck for a standalone game, an investigator may use higher level cards in their deck (so long as they observe the deckbuilding restrictions of the investigator) by counting the total experience of all the higher level cards used in the deck, and taking additional random basic weaknesses based on the following table:\n-- 0-9 experience: 0 additional random basic weaknesses\n-- 10-19 experience: 1 additional random basic weakness\n-- 20-29 experience: 2 additional random basic weaknesses\n-- 30-39 experience: 3 additional random basic weaknesses\n-- 40-49 experience: 4 additional random basic weaknesses\n-- A player cannot include 50 or more experience worth of cards in a standalone deck.\n-- As an optional variant, some players may also wish to record their resolution and experience earned during a particular standalone as a \"score\" for how well they played. This may be recorded separately and kept on hand as players replay a particular scenario.\n- After choosing a scenario to play, refer to the campaign guide for the campaign that scenario is a part of, starting at the setup for that scenario. Additional instructions for playing each scenario in Standalone Mode can be found at the end of the normal setup instructions, if any are required.\n- If players are instructed to \"record\" a story moment, decision, or other detail in their campaign log, they instead \"remember\" it for the duration of the scenario.\n- If a scenario weakness or story reward is earned that is in an expansion you do not own, simply continue without that card.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Starting",
+        "ruling": "Starting is a keyword ability.\nAfter drawing their opening hand and taking a mulligan (but before shuffling any cards that may have been set aside during this step back into their deck), an investigator may search their deck for one copy of a card with the starting keyword and add it to their hand.\n- This means that an investigator may begin the game with one additional card in their opening hand.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Story Cards",
+        "ruling": "Story card is a cardtype. These cards serve as an avenue for additional narrative and often appear as the reverse side of another scenario card.\nWhen instructed to resolve a story card, simply read its story text and resolve its game text, if any.\n- Flipping and resolving a card with story text on its reverse side does not count as \"flipping\" for the purposes of card effects. Any text on the front side of a story card is still considered active, and no tokens, attachments, or other game elements are changed until all the story text on the reverse side has been resolved",
+        "references": ["Cardtypes"],
+        "citation": "grimoire-1.0"
     }
 ]
