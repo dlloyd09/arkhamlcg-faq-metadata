@@ -740,5 +740,222 @@
         "ruling": "A card's owner is the player whose deck and/or respective in- and out-of-play areas contained the card at the start of the game.\nA player controls the cards located in their in- and out-of-play areas (such as their hand, deck, and discard pile).\nThe scenario controls the scenario cards in its in- and out-of-play areas (such as the encounter deck, act and agenda decks, and the encounter discard pile). It also controls cards with a scenario cardtype in a player's threat area.\n- By default, cards enter play under their owner's control. Some abilities may cause cards to change control during a game.\n- If a card would enter an out-of-play area that does not belong to that card's owner, it is physically placed in its owner's corresponding out-of-play area instead. The card is considered to have entered the original out-of-play area (typically that of its controller), and only the physical placement of the card is adjusted.",
         "references": ["Bearer"],
         "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Parley",
+        "ruling": "Parley is an action investigators may take during their turn.\nParley abilities represent investigators' attempts to negotiate a tense situation, trick enemies, or talk their way out of trouble. Parley abilities are exclusively resolved by playing cards or activating [action] abilities, and are indicated by the bold <b>Parley</b> action designator.",
+        "references": ["Activate Action"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Patrol",
+        "ruling": "Patrol is a keyword ability.\nAt the start of the enemy phase, each ready, unengaged enemy with the patrol keyword moves to a connecting location along the shortest path toward the designated target, indicated in the parentheses after the patrol keyword.\n- If there are multiple locations that qualify as the designated target, the lead investigator chooses which target the enemy patrols toward.\n- If the designated target is not a location (and is instead another game element such as an enemy or story asset), that target's location indicates the target of the patrol keyword's resolution.\n- If an enemy with the patrol keyword would be compelled to move toward a target but is blocked by a card ability, that enemy does not move.\n- If an enemy with the patrol keyword would move as a result of the patrol keyword, but is already at its target location (or the location of its target), it does not move.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Peril",
+        "ruling": "Peril is a keyword ability.\nWhile an investigator is resolving an encounter card with the peril keyword, they cannot confer with the other players. Other players cannot play cards, trigger abilities, or commit cards to that investigator's skill test(s) while the peril encounter card is being resolved.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Per Investigator [per_investigator]",
+        "ruling": "When the [per_investigator] symbol appears after a value, that value is multiplied by the number of investigators who started the scenario.\n- The \"per investigator\" multiplication is done before all other modifiers, and the product of this multiplication is treated as the printed value of the card.\n- Text that uses the phrase \"per investigator\" also counts the number of investigators who started the scenario, and is applied before all other modifiers.\n- If investigators have been eliminated from the scenario, they still count toward \"per investigator\" values.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Permanent",
+        "ruling": "Permanent is a deckbuilding keyword ability.\n- A card with the permanent keyword does not count toward an investigator's deck size.\n- A card with the permanent keyword still counts as being part of an investigator deck and adheres to all deckbuilding restrictions.\n- A card with the permanent keyword starts each game in play and cannot leave play (unless its owner is eliminated).\n- A card with the permanent keyword cannot be attached to other player cards (although other player cards may target a permanent card and attach themselves to it).\n- A card with the permanent keyword cannot be removed from play, have its permanent keyword blanked, or otherwise lose its permanent keyword.\n-A deck cannot include more than one reward card with the permanent keyword.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Play",
+        "ruling": "To play a card, an investigator must pay the card's resource cost and meet any applicable play restrictions and conditions. Most cards can only be played by taking a play action.\nA card with the fast keyword is not played using a play action. Such a card may be played any time its specified triggering condition is met or, if it has no triggering condition, during an appropriate player window.\n- Any time an event card is played, its effects are resolved and it is then placed in its owner's discard pile.\n- Any time an investigator plays an asset, it is placed in their play area and remains in play until an ability or game effect causes it to leave play.\n- Skill cards are not \"played.\" These cards are committed to a skill test from a player's hand in order to use their abilities.",
+        "references": ["Fast", "Play Action", "Play Restrictions, Permissions, and Instructions", "Initiation Sequence"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Play Action",
+        "ruling": "\"Play\" is an action an investigator may take during their turn in the investigation phase.\nWhen an investigator takes this action, that investigator selects an asset or event card in their hand, pays its costs, and plays it.\n- A play action provokes attacks of opportunity unless it is also another type of action that does not provoke an attack (i.e. <b>Fight</b>, <b>Evade</b>, etc.).\n- Cards with the \"fast\" keyword are not played by using this action, and may have other timing windows and restrictions.\n- When an ability allows a player to \"play\" a card (typically at a reduced cost or in addition to other effects), this also does not use the play action and therefore does not provoke attacks of opportunity.\n- Skill cards are not \"played.\" These cards are committed to a skill test from a player's hand in order to use their abilities.",
+        "references": ["Fast", "Play", "Put Into Play"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Play Restrictions, Permissions, and Instructions",
+        "ruling": "Many cards and abilities contain specific instructions pertaining to when or how they may or may not be used, or to specific conditions that must be true in order to use them. In order to use such an ability or to play such a card, its play restrictions must be observed.\nA permission allows a player to play a card or use an ability outside the timing specifications provided by the game rules.\nA play instruction describes the timing point at which, and/or time period during which, an event card may be played.",
+        "references": ["Initiation Sequence"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Prey",
+        "ruling": "Prey is a keyword ability.\nGiven the opportunity, some enemies will pursue a designated investigator. These enemies are identified with the prey keyword.\n- The prey keyword is followed by a designated target with whom the enemy should engage in parentheses. For example, \"Prey (highest [willpower])\" means that the enemy will engage the investigator with the highest willpower if given more than one option.\n- Given the choice between multiple equidistant investigators (or between investigators at its location), an enemy with the prey keyword chooses the investigator who best meets its designated target.\n- If an enemy's designated target contains the word \"only,\" that enemy only moves toward and engages that investigator (as if they were the only investigator in play), and ignores all other investigators while moving and engaging. Other investigators may still use the engage action or card abilities to engage that enemy.\n- The prey keyword has no immediate effect on where an enemy will spawn.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Printed",
+        "ruling": "The word \"printed\" refers to the text, characteristic, icon, or value that is physically printed on a card.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Priority of Simultaneous Resolution",
+        "ruling": "If an effect affects multiple players simultaneously, but the players must individually make choices to resolve the effect, these choices are made in player order. Once all necessary choices have been made, the effect resolves simultaneously upon all affected entities.\n- Forced abilities on encounter cards trigger before forced abilities on player cards trigger.\n- If two or more forced abilities (including delayed effects) would resolve at the same time, the lead investigator determines the order in which the abilities resolve.\n- If two or more constant abilities and/or lasting effects cannot be applied simultaneously, the lead investigator determines the order in which they are applied.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Put into Play",
+        "ruling": "Some card abilities cause a card to be \"put into play.\" Such abilities place the card directly into play from an out-of-play state.\n- The costs of a card being put into play are not paid.\n- Unless otherwise stated by the \"put into play\" ability, cards that enter play in this manner must do so in a play area that satisfies the standard game rules associated with playing or drawing (for encounter cards) that card.\n- A card that has been put into play is not considered to have been played.",
+        "references": ["Play", "Put into Play"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Qualifiers",
+        "ruling": "If card text includes a qualifier followed by multiple terms, the qualifier applies to each term in the list. <i>(For example, in the phrase \"each unique ally and item,\" the word \"unique\" is a qualifier that applies both to \"ally\" and to \"item.\")</i>",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Ready",
+        "ruling": "A card that is in an upright state so that its controller can read its text from left to right is considered ready.\n- Cards enter play in a ready state.\n- When an exhausted card readies, it is returned to the ready state and rotated 90 degrees so that it is upright.\n- A ready card cannot ready again. <i>(It must first be exhausted, typically by a game effect or card ability.)</i>",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Replenish",
+        "ruling": "When instructed to replenish 1 or more uses on a card, place that many uses on the card, up to (but without exceeding) its Uses (X) value.",
+        "references": ["Uses (X)"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Researched",
+        "ruling": "Researched is a keyword ability that appears on some player cards.\nTo be included in an investigator's deck, a card with the Researched keyword must first be \"identified\" or \"translated\" by performing a task on the lower level version of that card and recording the result in the Campaign Log.\n- An investigator can only include a researched card in their deck by upgrading it from its lower level version.\n- An investigator may only include a researched card in their deck if, in the Campaign Log, any investigator has recorded the completion of the task described in the lower level version of that card.\n -After an investigator has completed that task and recorded it in the Campaign Log, any investigator in that campaign may upgrade the relevant card following the normal rules for upgrading player cards.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Removed from Game",
+        "ruling": "A card that has been removed from the game is placed away from the game area and has no further interaction with the game in any manner for the duration of its removal.\nIf there is no specified duration, a card that has been removed from the game is considered removed until the end of the game.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Resign",
+        "ruling": "Some abilities are identified with a Resign action designator. Such abilities are initiated using the \"Activate\" action.\n- An investigator who resigns is eliminated from the scenario, but is not considered to have been defeated. <i>(Thus, resigned investigators are not required for abilities that require \"each surviving investigator.\")</i>\n- Taking a resign action does not provoke attacks of opportunity.",
+        "references": ["Activate Action", "Elimination"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Resource Action",
+        "ruling": "\"Resource\" is an action an investigator may take during their turn in the investigation phase.\nWhen an investigator takes this action, that investigator gains one resource by taking it from the token pool and adding it to their resource pool.\n- Taking a resource action provokes attacks of opportunity.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Resources",
+        "ruling": "Resources represent the various (often financial) means of acquiring new supplies, tools, knowledge, favors, allies, etc. Resource tokens are used to pay the resource costs necessary to play cards and trigger different abilities.\n- In order to play a card or use an ability that costs resources, an investigator must pay that card or ability's resource cost by taking the specified number of resources from their resource pool and returning them to the token pool.\n- Resources can be gained by performing the resource action.\n- Investigators acquire one resource during each Upkeep phase, after drawing one card.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Retaliate",
+        "ruling": "Retaliate is a keyword ability.\nEach time an investigator fails a skill test while attacking a ready enemy with the retaliate keyword, after applying all results for that skill test, that enemy performs an attack against the attacking investigator. An enemy does not exhaust after performing a retaliate attack.\n- This attack occurs whether or not the enemy is engaged with the attacking investigator.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Revelation",
+        "ruling": "A revelation ability is a type of card ability.\nRevelation abilities are identified by a bold \"<b>Revelation</b> - \" instruction. Revelation abilities most often appear on treacheries or weaknesses, and trigger when the card on which they are printed is drawn by an investigator.\n- When an investigator draws an encounter card, that investigator must immediately resolve its revelation ability, if any. This occurs before the card enters play or - if it is a treachery - while it is in limbo.\n- When a weakness card enters an investigator's hand by any means, that investigator must immediately resolve any revelation ability on that card as if it were just drawn.",
+        "references": ["Limbo"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Reward",
+        "ruling": "Reward is a deckbuilding keyword ability.\nCards with the reward keyword appear in campaigns and/or scenario packs as campaign rewards.\n- Reward cards are neutral cards with a golden graphic in the upper left corner of the card.\n- A player cannot use a reward card in deckbuilding, and cannot play such a card, until that player has unlocked the reward by an outcome in the campaign. When the campaign rules inform the players that they have earned a reward card (often through resolution or interlude text), that card is added to the collection of player cards.\n- Reward cards may adjust the way players play the game by adding deckbuilding options, new abilities, or unique restrictions to an investigator deck.\n- Investigators are not required to include any unlocked campaign reward cards in their decks.\n- A deck cannot include more than one reward card with the permanent keyword.",
+        "references": ["Permanent"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Sanity and Horror",
+        "ruling": "Sanity represents a character's mental and emotional fortitude, or the emotional strength a card lends to an investigator. Horror tokens track the harm that has been done to the investigator's psyche by exposure to the Mythos.\n- When a card takes horror, place that many horror tokens on the card.\n- If an investigator card has horror on it equal to or in greater than its sanity value, that investigator is defeated. When an investigator is defeated, they are eliminated from the current scenario.\n- In campaign play, an investigator who is defeated by horror suffers 1 mental trauma. Taking mental trauma may cause an investigator to be <b>driven insane</b>.\n- If an asset has horror on it equal to or greater than its sanity value, it is defeated.\n- An asset card without a sanity value cannot be assigned horror.\n- A card's remaining sanity is its sanity value, plus or minus any active sanity modifiers, minus the amount of horror on it.\n- If an investigator takes \"direct horror\" that horror must be assigned to their investigator card.",
+        "references": ["Dealing Damage/Horror", "Defeat", "Elimination"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Seal",
+        "ruling": "Seal is a keyword ability.\nSome cards may instruct a player to seal a chaos token from the chaos bag on a card in play.\nWhen instructed to seal a chaos token, a player must search the chaos bag (or other designated game area) for the specified chaos token and place it on top of the targeted card, thereby sealing it.\n- When Seal (token name) is printed on a player card with no other instructions, the seal keyword is triggered immediately after it enters play, prompting the player to search the chaos bag for the indicated token and seal it on the card.\n- If there is a choice of which token to seal, the card's controller chooses.\n- Treat the seal keyword as an additional cost to play a player card. If the specified token is not in the chaos bag, the card either cannot be played or its seal ability cannot be triggered.\n- A sealed chaos token is not considered to be in the chaos bag, and cannot be revealed from the chaos bag as part of a skill test or ability.\n- When a sealed chaos token is released, it is returned to the chaos bag and is no longer sealed.\n- If a card with one or more chaos tokens sealed on it leaves play for any reason, all chaos tokens sealed on it are immediately released.\n- If instructed to \"seal\" a token by a card ability or by a card without the seal keyword, the same process as above is used. \n-- When sealing a token in this way, search the chaos bag (or other designated game area) for the specified token, remove it from the chaos bag, and place it on the specified card. If the targeted token is not in the chaos bag, the effect fails.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Self-Referential Text",
+        "ruling": "When a card's ability text refers to its own title, it is referring to itself only, and not to other copies (by title) of the card.\nSelf-referential abilities using the word \"this\" (for example, \"this card\") refer only to the card on which the ability is located, and not to copies of that card.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Skill Cards",
+        "ruling": "Skill is a cardtype.\nSkill cards represent innate or learned attributes or character traits that improve an investigator's skill tests.\n- Skill cards are not played from a player's hand. In order to resolve their abilities, skill cards must be committed to a skill test.\n- If a skill card is committed to a skill test, its ability may be used during the resolution of that skill test, as specified on the card.",
+        "references": ["Skill Test Timing"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Skill Icons",
+        "ruling": "In addition to their abilities, many player cards have one or more skill icons, indicated on the top left of a card below its cost, level, and cardtype.\nA card in a player's hand is eligible to be committed to a skill test if it bears one or more icons that match the skill currently being tested. For each matching icon committed to a test, increase the performing investigator's skill value by 1 for that test.\n- Skill, asset, and event cards can all be committed to a skill test, but the abilities on assets and events do not resolve if the card is committed, while those on skill cards do.\nA Wild ([wild]) skill icon on a player card may be used to match any other skill icon for the purposes of both card abilities and counting how many matching icons are committed to a skill test.\n- When using wild icons for the purpose of resolving a card ability, a player must state which icon the wild is matching at the time the card is used.",
+        "references": ["Skill Cards", "Skill Test Timing"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Skill Tests",
+        "ruling": "A number of situations in the game require an investigator to make a skill test using one of their four skills: willpower ([willpower]), intellect ([intellect]), combat ([combat]), or agility ([agility]). A skill test pits the investigator's value in a specified skill against a difficulty value that is determined by the ability or game step that initiated the test. The investigator is attempting to match or exceed this difficulty value in order to succeed at the test.\nA skill test is often referred to as a test of the specified skill. <i>(For example: \"agility test,\" \"combat test,\" \"willpower test,\" or \"intellect test.\")</i>\nWhen performing a skill test, an investigator may commit any number of eligible cards from their hand to that test. Each other investigator at the same location as an investigator performing a skill test may also commit <b>one</b> eligible card to that test.\n- At the end of a skill test, all cards that were committed to that skill test are discarded.",
+        "references": ["Action Designators", "Skill Icons", "Skill Test Timing"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Slots",
+        "ruling": "Each investigator has a number of specific slots that can be filled at any given moment. Each asset in an investigator’s play area or threat area with a slot symbol is held in a slot of that type. Slots limit the number of asset cards the investigator is permitted to have in play simultaneously.\nThe slots normally available to an investigator are: <b>1 accessory slot</b>, <b>1 head slot</b>, <b>1 body slot</b>, <b>1 ally slot</b>, <b>2 hand slots</b>, and <b>2 arcane slots</b>.\nThe icons above indicate that an asset counts against an investigator's capacity for the indicated slot(s). If an asset has no slot symbols on it, it does not take up any slots.\n- There is no limit to the number of slotless assets an investigator can have in play unless indicated on the card itself.\nSome card effects allow an investigator to put assets of one slot type into one of their other slots, allow one of an investigator's slot types to carry assets of a different slot type, or cause assets to no longer take up slots. In such an event, the investigator must decide which slot is holding which asset at the moment it is played. It cannot be adjusted later unless the contents or quantity of the investigator's slots changes, at which point the investigator may switch which slots are holding any of their assets.\nIf an investigator plays or gains control of an asset that causes them to exceed one or more of their slot limits, that investigator must simultaneously choose and discard another asset or assets under their control to make room for the newly acquired asset.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Spawn",
+        "ruling": "Some enemies, when drawn from an encounter or investigator deck, spawn in a particular location, indicated by a bold \"spawn\" instruction in the text box.\n- An enemy's spawn instruction resolves as the enemy enters play, regardless of how it entered play.\n- If an enemy has no spawn instruction, it spawns engaged with the investigator who drew it.\n- If an enemy has no legal location to spawn at (for example, if its spawn instruction directs it to a specific location that is not in play, or if no location in play satisfies its \"spawn\" instruction), it does not spawn, and is discarded instead.\n- If an enemy's spawn instruction has multiple valid locations, the investigator spawning that enemy decides among those locations.\n- If a card ability instructs the players to spawn an enemy in a particular location (for example: \"Search the encounter deck for an Acolyte and spawn it in Southside\"), treat the ability causing the card to enter play as the enemy's spawn instruction, overriding any other spawn instruction.",
+        "references": null,
+        "citation": "grimoire-1.0"
     }
 ]
