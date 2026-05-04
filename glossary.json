@@ -420,7 +420,7 @@
         "entry_id": 53,
         "section": "Encounter Deck",
         "ruling": "The encounter deck contains the encounter cards (enemy, treachery, and other cards specified by the scenario) the investigators must face during the current scenario.\n- If the encounter deck is empty, shuffle the encounter discard pile back into the encounter deck.\n- If the encounter deck runs out of cards while resolving a card ability or game effect, after resolving that effect in full, shuffle the encounter discard pile back into the encounter deck.",
-        "references": ["Deck"],
+        "references": [36],
         "citation": "grimoire-1.0"
     },
     {
@@ -436,7 +436,7 @@
         "entry_id": 55,
         "section": "Enemy Cards",
         "ruling": "Enemy is a cardtype.\nEnemies represent villains, cultists, ne'er-do-wells, terrible monsters, and unfathomable entities from alternate dimensions or the cosmos beyond.\nWhen an enemy card is drawn by an investigator, that investigator must spawn it following any spawn instructions on the card. If the encountered enemy has no spawn instructions, the enemy spawns engaged with the investigator encountering the card and is placed in that investigator's threat area.\n- Any time a ready, unengaged enemy is at the same location as an investigator, it engages that investigator.\n-- Enemies with the aloof and massive keywords are an exception to the above rules. When an investigator encounters an aloof or massive enemy, the enemy is placed at that investigator's location (rather than in their threat area).\n-- Enemies with the aloof keyword do not automatically engage investigators at their location.\n-- Enemies with the massive keyword are considered to be engaged with each investigator at their current location while ready, and engaged with no investigators while exhausted.\n- If an investigator is engaged with a ready enemy and takes an action other than to fight, to evade, or to activate a parley or resign ability, that enemy makes an attack of opportunity.\nEnemies with the hunter and patrol keywords move during Step 3.2 of the Enemy Phase.\n- Engaged enemies attack during Step 3.3 of the Enemy Phase.",
-        "references": ["Aloof", "Attack of Opportunity", "Hunter", "Massive", "Patrol", "Enemy Phase"],
+        "references": [11, 17, 78, 95, 108, 56],
         "citation": "grimoire-1.0"
     },
     {
@@ -444,7 +444,7 @@
         "entry_id": 56,
         "section": "Enemy Phase",
         "ruling": "During the enemy phase, each ready enemy with the hunter keyword moves once toward the nearest investigator, and each ready enemy with the patrol keyword moves once toward its designated target.\nEach enemy engaged with an investigator attacks that investigator, then exhausts.",
-        "references": ["Enemy Phase"],
+        "references": null,
         "citation": "grimoire-1.0"
     },
     {
@@ -460,7 +460,7 @@
         "entry_id": 58,
         "section": "Enters Play",
         "ruling": "The phrase \"enters play\" refers to any time a card makes a transition from an out-of-play area to a play area.\n- If an ability (either on the card itself or from another card) causes a card to enter play in a state different from that specified by the rules,there is no transition to that state. It merely enters play in that state.",
-        "references": ["In Play and Out of Play"],
+        "references": [81],
         "citation": "grimoire-1.0"
     },
     {
@@ -532,7 +532,7 @@
         "entry_id": 67,
         "section": "Fight Action",
         "ruling": "\"Fight\" is an action an investigator may take during their turn in the investigation phase.\nTo fight an enemy at their location, an investigator resolves an attack against that enemy by making a combat ([combat]) test against the enemy's fight value.\nIf the test is successful, the attack succeeds and 1 damage is dealt to the attacked enemy (during Step 7 of the skill test).\n- By default, an attack deals 1 damage. Weapons, spells, skills, and other card effects may modify this damage.\nIf the test fails, no damage is dealt to the attacked enemy. However, if an investigator fails this test against an enemy that is engaged with another single investigator, the damage of the attack is dealt to the investigator engaged with that enemy.\n- Taking a fight action (either by playing a card with a bolded Fight ability, activating a bolded Fight ability on a card, or taking a basic fight action) does not provoke attacks of opportunity.\n- An investigator may fight any enemy at their location, including: an enemy they are engaged with, an unengaged enemy at the same location, or an enemy engaged with another investigator who is at the same location.",
-        "references": ["Aloof", 135],
+        "references": [11, 135],
         "citation": "grimoire-1.0"
     },
     {
@@ -580,7 +580,7 @@
         "entry_id": 73,
         "section": "Hand Size",
         "ruling": "Each investigator's maximum hand size is 8 by default. This value is checked only during the upkeep phase, after drawing 1 card and gaining 1 resource.",
-        "references": ["Upkeep phase"],
+        "references": [152],
         "citation": "grimoire-1.0"
     },
     {
@@ -604,7 +604,7 @@
         "entry_id": 76,
         "section": "Health and Damage",
         "ruling": "Health represents a card's physical fortitude. Damage tokens track the physical harm that has been done to a card during a scenario.\n- When a card takes damage, place that many damage tokens on the card.\n- If an investigator card has damage on it equal to or greater than its health value, that investigator is defeated. When an investigator is defeated, they are eliminated from the current scenario.\n- In campaign play, an investigator who is defeated by damage suffers 1 physical trauma. Taking physical trauma may cause an investigator to be <b>killed</b>.\n- If an enemy has damage on it equal to or greater than its health value, that enemy is defeated.\n- If an asset has damage on it equal to or greater than its health value, it is defeated.\n- An asset card without a health value cannot be assigned damage.\n- A card's remaining health is its health value, plus or minus any active health modifiers, minus the amount of damage on it.\n- If an investigator takes \"direct damage\" that damage must be assigned to their investigator card.",
-        "references": [35, "Defeat", 50],
+        "references": [35, 38, 50],
         "citation": "grimoire-1.0"
     },
     {
@@ -620,7 +620,7 @@
         "entry_id": 78,
         "section": "Hunter",
         "ruling": "Hunter is a keyword ability.\nAt the start of the enemy phase, each ready, unengaged enemy with the hunter keyword moves to a connecting location, along the shortest path toward the nearest investigator. Enemies at a location with one or more investigators do not move.\n- Some enemies may target specific prey, indicated in parentheses next to the prey keyword.\n- If there are multiple equidistant investigators who qualify as \"the nearest investigator,\" the hunter enemy moves toward the one who best meets its designated prey. If none do, or if the enemy has no prey keyword, the lead investigator decides.\n- If a hunter enemy would be compelled to move into a location but is blocked by a card ability, that enemy does not move.",
-        "references": ["Prey"],
+        "references": [115],
         "citation": "grimoire-1.0"
     },
     {
@@ -628,7 +628,7 @@
         "entry_id": 79,
         "section": "Ignore",
         "ruling": "Some card abilities can \"ignore\" the costs or effects of other abilities or game actions. Ignore abilities either bypass the paying of costs without interfering with the resolution of a card or ability's effects, or prevent one or more of a card, token, or ability's effects without interfering with other non-ignored effects or cancelling the ability's initiation.\n- If a cost is ignored, it is no longer required to be paid in order for the card or ability in question to resolve.\n-- Some cards allow an investigator to play a card or activate an ability, \"ignoring all costs.\" These effects only ignore the costs of activating an ability; they do not ignore additional costs that may or must be paid while resolving that ability. <i>(In other words, anything \"before the colon\" is ignored, but any additional costs \"after the colon\" must be paid as normal.)</i>\n-- If a card or ability has X cost, where X is defined by a granted player choice, and that cost is ignored, X is considered to be 0 throughout the resolution of that card or ability.\n- If an effect is ignored, it is considered not to have resolved for the purposes of card abilities. However, the corresponding ability or game action was still initiated, and thus other abilities can still react to it. <i>(For example, while a \"cancelled\" chaos token is considered to have never been drawn in the first place, an \"ignored\" chaos token was still drawn, but neither its modifier nor any of its effects will resolve or be applied to the current test or ability.)</i>\n- Costs or effects that exile a card and/or remove a card from the game cannot be ignored.",
-        "references": ["Costs", "Exile", "The Letter 'X'"],
+        "references": [34, 63, 158],
         "citation": "grimoire-1.0"
     },
     {
@@ -668,7 +668,7 @@
         "entry_id": 84,
         "section": "Investigate Action",
         "ruling": "\"Investigate\" is an action an investigator may take during their turn in the investigation phase.\nEach time an investigator takes this action, they make an intellect ([intellect]) test against the shroud value of that location.\nIf the test is successful, the investigator has succeeded in investigating the location, and they discover one clue at the location (during step 7 of the skill test).\nAny time an investigator discovers a clue from a location, that player takes the clue from the location and places it on their investigator card, under their control.\nIf the test is failed, the investigator has failed in investigating the location and no clues are discovered.\n- An investigator may take an investigate action even if their location has no clues on it. No clues are discovered if they succeed.",
-        "references": [135, "ST.7 Apply skill test results"],
+        "references": [135],
         "citation": "grimoire-1.0"
     },
     {
@@ -676,7 +676,7 @@
         "entry_id": 85,
         "section": "Investigation Phase",
         "ruling": "The investigation phase is the second phase of each round. In it, investigators each take a turn in any order, during which they perform up to 3 actions (by default).\n- If a card effect causes an investigator to gain or lose actions outside of the investigation phase, those actions are gained or lost when that investigator's turn begins during the investigation phase.",
-        "references": ["Investigation phase"],
+        "references": null,
         "citation": "grimoire-1.0"
     },
     {
@@ -684,7 +684,7 @@
         "entry_id": 86,
         "section": "Investigator Deck",
         "ruling": "A player's \"investigator deck\" is the deck that contains that player's asset, event, skill, and weakness cards. A reference to \"your deck\" refers to the investigator deck under your control.",
-        "references": ["Deck"],
+        "references": [36],
         "citation": "grimoire-1.0"
     },
     {
@@ -700,7 +700,7 @@
         "entry_id": 88,
         "section": "Killed/Insane/Devoured Investigators",
         "ruling": "During campaign play, investigators who are killed or driven insane must be recorded in your campaign log and cannot be used for the remainder ofthe campaign.\n- An investigator with physical trauma equal to or higher than their printed health is <b>killed</b>.\n- An investigator with mental trauma equal to or higher than their printed sanity is <b>driven insane</b>.\n- An investigator may also be <b>killed</b> or <b>driven insane</b> by a card ability, or during a scenario's resolution.\n- Some game effects may <b>devour</b> an investigator. An investigator that is <b>devoured</b> is <b>killed</b>.\n- When playing a standalone scenariom, there is no practical difference between being <b>killed</b>, <b>driven insane</b>, <b>devoured</b>, or <b>defeated</b>.",
-        "references": ["Defeat", "Campaign Play"],
+        "references": [38, 23],
         "citation": "grimoire-1.0"
     },
     {
@@ -724,7 +724,7 @@
         "entry_id": 91,
         "section": "Leaves Play",
         "ruling": "The phrase \"leaves play\" refers to any time a card makes a transition from an in-play state to an out-of-play state.\nIf a card leaves play, the following consequences occur simultaneously with the card leaving play:\n- All tokens on the card are returned to the token pool.\n- All attachments on the card are discarded.\n- All lasting effects and/or delayed effects affecting the card while it was in play expire for that card.",
-        "references": ["In Play and Out of Play"],
+        "references": [81],
         "citation": "grimoire-1.0"
     },
     {
@@ -788,7 +788,7 @@
         "entry_id": 99,
         "section": "Move Action",
         "ruling": "\"Move\" is an action an investigator may take during their turn during the investigation phase.\nWhen an investigator takes this action, move that investigator (using their mini-card or investigator token) to any other location that is marked as a connecting location on their current location.\n- Taking a move action provokes an attack of opportunity.",
-        "references": ["Move"],
+        "references": [98],
         "citation": "grimoire-1.0"
     },
     {
@@ -844,7 +844,7 @@
         "entry_id": 106,
         "section": "Ownership and Control",
         "ruling": "A card's owner is the player whose deck and/or respective in- and out-of-play areas contained the card at the start of the game.\nA player controls the cards located in their in- and out-of-play areas (such as their hand, deck, and discard pile).\nThe scenario controls the scenario cards in its in- and out-of-play areas (such as the encounter deck, act and agenda decks, and the encounter discard pile). It also controls cards with a scenario cardtype in a player's threat area.\n- By default, cards enter play under their owner's control. Some abilities may cause cards to change control during a game.\n- If a card would enter an out-of-play area that does not belong to that card's owner, it is physically placed in its owner's corresponding out-of-play area instead. The card is considered to have entered the original out-of-play area (typically that of its controller), and only the physical placement of the card is adjusted.",
-        "references": ["Bearer"],
+        "references": [21],
         "citation": "grimoire-1.0"
     },
     {
@@ -852,7 +852,7 @@
         "entry_id": 107,
         "section": "Parley",
         "ruling": "Parley is an action investigators may take during their turn.\nParley abilities represent investigators' attempts to negotiate a tense situation, trick enemies, or talk their way out of trouble. Parley abilities are exclusively resolved by playing cards or activating [action] abilities, and are indicated by the bold <b>Parley</b> action designator.",
-        "references": ["Activate Action"],
+        "references": [6],
         "citation": "grimoire-1.0"
     },
     {
@@ -892,7 +892,7 @@
         "entry_id": 112,
         "section": "Play",
         "ruling": "To play a card, an investigator must pay the card's resource cost and meet any applicable play restrictions and conditions. Most cards can only be played by taking a play action.\nA card with the fast keyword is not played using a play action. Such a card may be played any time its specified triggering condition is met or, if it has no triggering condition, during an appropriate player window.\n- Any time an event card is played, its effects are resolved and it is then placed in its owner's discard pile.\n- Any time an investigator plays an asset, it is placed in their play area and remains in play until an ability or game effect causes it to leave play.\n- Skill cards are not \"played.\" These cards are committed to a skill test from a player's hand in order to use their abilities.",
-        "references": ["Fast", "Play Action", "Play Restrictions, Permissions, and Instructions"],
+        "references": [66, 113, 114],
         "citation": "grimoire-1.0"
     },
     {
@@ -900,7 +900,7 @@
         "entry_id": 113,
         "section": "Play Action",
         "ruling": "\"Play\" is an action an investigator may take during their turn in the investigation phase.\nWhen an investigator takes this action, that investigator selects an asset or event card in their hand, pays its costs, and plays it.\n- A play action provokes attacks of opportunity unless it is also another type of action that does not provoke an attack (i.e. <b>Fight</b>, <b>Evade</b>, etc.).\n- Cards with the \"fast\" keyword are not played by using this action, and may have other timing windows and restrictions.\n- When an ability allows a player to \"play\" a card (typically at a reduced cost or in addition to other effects), this also does not use the play action and therefore does not provoke attacks of opportunity.\n- Skill cards are not \"played.\" These cards are committed to a skill test from a player's hand in order to use their abilities.",
-        "references": ["Fast", "Play", "Put Into Play"],
+        "references": [66, 112, 118],
         "citation": "grimoire-1.0"
     },
     {
@@ -940,7 +940,7 @@
         "entry_id": 118,
         "section": "Put into Play",
         "ruling": "Some card abilities cause a card to be \"put into play.\" Such abilities place the card directly into play from an out-of-play state.\n- The costs of a card being put into play are not paid.\n- Unless otherwise stated by the \"put into play\" ability, cards that enter play in this manner must do so in a play area that satisfies the standard game rules associated with playing or drawing (for encounter cards) that card.\n- A card that has been put into play is not considered to have been played.",
-        "references": ["Play", "Put into Play"],
+        "references": [112],
         "citation": "grimoire-1.0"
     },
     {
@@ -964,7 +964,7 @@
         "entry_id": 121,
         "section": "Replenish",
         "ruling": "When instructed to replenish 1 or more uses on a card, place that many uses on the card, up to (but without exceeding) its Uses (X) value.",
-        "references": ["Uses (X)"],
+        "references": [153],
         "citation": "grimoire-1.0"
     },
     {
@@ -988,7 +988,7 @@
         "entry_id": 124,
         "section": "Resign",
         "ruling": "Some abilities are identified with a Resign action designator. Such abilities are initiated using the \"Activate\" action.\n- An investigator who resigns is eliminated from the scenario, but is not considered to have been defeated. <i>(Thus, resigned investigators are not required for abilities that require \"each surviving investigator.\")</i>\n- Taking a resign action does not provoke attacks of opportunity.",
-        "references": ["Activate Action", 50],
+        "references": [6, 50],
         "citation": "grimoire-1.0"
     },
     {
@@ -1020,7 +1020,7 @@
         "entry_id": 128,
         "section": "Revelation",
         "ruling": "A revelation ability is a type of card ability.\nRevelation abilities are identified by a bold \"<b>Revelation</b> - \" instruction. Revelation abilities most often appear on treacheries or weaknesses, and trigger when the card on which they are printed is drawn by an investigator.\n- When an investigator draws an encounter card, that investigator must immediately resolve its revelation ability, if any. This occurs before the card enters play or - if it is a treachery - while it is in limbo.\n- When a weakness card enters an investigator's hand by any means, that investigator must immediately resolve any revelation ability on that card as if it were just drawn.",
-        "references": ["Limbo"],
+        "references": [92],
         "citation": "grimoire-1.0"
     },
     {
@@ -1028,7 +1028,7 @@
         "entry_id": 129,
         "section": "Reward",
         "ruling": "Reward is a deckbuilding keyword ability.\nCards with the reward keyword appear in campaigns and/or scenario packs as campaign rewards.\n- Reward cards are neutral cards with a golden graphic in the upper left corner of the card.\n- A player cannot use a reward card in deckbuilding, and cannot play such a card, until that player has unlocked the reward by an outcome in the campaign. When the campaign rules inform the players that they have earned a reward card (often through resolution or interlude text), that card is added to the collection of player cards.\n- Reward cards may adjust the way players play the game by adding deckbuilding options, new abilities, or unique restrictions to an investigator deck.\n- Investigators are not required to include any unlocked campaign reward cards in their decks.\n- A deck cannot include more than one reward card with the permanent keyword.",
-        "references": ["Permanent"],
+        "references": [111],
         "citation": "grimoire-1.0"
     },
     {
@@ -1036,7 +1036,7 @@
         "entry_id": 130,
         "section": "Sanity and Horror",
         "ruling": "Sanity represents a character's mental and emotional fortitude, or the emotional strength a card lends to an investigator. Horror tokens track the harm that has been done to the investigator's psyche by exposure to the Mythos.\n- When a card takes horror, place that many horror tokens on the card.\n- If an investigator card has horror on it equal to or in greater than its sanity value, that investigator is defeated. When an investigator is defeated, they are eliminated from the current scenario.\n- In campaign play, an investigator who is defeated by horror suffers 1 mental trauma. Taking mental trauma may cause an investigator to be <b>driven insane</b>.\n- If an asset has horror on it equal to or greater than its sanity value, it is defeated.\n- An asset card without a sanity value cannot be assigned horror.\n- A card's remaining sanity is its sanity value, plus or minus any active sanity modifiers, minus the amount of horror on it.\n- If an investigator takes \"direct horror\" that horror must be assigned to their investigator card.",
-        "references": [35, "Defeat", 50],
+        "references": [35, 38, 50],
         "citation": "grimoire-1.0"
     },
     {
@@ -1068,7 +1068,7 @@
         "entry_id": 134,
         "section": "Skill Icons",
         "ruling": "In addition to their abilities, many player cards have one or more skill icons, indicated on the top left of a card below its cost, level, and cardtype.\nA card in a player's hand is eligible to be committed to a skill test if it bears one or more icons that match the skill currently being tested. For each matching icon committed to a test, increase the performing investigator's skill value by 1 for that test.\n- Skill, asset, and event cards can all be committed to a skill test, but the abilities on assets and events do not resolve if the card is committed, while those on skill cards do.\nA Wild ([wild]) skill icon on a player card may be used to match any other skill icon for the purposes of both card abilities and counting how many matching icons are committed to a skill test.\n- When using wild icons for the purpose of resolving a card ability, a player must state which icon the wild is matching at the time the card is used.",
-        "references": ["Skill Cards"],
+        "references": [133],
         "citation": "grimoire-1.0"
     },
     {
@@ -1076,7 +1076,7 @@
         "entry_id": 135,
         "section": "Skill Tests",
         "ruling": "A number of situations in the game require an investigator to make a skill test using one of their four skills: willpower ([willpower]), intellect ([intellect]), combat ([combat]), or agility ([agility]). A skill test pits the investigator's value in a specified skill against a difficulty value that is determined by the ability or game step that initiated the test. The investigator is attempting to match or exceed this difficulty value in order to succeed at the test.\nA skill test is often referred to as a test of the specified skill. <i>(For example: \"agility test,\" \"combat test,\" \"willpower test,\" or \"intellect test.\")</i>\nWhen performing a skill test, an investigator may commit any number of eligible cards from their hand to that test. Each other investigator at the same location as an investigator performing a skill test may also commit <b>one</b> eligible card to that test.\n- At the end of a skill test, all cards that were committed to that skill test are discarded.",
-        "references": ["Action Designators", "Skill Icons"],
+        "references": [5, 134],
         "citation": "grimoire-1.0"
     },
     {
@@ -1132,7 +1132,7 @@
         "entry_id": 142,
         "section": "Target",
         "ruling": "An ability or game effect may target a game entity, player, or the game state itself. Such an ability can only be initiated if it has a valid target (i.e. one that fulfills all requirements and/or specifications of the ability).\n- An ability that creates or removes a \"delayed\" or \"lasting\" effect is considered to target (and, if it resolves successfully, to affect) the game state.\nIf an ability or game effect requires a player to choose one or more targets, that ability or effect can only be initiated if there is at least one valid target for that player to choose.\n- If an ability or game effect requires a player to choose more than one target, the targets are chosen simultaneously.\n- If an ability requires a player to choose \"any number\" of targets, it cannot be initiated if zero of those targets are chosen.\nIf a target's state cannot be changed by the resolution of an ability or game effect, then that target is not a valid target or choice for that effect. <i>(For example, an exhausted enemy is not a valid target for an effect that reads \"choose and exhaust an enemy.\")</i>\n- If an ability or game effect has multiple effects on a target, that target is considered valid if at least one of those effects can change that target's state. Each effect that cannot change the target's state does not resolve.\n- If an ability or game effect targets multiple game elements of a specific type <i>(for example, \"each enemy\")</i>, that ability can be initiated as long as at least one of those game elements is a valid target. That ability does not resolve against any of the specified game elements that are not a valid target.",
-        "references": ["Cancel", 79, "May"],
+        "references": [24, 79, 96],
         "citation": "grimoire-1.0"
     },
     {
@@ -1140,7 +1140,7 @@
         "entry_id": 143,
         "section": "Then",
         "ruling": "If the effect of an ability includes the word \"then,\" the text preceding the word \"then\" must be successfully resolved in full before the remainder of the effect described after the word \"then\" can be resolved.\n- If the pre-then aspect of an effect does successfully resolve in full, the post-then aspect of the effect must also resolve.\n- The post-then aspect of an effect has timing priority over all other indirect consequences of the resolution of the pre-then aspect. (For example, if an effect reads: \"Draw an encounter card. Then, take 1 horror,\" and a player controls an ability that reads \"After you draw an encounter card,\" the post-then \"take 1 horror\" aspect occurs before the \"After you draw an encounter card\" ability may initiate.)\n- If the pre-then aspect of an effect does not successfully resolve in full, the post-then aspect does not resolve.",
-        "references": [],
+        "references": null,
         "citation": "grimoire-1.0"
     },
     {
@@ -1148,7 +1148,7 @@
         "entry_id": 144,
         "section": "Threat Area",
         "ruling": "An investigator's threat area is a play area in which encounter cards currently engaged with and/or affecting an investigator are placed.\n- The cards in an investigator's threat area are at the same location as the investigator.\n-- Unless otherwise stated, resolving an \"as if\" ability does not inherently alter the contents of an investigator's threat area.\n- Investigators are permitted to use triggered abilities on scenario cards in the threat areas of any investigator at their location.",
-        "references": ["As If"],
+        "references": [12],
         "citation": "grimoire-1.0"
     },
     {
@@ -1172,7 +1172,7 @@
         "entry_id": 147,
         "section": "Trauma",
         "ruling": "Trauma represents permanent damage that has been inflicted upon an investigator's body and mind.\n- If an investigator is defeated by taking damage equal to their health, they suffer 1 physical trauma. If the investigator is defeated by taking horror equal to their sanity, they suffer 1 mental trauma.\n-- If an investigator is defeated by simultaneously taking damage equal to their health and horror equal to their sanity, they choose which type of trauma to suffer.\n- When an investigator takes trauma, mark it in the appropriate box underneath their name in the campaign log.\n- If an investigator has physical trauma equal to their printed health, they are <b>killed</b>. If they have mental trauma equal to their printed sanity, they are <b>driven insane</b>.\n- For each physical and/or mental trauma an investigator has suffered, that investigator begins each subsequent scenario in the campaign with 1 damage and/or horror, respectively.",
-        "references": ["Campaign Play"],
+        "references": [23],
         "citation": "grimoire-1.0"
     },
     {
@@ -1180,7 +1180,7 @@
         "entry_id": 148,
         "section": "Treachery Cards",
         "ruling": "Treachery cards represent curses, afflictions, madnesses, obstacles, disasters, or other unexpected occurrences an investigator may encounter throughout the course of a scenario.\nWhen a treachery card is drawn by an investigator, that investigator must resolve its effects. Then, place the card in its discard pile unless otherwise instructed by the ability.\n- If that card has surge, draw the top card of the encounter deck.\n- If that card has peril, that investigator cannot consult other investigators while resolving its effects.",
-        "references": ["1.4: Each investigator draws 1 encounter card"],
+        "references": null,
         "citation": "grimoire-1.0"
     },
     {
@@ -1188,7 +1188,7 @@
         "entry_id": 149,
         "section": "Triggered Abilities",
         "ruling": "A triggered ability is an ability prefaced by a [fast] icon, a [reaction] icon, or an [action] icon. If the ability has one or more prerequisites, such as costs and/or conditions, these are listed in text immediately following the icon. A player must always meet the prerequisites of such an ability in order to trigger it. All triggered abilities are governed by the following rules:\n- A triggered ability on a card a player controls may be <b>optionally triggered</b> when its timing point is met, as indicated by the ability.\n- A triggered ability can only be initiated if a valid target can be chosen, and its ability cost (if any) can be paid in full.\n- Once an ability is initiated, players must resolve as much of the effect as possible, unless the effect uses the word \"may.\"\nThere are three types of triggered abilities:\n- <b>Free triggered abilities</b> ([fast]) - These abilities may be triggered as a player ability during any player window or as specified.\n- <b>Reaction triggered abilities</b> ([reaction]) - These abilities have a specific triggering condition and may be triggered at any time that triggering condition is met. <i>(For example: \"[reaction] After you defeat an enemy:\")</i>\n-- A [reaction] ability that triggers \"when...\" its timing point occurs may be triggered as soon as the specified timing point is met, but before that timing point's impact upon the game resolves.\n-- A [reaction] ability that triggers \"at...\" its timing point, or \"if...\" its timing point or triggering condition occurs, may be triggered simultaneously with the resolution of that timing point's impact upon the game.\n-- A [reaction] ability that triggers \"after...\" its timing point occurs may be triggered immediately after the timing point's impact upon the game resolves.\n-- Each [reaction] ability may be triggered only once each time the specified condition on the ability is met. For example, an ability that is triggered \"After X occurs,\" may be used once each time \"X\" occurs.\n- <b>Action triggered abilities</b> ([action]) - These abilities may be triggered through the use of the activate action by spending one action for each  specified in that ability's cost.",
-        "references": [],
+        "references": null,
         "citation": "grimoire-1.0"
     },
     {
@@ -1196,7 +1196,7 @@
         "entry_id": 150,
         "section": "Triggering Condition",
         "ruling": "A triggering condition indicates the timing point at which an ability may be triggered. Most triggering conditions use the words \"when,\" \"at,\" \"if,\" or \"after\" to establish their relation to the specified timing point.\n- The word \"when\" refers to the moment immediately after the specified timing point or triggering condition initiates, but before its impact upon the game state resolves.\n-- The resolution of a \"when...\" ability interrupts the resolution of its timing point or triggering condition.\n-- An effect that triggers \"whenever\" a condition is met should be treated as \"when\" for all intents and purposes.\n- The word \"at\" refers to a timing point simultaneous to the resolution of all other effects pertaining to the specified timing point or triggering condition.\n-- An effect that triggers \"if\" a triggering condition is met should be treated as conditionally triggering \"at\" that timing point, and therefore simultaneously to the resolution of all related effects.\n-- \"At the end of the round/turn/phase\" refers to the timing point simultaneous to the end of the round/turn/phase.\n- The word \"after\" refers to the timing point at which all effects pertaining to the specified timing point or triggering condition have been resolved, but before moving on to the next game step.\n- Reaction triggered abilities ([reaction]) may only be used once per timing point.\n- If multiple instances of the same ability are eligible to initiate, each instance may be used once. <i>(For example: 2 copies of Lucky Cigarette Case may be triggered, once each, upon succeeding at a skill test by 2 or more.)</i>",
-        "references": [1, "After", "At", "When"],
+        "references": [1, 8, 14, 156],
         "citation": "grimoire-1.0"
     },
     {
@@ -1212,7 +1212,7 @@
         "entry_id": 152,
         "section": "Upkeep Phase",
         "ruling": "During the upkeep phase, each card in play is readied.\nEach investigator draws 1 card and gains 1 resource, then each investigator discards cards from hand until they have no more than 8 cards in hand.",
-        "references": ["Ready", "Upkeep phase"],
+        "references": [120],
         "citation": "grimoire-1.0"
     },
     {
@@ -1220,7 +1220,7 @@
         "entry_id": 153,
         "section": "Uses (X)",
         "ruling": "Uses (X) is a keyword ability.\nWhen a card bearing this keyword enters play, place a number of resource tokens (from the token pool) equal to its value (X) on that card. The word following the value defines the type of uses this card bears. The resource tokens placed on that card this way are considered uses of the established type, and are no longer considered resource tokens. <i>(For example, Cosmic Flame has \"Uses (3 charges).\" When it is played, 3 resources are placed on it from the token pool. Those resources are now charges, and may be used when resolving Cosmic Flame's [action] ability.)</i>\n- Most cards with the uses (X) keyword also have an ability which references the uses on that card as a part of its cost. When such an ability spends a use, a token of that type must be removed from the card.\n- Other cards may reference and interact with uses of a specified type, usually by adding uses of that type to a card, or using uses of that type for other abilities or effects.\n- Only the type of uses defined by a card can be placed on that card. <i>(For example, a card with \"Uses (4 ammo)\" cannot be affected by an ability that would place 1 or more charges on a card.)</i>\n- Some cards with the uses (X) keyword include a discard condition for when there are no uses remaining. If the card contains no such text, it remains in play even if there are no uses on it.\n- If instructed to replenish an asset's uses, place the specified number of uses on that asset, up to (but not exceeding) its initial uses (X) value.",
-        "references": ["Replenish"],
+        "references": [121],
         "citation": "grimoire-1.0"
     },
     {
@@ -1252,7 +1252,7 @@
         "entry_id": 157,
         "section": "Winning and Losing",
         "ruling": "Each scenario has a number of different possible endings.\nThe act deck represents the progress of the investigators through a scenario. Some instructions in the act deck (as well as on other encounter cardtypes) contain resolution points, in the format of: \"(<b>→R#</b>).\" The players' primary objective is to advance through the act deck until a (hopefully favorable) resolution point is reached. Should the act deck invoke a resolution, the players have completed the scenario (they may even have \"won!\").\nThe agenda deck represents the objectives and progress of the malicious forces pitted against the investigators in the scenario. Some instructions in the agenda deck (as well as on other encounter cardtypes) also contain resolution points, in the format of: \"(<b>→R#</b>).\" Should the agenda deck invoke a (usually darker) resolution, the players have likely lost the scenario.\n- Instructions for resolving the designated resolution of a scenario can be found in the \"do not read until end of game\" section of the campaign guide following each scenario.\n-- Should the scenario end with no resolution being reached (for example, if all investigators have been eliminated or have resigned), instructions for resolving the scenario in the absence of a designated solution can also be found in the \"do not read until end of game\" section.\n- If playing in a campaign, players will generally proceed to the next scenario in the campaign regardless of the outcome of the scenario. Even if players \"lose\" a scenario, they still continue their campaign unless otherwise stated <i>(although with some negative consequences from their failure)</i>.\n- When playing a standalone scenario, if players reach a numbered resolution, they have won (or at least, survived) unless that resolution states otherwise. If the scenario ends and players have not yet been directed to a numbered resolution, they have lost.\n-- Certain scenarios may blur the lines between victory and defeat, use their numbered resolutions in unorthodox ways, or even lack a numbered resolution to achieve. In such instances, players are encouraged to use their discretion when determining if they feel they have won or lost.",
-        "references": [3, "Standalone Mode"],
+        "references": [3, 138],
         "citation": "grimoire-1.0"
     },
     {
@@ -1260,7 +1260,7 @@
         "entry_id": 158,
         "section": "The Letter \"X\"",
         "ruling": "The value of the letter X is defined by a card ability or a granted player choice. If X is not defined, its value is equal to 0.\n- For costs involving the letter X, the value of X is defined by card ability or player choice, after which the amount paid may be modified by effects without altering the value of X.\n- If a card or ability has X cost, where X is defined by a granted player choice, and an ability allows an investigator to play that card or activate that ability without paying that cost, X is considered to be 0.",
-        "references": ["Costs", 79],
+        "references": [34, 79],
         "citation": "grimoire-1.0"
     },
     {
