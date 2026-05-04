@@ -1072,9 +1072,44 @@
     },
     {
         "type": "glossary",
-        "section": "NAME",
-        "ruling": "RULE",
-        "references": [],
+        "section": "Victory X",
+        "ruling": "Victory X is a keyword ability.\nAn encounter card worth victory points represents a formidable enemy, a particularly powerful curse, etc. Once they have been dealt with, encounter cards with victory X are added to the victory display until the end of the current scenario. The victory display is an out-of-play area shared by all players.\nSome location cards also have victory X, marking them as particularly puzzling, dangerous, or significant. When the current scenario ends, each location with victory X that is in play, revealed, and has no clues on it is added to the victory display.\nUpon completion of the current scenario, the cards in the victory display provide experience equal to their victory X value to each player, which can later be spent to upgrade that player's investigator deck.\n- When an enemy with victory X is defeated, add the card to the victory display instead of discarding it.\n- After a treachery card with victory X is resolved, add it to the victory display instead of discarding it.\n- If a non-encounter card such as an asset with victory X would be defeated, add it to the victory display instead of discarding it.",
+        "references": null,
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Weakness",
+        "ruling": "Weakness is a unique subtype of player cards. Weaknesses represent character flaws, curses, madnesses, injuries, tasks, enemies, or story elements that are part of an investigator's backstory or that are acquired over the course of a campaign. Weakness cards are resolved differently depending upon their cardtype.\n- When an investigator draws a weakness card of an encounter cardtype, they resolve that card as if it were just drawn from the encounter deck.\n- When an investigator draws a weakness card of a player cardtype <i>(for example, an asset, event, or skill weakness)</i>, they resolve any revelation abilities on that card and add it to their hand. That card may then be used as any other player card of its cardtype.\n- If a weakness card enters an investigator's hand in a manner that did not involve drawing the card, that investigator must resolve that card (including any revelation abilities) as if they had just drawn it.\n- If a weakness card is added to a player's deck, hand, or threat area during a scenario, that investigator becomes the bearer of that weakness. That card does not count toward that investigator's deck size and remains a part of that investigator's deck for the rest of the campaign unless it is removed from the campaign by a card ability or scenario resolution.\n- A player cannot choose to discard a weakness card from hand, unless a card explicitly specifies otherwise.\n- ÆSome effects reference a \"basic weakness.\" A basic weakness can be identified by the presence of the words \"Basic Weakness\" and a symbol.",
+        "references": ["Bearer"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "When",
+        "ruling": "The word \"when\" refers to the moment immediately after the specified timing point or triggering condition initiates, but before its impact upon the game state resolves. The resolution of a \"when\" ability interrupts the resolution of its timing point or triggering condition.\n<i>(For example, an ability that reads \"When you draw an enemy card\" initiates immediately after you draw the enemy card, but before resolving its revelation ability, spawning it, etc.)</i>",
+        "references": ["Ability", "Priority of Simultaneous Resolution", "Triggering Condition"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "Winning and Losing",
+        "ruling": "Each scenario has a number of different possible endings.\nThe act deck represents the progress of the investigators through a scenario. Some instructions in the act deck (as well as on other encounter cardtypes) contain resolution points, in the format of: \"(<b>→R#</b>).\" The players’ primary objective is to advance through the act deck until a (hopefully favorable) resolution point is reached. Should the act deck invoke a resolution, the players have completed the scenario (they may even have \"won!\").\nThe agenda deck represents the objectives and progress of the malicious forces pitted against the investigators in the scenario. Some instructions in the agenda deck (as well as on other encounter cardtypes) also contain resolution points, in the format of: \"(<b>→R#</b>).\" Should the agenda deck invoke a (usually darker) resolution, the players have likely lost the scenario.\n- Instructions for resolving the designated resolution of a scenario can be found in the \"do not read until end of game\" section of the campaign guide following each scenario.\n-- Should the scenario end with no resolution being reached (for example, if all investigators have been eliminated or have resigned), instructions for resolving the scenario in the absence of a designated solution can also be found in the \"do not read until end of game\" section.\n- If playing in a campaign, players will generally proceed to the next scenario in the campaign regardless of the outcome of the scenario. Even if players \"lose\" a scenario, they still continue their campaign unless otherwise stated <i>(although with some negative consequences from their failure)</i>.\n- When playing a standalone scenario, if players reach a numbered resolution, they have won (or at least, survived) unless that resolution states otherwise. If the scenario ends and players have not yet been directed to a numbered resolution, they have lost.\n-- Certain scenarios may blur the lines between victory and defeat, use their numbered resolutions in unorthodox ways, or even lack a numbered resolution to achieve. In such instances, players are encouraged to use their discretion when determining if they feel they have won or lost.",
+        "references": ["Act Deck and Agenda Deck", "Standalone Mode"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "The Letter \"X\"",
+        "ruling": "The value of the letter X is defined by a card ability or a granted player choice. If X is not defined, its value is equal to 0.\n- For costs involving the letter X, the value of X is defined by card ability or player choice, after which the amount paid may be modified by effects without altering the value of X.\n- If a card or ability has X cost, where X is defined by a granted player choice, and an ability allows an investigator to play that card or activate that ability without paying that cost, X is considered to be 0.",
+        "references": ["Costs", "Ignore"],
+        "citation": "grimoire-1.0"
+    },
+    {
+        "type": "glossary",
+        "section": "You/Your",
+        "ruling": "An ability on a card in play referencing \"you\" or \"your\" refers to the investigator who controls, is engaged with, or is currently interacting with the card.\n- A <b>Revelation</b> ability that references \"you\" or \"your\" refers to the investigator who drew the card and is resolving the ability.\n- While resolving an ability initiated by the activate action, \"you\" or \"your\" refers to the investigator performing the action.",
+        "references": null,
         "citation": "grimoire-1.0"
     }
 ]
