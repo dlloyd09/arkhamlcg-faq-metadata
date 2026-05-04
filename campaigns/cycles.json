@@ -38,5 +38,10 @@
         "code": "eoe",
         "name": "Edge of the Earth",
         "scenarios": ["the_crash", "lost_in_the_night", "seeping_nightmares", "fatal_mirage", "to_the_forbidden_peaks", "city_of_the_elder_things", "the_great_seal", "stirring_in_the_deep"]
+    },
+    {
+        "code": "tsk",
+        "name": "The Scarlet Keys",
+        "scenarios": ["riddles_and_rain", "dead_heat", "sanguine_shadows", "dealings_in_the_dark", "dancing_mad", "on_thin_ice", "dogs_of_war", "shades_of_suffering", "without_a_trace", "congress_of_the_keys"]
     }
 ]

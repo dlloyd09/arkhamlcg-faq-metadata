@@ -432,5 +432,75 @@
         "campaign_code": "eoe",
         "encounter_codes": ["stirring_in_the_deep", "the_heart_of_madness", "agents_of_the_unknown", "miasma", "nameless_horrors", "penguins", "tekelili", "ancient_evils", "chilling_cold"],
         "extra_cards": ["01164", "01165"]
+    },
+    {
+        "name": "Riddles and Rain",
+        "scenario_code": "riddles_and_rain",
+        "campaign_code": "tsk",
+        "encounter_codes": ["riddles_and_rain", "crimson_conspiracy", "dark_veiling", "outsiders", "shadow_of_a_doubt", "strange_happenings", "chilling_cold", "locked_doors"],
+        "extra_cards": ["01135", "01136"]
+    },
+    {
+        "name": "Dead Heat",
+        "scenario_code": "dead_heat",
+        "campaign_code": "tsk",
+        "encounter_codes": ["dead_heat", "scarlet_sorcery", "spreading_corruption", "ghouls", "striking_fear"],
+        "extra_cards": null
+    },
+    {
+        "name": "Sanguine Shadows",
+        "scenario_code": "sanguine_shadows",
+        "campaign_code": "tsk",
+        "encounter_codes": ["sanguine_shadows", "dark_veiling", "mysteries_abound", "shadow_of_a_doubt", "strange_happenings", "locked_doors", "nightgaunts"],
+        "extra_cards": null
+    },
+    {
+        "name": "Dealings in the Dark",
+        "scenario_code": "dealings_in_the_dark",
+        "campaign_code": "tsk",
+        "encounter_codes": ["dealings_in_the_dark", "agents_of_yuggoth", "dark_veiling", "ancient_evils", "pentagram", "locked_doors"],
+        "extra_cards": ["01135", "01136"]
+    },
+    {
+        "name": "Dancing Mad",
+        "scenario_code": "dancing_mad",
+        "campaign_code": "tsk",
+        "encounter_codes": ["dancing_mad", "agents_of_the_outside", "cleanup_crew", "crimson_conspiracy", "secret_war", "shadow_of_a_doubt"],
+        "extra_cards": null
+    },
+    {
+        "name": "On Thin Ice",
+        "scenario_code": "on_thin_ice",
+        "campaign_code": "tsk",
+        "encounter_codes": ["on_thin_ice", "agents_of_the_outside", "agents_of_yuggoth", "crimson_conspiracy", "dark_veiling", "outsiders", "spatial_anomaly", "chilling_cold"],
+        "extra_cards": null
+    },
+    {
+        "name": "Dogs of War",
+        "scenario_code": "dogs_of_war",
+        "campaign_code": "tsk",
+        "encounter_codes": ["dogs_of_war", "scarlet_sorcery", "spatial_anomaly", "spreading_corruption", "pentagram", "cleanup_crew"],
+        "extra_cards": null
+    },
+    {
+        "name": "Shades of Suffering",
+        "scenario_code": "shades_of_suffering",
+        "campaign_code": "tsk",
+        "encounter_codes": ["shades_of_suffering", "dark_veiling", "mysteries_abound", "scarlet_sorcery", "spreading_corruption", "striking_fear"],
+        "extra_cards": null
+    },
+    {
+        "name": "Without a Trace",
+        "scenario_code": "without_a_trace",
+        "campaign_code": "tsk",
+        "encounter_codes": ["without_a_trace", "agents_of_the_outside", "beyond_the_beyond", "outsiders", "secret_war", "spreading_corruption"],
+        "extra_cards": null
+    },
+    {
+        "name": "Congress of the Keys",
+        "scenario_code": "congress_of_the_keys",
+        "campaign_code": "tsk",
+        "encounter_codes": ["congress_of_the_keys", "red_coterie", "scarlet_sorcery", "spatial_anomaly", "spreading_corruption", "locked_doors", "agents_of_the_outside", "beyond_the_beyond", "outsiders", "secret_war", "ancient_evils"],
+        "extra_cards": ["01164", "01165"]
     }
 ]
