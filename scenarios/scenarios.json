@@ -1,0 +1,68 @@
+[
+    {
+        "name": "The Gathering",
+        "scenario_code": "torch",
+        "campaign_code": "core",
+        "encounter_codes": ["torch", "rats", "ghouls", "striking_fear", "ancient_evils", "chilling_cold"]
+    },
+    {
+        "name": "The Midnight Masks",
+        "scenario_code": "arkham",
+        "campaign_code": "core",
+        "encounter_codes": ["arkham", "chilling_cold", "nightgaunts", "pentagram", "locked_doors", "cultists"]
+    },
+    {
+        "name": "The Devourer Below",
+        "scenario_code": "tentacles",
+        "campaign_code": "core",
+        "encounter_codes": ["tentacles", "ancient_evils", "striking_fear", "ghouls", "pentagram", "agents_of_yog", "agents_of_shub", "agents_of_cthulhu", "agents_of_hastur"]
+    },
+    {
+        "name": "Extracurricular Activity",
+        "scenario_code": "extracurricular_activity",
+        "campaign_code": "dwl",
+        "encounter_codes": ["extracurricular_activity", "sorcery", "the_beyond", "bishops_thralls", "whippoorwills", "ancient_evils", "locked_doors", "agents_of_yog"]
+    },
+    {
+        "name": "The House Always Wins",
+        "scenario_code": "the_house_always_wins",
+        "campaign_code": "dwl",
+        "encounter_codes": ["the_house_always_wins", "bad_luck", "naomis_crew", "rats", "hideous_abominations", "striking_fear"]
+    },
+    {
+        "name": "The Miskatonic Museum",
+        "scenario_code": "the_miskatonic_museum",
+        "campaign_code": "dwl",
+        "encounter_codes": ["the_miskatonic_museum", "bad_luck", "sorcery", "the_beyond", "chilling_cold", "locked_doors"]
+    },
+    {
+        "name": "The Essex County Express",
+        "scenario_code": "essex_county_express",
+        "campaign_code": "dwl",
+        "encounter_codes": ["essex_county_express", "the_beyond", "striking_fear", "ancient_evils", "pentagram"]
+    },
+    {
+        "name": "Blood on the Altar",
+        "scenario_code": "blood_on_the_altar",
+        "campaign_code": "dwl",
+        "encounter_codes": ["blood_on_the_altar", "dunwich", "whippoorwills", "nightgaunts", "ancient_evils", "naomis_crew"]
+    },
+    {
+        "name": "Undimensioned and Unseen",
+        "scenario_code": "undimensioned_and_unseen",
+        "campaign_code": "dwl",
+        "encounter_codes": ["undimensioned_and_unseen", "whippoorwills", "beast_thralls", "dunwich", "striking_fear"]
+    },
+    {
+        "name": "Where Doom Awaits",
+        "scenario_code": "where_doom_awaits",
+        "campaign_code": "dwl",
+        "encounter_codes": ["where_doom_awaits", "beast_thralls", "sorcery", "bishops_thralls", "striking_fear", "ancient_evils", "chilling_cold", "hideous_abominations"]
+    },
+    {
+        "name": "Lost in Time and Space",
+        "scenario_code": "lost_in_time_and_space",
+        "campaign_code": "dwl",
+        "encounter_codes": ["lost_in_time_and_space", "sorcery", "the_beyond", "hideous_abominations", "agents_of_yog"]
+    }
+]
