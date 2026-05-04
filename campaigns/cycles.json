@@ -8,5 +8,15 @@
         "code": "dwl",
         "name": "The Dunwich Legacy",
         "scenarios": ["extracurricular_activity", "the_house_always_wins", "the_miskatonic_museum", "essex_county_express", "blood_on_the_altar", "undimensioned_and_unseen", "where_doom_awaits", "lost_in_time_and_space"]
+    },
+    {
+        "code": "ptc",
+        "name": "The Path to Carcosa",
+        "scenarios": ["curtain_call", "the_last_king", "echoes_of_the_past", "the_unspeakable_oath", "a_phantom_of_truth", "the_pallid_mask", "black_stars_rise", "dim_carcosa"]
+    },
+    {
+        "code": "tfa",
+        "name": "The Forgotten Age",
+        "scenarios": ["wilds", "eztli", "threads_of_fate", "the_boundary_beyond", "pillars_of_judgment", "knyan", "the_city_of_archives", "the_depths_of_yoth", "shattered_aeons", "turn_back_time"]
     }
 ]

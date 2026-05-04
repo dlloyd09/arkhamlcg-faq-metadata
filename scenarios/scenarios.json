@@ -3,66 +3,202 @@
         "name": "The Gathering",
         "scenario_code": "torch",
         "campaign_code": "core",
-        "encounter_codes": ["torch", "rats", "ghouls", "striking_fear", "ancient_evils", "chilling_cold"]
+        "encounter_codes": ["torch", "rats", "ghouls", "striking_fear", "ancient_evils", "chilling_cold"],
+        "extra_cards": null
     },
     {
         "name": "The Midnight Masks",
         "scenario_code": "arkham",
         "campaign_code": "core",
-        "encounter_codes": ["arkham", "chilling_cold", "nightgaunts", "pentagram", "locked_doors", "cultists"]
+        "encounter_codes": ["arkham", "chilling_cold", "nightgaunts", "pentagram", "locked_doors", "cultists"],
+        "extra_cards": null
     },
     {
         "name": "The Devourer Below",
         "scenario_code": "tentacles",
         "campaign_code": "core",
-        "encounter_codes": ["tentacles", "ancient_evils", "striking_fear", "ghouls", "pentagram", "agents_of_yog", "agents_of_shub", "agents_of_cthulhu", "agents_of_hastur"]
+        "encounter_codes": ["tentacles", "ancient_evils", "striking_fear", "ghouls", "pentagram", "agents_of_yog", "agents_of_shub", "agents_of_cthulhu", "agents_of_hastur"],
+        "extra_cards": null
     },
     {
         "name": "Extracurricular Activity",
         "scenario_code": "extracurricular_activity",
         "campaign_code": "dwl",
-        "encounter_codes": ["extracurricular_activity", "sorcery", "the_beyond", "bishops_thralls", "whippoorwills", "ancient_evils", "locked_doors", "agents_of_yog"]
+        "encounter_codes": ["extracurricular_activity", "sorcery", "the_beyond", "bishops_thralls", "whippoorwills", "ancient_evils", "locked_doors", "agents_of_yog"],
+        "extra_cards": null
     },
     {
         "name": "The House Always Wins",
         "scenario_code": "the_house_always_wins",
         "campaign_code": "dwl",
-        "encounter_codes": ["the_house_always_wins", "bad_luck", "naomis_crew", "rats", "hideous_abominations", "striking_fear"]
+        "encounter_codes": ["the_house_always_wins", "bad_luck", "naomis_crew", "rats", "hideous_abominations", "striking_fear"],
+        "extra_cards": null
     },
     {
         "name": "The Miskatonic Museum",
         "scenario_code": "the_miskatonic_museum",
         "campaign_code": "dwl",
-        "encounter_codes": ["the_miskatonic_museum", "bad_luck", "sorcery", "the_beyond", "chilling_cold", "locked_doors"]
+        "encounter_codes": ["the_miskatonic_museum", "bad_luck", "sorcery", "the_beyond", "chilling_cold", "locked_doors"],
+        "extra_cards": null
     },
     {
         "name": "The Essex County Express",
         "scenario_code": "essex_county_express",
         "campaign_code": "dwl",
-        "encounter_codes": ["essex_county_express", "the_beyond", "striking_fear", "ancient_evils", "pentagram"]
+        "encounter_codes": ["essex_county_express", "the_beyond", "striking_fear", "ancient_evils", "pentagram"],
+        "extra_cards": null
     },
     {
         "name": "Blood on the Altar",
         "scenario_code": "blood_on_the_altar",
         "campaign_code": "dwl",
-        "encounter_codes": ["blood_on_the_altar", "dunwich", "whippoorwills", "nightgaunts", "ancient_evils", "naomis_crew"]
+        "encounter_codes": ["blood_on_the_altar", "dunwich", "whippoorwills", "nightgaunts", "ancient_evils", "naomis_crew"],
+        "extra_cards": null
     },
     {
         "name": "Undimensioned and Unseen",
         "scenario_code": "undimensioned_and_unseen",
         "campaign_code": "dwl",
-        "encounter_codes": ["undimensioned_and_unseen", "whippoorwills", "beast_thralls", "dunwich", "striking_fear"]
+        "encounter_codes": ["undimensioned_and_unseen", "whippoorwills", "beast_thralls", "dunwich", "striking_fear"],
+        "extra_cards": null
     },
     {
         "name": "Where Doom Awaits",
         "scenario_code": "where_doom_awaits",
         "campaign_code": "dwl",
-        "encounter_codes": ["where_doom_awaits", "beast_thralls", "sorcery", "bishops_thralls", "striking_fear", "ancient_evils", "chilling_cold", "hideous_abominations"]
+        "encounter_codes": ["where_doom_awaits", "beast_thralls", "sorcery", "bishops_thralls", "striking_fear", "ancient_evils", "chilling_cold", "hideous_abominations"],"extra_cards": null
     },
     {
         "name": "Lost in Time and Space",
         "scenario_code": "lost_in_time_and_space",
         "campaign_code": "dwl",
-        "encounter_codes": ["lost_in_time_and_space", "sorcery", "the_beyond", "hideous_abominations", "agents_of_yog"]
+        "encounter_codes": ["lost_in_time_and_space", "sorcery", "the_beyond", "hideous_abominations", "agents_of_yog"],
+        "extra_cards": null
+    },
+    {
+        "name": "Curtain Call",
+        "scenario_code": "curtain_call",
+        "campaign_code": "ptc",
+        "encounter_codes": ["curtain_call", "evil_portents", "delusions", "hauntings", "cult_of_the_yellow_sign", "striking_fear", "rats"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Last King",
+        "scenario_code": "the_last_king",
+        "campaign_code": "ptc",
+        "encounter_codes": ["the_last_king", "hasturs_gift", "decay", "stranger", "ancient_evils"],
+        "extra_cards": null
+    },
+    {
+        "name": "Echoes of the Past",
+        "scenario_code": "echoes_of_the_past",
+        "campaign_code": "ptc",
+        "encounter_codes": ["echoes_of_the_past","cult_of_the_yellow_sign", "delusions", "locked_doors", "pentagram"],
+        "extra_cards": ["01135", "01136", "03068b"]
+    },
+    {
+        "name": "The Unspeakable Oath",
+        "scenario_code": "the_unspeakable_oath",
+        "campaign_code": "ptc",
+        "encounter_codes": ["the_unspeakable_oath", "hasturs_gift", "inhabitants_of_carcosa", "delusions", "decay", "agents_of_hastur"],
+        "extra_cards": ["03065b"]
+    },
+    {
+        "name": "A Phantom of Truth",
+        "scenario_code": "a_phantom_of_truth",
+        "campaign_code": "ptc",
+        "encounter_codes": ["a_phantom_of_truth", "evil_portents", "byakhee", "stranger", "agents_of_hastur"],
+        "extra_cards": ["01135", "01136", "03066b"]
+    },
+    {
+        "name": "The Pallid Mask",
+        "scenario_code": "the_pallid_mask",
+        "campaign_code": "ptc",
+        "encounter_codes": ["the_pallid_mask", "ghouls", "hauntings", "chilling_cold"],
+        "extra_cards": ["03067b"]
+    },
+    {
+        "name": "Black Stars Rise",
+        "scenario_code": "black_stars_rise",
+        "campaign_code": "ptc",
+        "encounter_codes": ["black_stars_rise", "evil_portents", "byakhee", "inhabitants_of_carcosa", "stranger", "pentagram", "ancient_evils", "flood", "vortex"],
+        "extra_cards": ["03069b"]
+    },
+    {
+        "name": "Dim Carcosa",
+        "scenario_code": "dim_carcosa",
+        "campaign_code": "ptc",
+        "encounter_codes": ["dim_carcosa", "delusions", "cult_of_the_yellow_sign", "inhabitants_of_carcosa", "agents_of_hastur", "striking_fear"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Untamed Wilds",
+        "scenario_code": "wilds",
+        "campaign_code": "tfa",
+        "encounter_codes": ["wilds", "rainforest", "serpents", "expedition", "guardians_of_time", "agents_of_yig", "poison", "ancient_evils"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Doom of Eztli",
+        "scenario_code": "eztli",
+        "campaign_code": "tfa",
+        "encounter_codes": ["eztli", "agents_of_yig", "venom", "flux", "traps", "ruins", "poison", "chilling_cold"],
+        "extra_cards": null
+    },
+    {
+        "name": "Threads of Fate",
+        "scenario_code": "threads_of_fate",
+        "campaign_code": "tfa",
+        "encounter_codes": ["threads_of_fate", "pnakotic_brotherhood", "locked_doors", "nightgaunts", "pentagram"],
+        "extra_cards": ["01125", "01129", "01130", "01132", "01134", "01135", "01136"]
+    },
+    {
+        "name": "The Boundary Beyond",
+        "scenario_code": "the_boundary_beyond",
+        "campaign_code": "tfa",
+        "encounter_codes": ["the_boundary_beyond", "flux", "poison", "pnakotic_brotherhood", "pentagram", "venom", "guardians_of_time"],
+        "extra_cards": null
+    },
+    {
+        "name": "Heart of the Elders, Part I",
+        "scenario_code": "pillars_of_judgment",
+        "campaign_code": "tfa",
+        "encounter_codes": ["pillars_of_judgment", "heart_of_the_elders", "rainforest", "serpents", "expedition", "poison"],
+        "extra_cards": null
+    },
+    {
+        "name": "Heart of the Elders, Part II",
+        "scenario_code": "knyan",
+        "campaign_code": "tfa",
+        "encounter_codes": ["knyan", "heart_of_the_elders", "agents_of_yig", "venom", "ruins", "traps", "poison"],
+        "extra_cards": null
+    },
+    {
+        "name": "The City of Archives",
+        "scenario_code": "the_city_of_archives",
+        "campaign_code": "tfa",
+        "encounter_codes": ["the_city_of_archives", "agents_of_yog", "locked_doors", "chilling_cold", "striking_fear"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Depths of Yoth",
+        "scenario_code": "the_depths_of_yoth",
+        "campaign_code": "tfa",
+        "encounter_codes": ["the_depths_of_yoth", "agents_of_yig", "venom", "expedition", "ruins", "poison"],
+        "extra_cards": null
+    },
+    {
+        "name": "Shattered Aeons",
+        "scenario_code": "shattered_aeons",
+        "campaign_code": "tfa",
+        "encounter_codes": ["shattered_aeons", "pnakotic_brotherhood", "flux", "ancient_evils", "pentagram", "agents_of_yig"],
+        "extra_cards": null
+    },
+    {
+        "name": "Turn Back Time",
+        "scenario_code": "turn_back_time",
+        "campaign_code": "tfa",
+        "encounter_codes": ["turn_back_time", "eztli", "agents_of_yig", "venom", "flux", "traps", "ruins", "poison", "chilling_cold"],
+        "extra_cards": null
     }
 ]
