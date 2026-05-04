@@ -200,5 +200,125 @@
         "campaign_code": "tfa",
         "encounter_codes": ["turn_back_time", "eztli", "agents_of_yig", "venom", "flux", "traps", "ruins", "poison", "chilling_cold"],
         "extra_cards": null
+    },
+    {
+        "name": "Disappearance at the Twilight Estate",
+        "scenario_code": "disappearance_at_the_twilight_estate",
+        "campaign_code": "tcu",
+        "encounter_codes": ["disappearance_at_the_twilight_estate", "at_deaths_doorstep", "inexorable_fate", "realm_of_death", "spectral_predators", "trapped_spirits","the_watcher", "chilling_cold"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Witching Hour",
+        "scenario_code": "the_witching_hour",
+        "campaign_code": "tcu",
+        "encounter_codes": ["the_witching_hour", "anettes_coven", "city_of_sins", "witchcraft", "ancient_evils", "striking_fear", "agents_of_azathoth", "agents_of_shub"],
+        "extra_cards": ["01150", "01151", "01152", "01153", "01154", "01155"]
+    },
+    {
+        "name": "At Death's Doorstep",
+        "scenario_code": "at_deaths_doorstep",
+        "campaign_code": "tcu",
+        "encounter_codes": ["at_deaths_doorstep", "silver_twilight_lodge", "spectral_predators","trapped_spirits", "inexorable_fate", "chilling_cold", "realm_of_death", "the_watcher"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Secret Name",
+        "scenario_code": "the_secret_name",
+        "campaign_code": "tcu",
+        "encounter_codes": ["the_secret_name", "city_of_sins", "inexorable_fate", "realm_of_death", "witchcraft", "rats"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Wages of Sin",
+        "scenario_code": "the_wages_of_sin",
+        "campaign_code": "tcu",
+        "encounter_codes": ["the_wages_of_sin", "anettes_coven", "city_of_sins", "inexorable_fate", "realm_of_death", "trapped_spirits", "witchcraft", "the_watcher"],
+        "extra_cards": null
+    },
+    {
+        "name": "For the Greater Good",
+        "scenario_code": "for_the_greater_good",
+        "campaign_code": "tcu",
+        "encounter_codes": ["for_the_greater_good", "city_of_sins", "silver_twilight_lodge", "ancient_evils", "pentagram", "locked_doors"],
+        "extra_cards": null
+
+    },
+    {
+        "name":"Union and Disillusion",
+        "scenario_code": "union_and_disillusion",
+        "campaign_code": "tcu",
+        "encounter_codes": ["union_and_disillusion", "inexorable_fate", "realm_of_death", "spectral_predators", "ancient_evils", "chilling_cold", "anettes_coven", "silver_twilight_lodge", "the_watcher"],
+        "extra_cards": ["05057", "05085"]
+    },
+    {
+        "name": "In the Clutches of Chaos",
+        "scenario_code": "in_the_clutches_of_chaos",
+        "campaign_code": "tcu",
+        "encounter_codes": ["in_the_clutches_of_chaos", "agents_of_azathoth", "nightgaunts", "music_of_the_damned", "anettes_coven", "city_of_sins", "withcraft", "secrets_of_the_universe", "silver_twilight_lodge", "striking_fear"],
+        "extra_cards": ["01135", "01136"]
+    },
+    {
+        "name": "Before the Black Throne",
+        "scenario_code": "before_the_black_throne",
+        "campaign_code": "tcu",
+        "encounter_codes": ["before_the_black_throne", "agents_of_azathoth", "inexorable_fate", "ancient_evils", "pentagram"],
+        "extra_cards": null
+    },
+    {
+        "name": "Beyond the Gates of Sleep",
+        "scenario_code": "beyond_the_gates_of_sleep",
+        "campaign_code": "tde",
+        "encounter_codes": ["beyond_the_gates_of_sleep", "agents_of_nyarlathotep", "zoogs", "dreamers_curse", "dreamlands", "chilling_cold"],
+        "extra_cards": null
+    },
+    {
+        "name": "Waking Nightmare", 
+        "scenario_code": "waking_nightmare",
+        "campaign_code": "tde",
+        "encounter_codes": ["waking_nightmare", "merging_realities", "whispers_of_hypnos", "locked_doors", "striking_fear", "agents_of_atlach_nacha","spiders"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Search for Kadath",
+        "scenario_code": "the_search_for_kadath",
+        "campaign_code": "tde",
+        "encounter_codes": ["the_search_for_kadath", "agents_of_nyarlathotep", "corsairs", "dreamlands", "whispers_of_hypnos", "zoogs"],
+        "extra_cards": null
+    },
+    {
+        "name": "A Thousand Shapes of Horror",
+        "scenario_code": "a_thousand_shapes_of_horror",
+        "campaign_code": "tde",
+        "encounter_codes": ["a_thousand_shapes_of_horror", "creatures_of_the_underworld", "merging_realities","chilling_cold", "ghouls", "locked_doors", "rats"],
+        "extra_cards": null
+    },
+    {
+        "name": "Dark Side of the Moon",
+        "scenario_code": "dark_side_of_the_moon",
+        "campaign_code": "tde",
+        "encounter_codes": ["dark_side_of_the_moon", "corsairs", "dreamers_curse", "ancient_evils"],
+        "extra_cards": null
+    },
+    {
+        "name": "Point of No Return",
+        "scenario_code": "point_of_no_return",
+        "campaign_code": "tde",
+        "encounter_codes": ["point_of_no_return", "creatures_of_the_underworld", "whispers_of_hypnos", "ancient_evils", "ghouls", "striking_fear", "descent_into_the_pitch", "terror_of_the_vale", "agents_of_atlach_nacha", "nightgaunts"],
+        "extra_cards": ["06053"]
+    },
+    {
+        "name": "Where the Gods Dwell",
+        "scenario_code": "where_the_gods_dwell",
+        "campaign_code": "tde",
+        "encounter_codes": ["where_the_gods_dwell", "agents_of_nyarlathotep", "dreamers_curse", "whispers_of_hypnos", "pentagram"],
+        "extra_cards": null
+    },
+    {
+        "name": "Weaver of the Cosmos",
+        "scenario_code": "weaver_of_the_cosmos",
+        "campaign_code": "tde",
+        "encounter_codes": ["weaver_of_the_cosmos", "agents_of_atlach_nacha", "spiders", "ancient_evils", "chilling_cold"],
+        "extra_cards": null
     }
 ]

@@ -18,5 +18,15 @@
         "code": "tfa",
         "name": "The Forgotten Age",
         "scenarios": ["wilds", "eztli", "threads_of_fate", "the_boundary_beyond", "pillars_of_judgment", "knyan", "the_city_of_archives", "the_depths_of_yoth", "shattered_aeons", "turn_back_time"]
+    },
+    {
+        "code": "tcu",
+        "name": "The Circle Undone",
+        "scenarios": ["disappearance_at_the_twilight_estate", "the_witching_hour", "at_deaths_doorstep", "the_secret_name", "the_wages_of_sin", "for_the_greater_good", "union_and_disillusion", "in_the_clutches_of_chaos", "before_the_black_throne"]
+    },
+    {
+        "code": "tde",
+        "name": "The Dream-Eaters",
+        "scenarios": ["beyond_the_gates_of_sleep", "waking_nightmare", "the_search_for_kadath", "a_thousand_shapes_of_horror", "dark_side_of_the_moon", "point_of_no_return", "where_the_gods_dwell", "weaver_of_the_cosmos"]
     }
 ]
