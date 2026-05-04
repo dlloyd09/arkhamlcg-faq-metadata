@@ -320,5 +320,117 @@
         "campaign_code": "tde",
         "encounter_codes": ["weaver_of_the_cosmos", "agents_of_atlach_nacha", "spiders", "ancient_evils", "chilling_cold"],
         "extra_cards": null
+    },
+    {
+        "name": "The Pit of Despair",
+        "scenario_code": "the_pit_of_despair",
+        "campaign_code": "tic",
+        "encounter_codes": ["the_pit_of_despair", "creatures_of_the_deep", "flooded_caverns", "rising_tide", "shattered_memories", "agents_of_cthulhu", "rats"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Vanishing of Elina Harper",
+        "scenario_code": "the_vanishing_of_elina_harper",
+        "campaign_code": "tic",
+        "encounter_codes": ["the_vanishing_of_elina_harper", "agents_of_dagon", "fog_over_innsmouth", "the_locals", "chilling_cold", "locked_doors", "nightgaunts"],
+        "extra_cards": ["01135", "01136"]
+    },
+    {
+        "name": "In Too Deep",
+        "scenario_code": "in_too_deep",
+        "campaign_code": "tic",
+        "encounter_codes": ["in_too_deep", "creatures_of_the_deep", "rising_tide", "syzygy", "the_locals", "agents_of_cthulhu"],
+        "extra_cards": ["07062b", "07076", "07077", "07078", "07079", "07080", "07081"]
+    },
+    {
+        "name": "Devil Reef",
+        "scenario_code": "devil_reef",
+        "campaign_code": "tic",
+        "encounter_codes": ["devil_reef", "agents_of_hydra", "creatures_of_the_deep", "flooded_caverns", "malfunction", "rising_tide"],
+        "extra_cards": null
+    },
+    {
+        "name": "Horror in High Gear",
+        "scenario_code": "horror_in_high_gear",
+        "campaign_code": "tic",
+        "encounter_codes": ["horror_in_high_gear", "fog_over_innsmouth", "malfunction", "shattered_memories", "ancient_evils"],
+        "extra_cards": null
+    },
+    {
+        "name": "A Light in the Fog",
+        "scenario_code": "a_light_in_the_fog",
+        "campaign_code": "tic",
+        "encounter_codes": ["a_light_in_the_fog", "creatures_of_the_deep", "flooded_caverns", "rising_tide", "syzygy", "striking_fear"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Lair of Dagon",
+        "scenario_code": "the_lair_of_dagon",
+        "campaign_code": "tic",
+        "encounter_codes": ["the_lair_of_dagon", "agents_of_dagon", "flooded_caverns", "syzygy", "pentagram", "locked_doors"],
+        "extra_cards": ["07076", "07077", "07078", "07079", "07080", "07081"]
+    },
+    {
+        "name": "Into the Maelstrom",
+        "scenario_code": "into_the_maelstrom",
+        "campaign_code": "tic",
+        "encounter_codes": ["into_the_maelstrom", "agents_of_hydra", "creatures_of_the_deep", "flooded_caverns", "shattered_memories", "syzygy", "ancient_evils"],
+        "extra_cards": null
+    },
+    {
+        "name": "Ice and Death, Part I",
+        "scenario_code": "the_crash",
+        "campaign_code": "eoe",
+        "encounter_codes": ["the_crash", "ice_and_death", "creatures_in_the_ice", "deadly_weather", "hazards_of_antarctica", "silence_and_mystery", "tekelili", "ancient_evils"],
+        "extra_cards": null
+    },
+    {
+        "name": "Ice and Death, Part II",
+        "scenario_code": "lost_in_the_night",
+        "campaign_code": "eoe",
+        "encounter_codes": ["lost_in_the_night", "ice_and_death", "left_behind", "deadly_weather", "hazards_of_antarctica", "silence_and_mystery", "tekelili", "ancient_evils"],
+        "extra_cards": null
+    },
+    {
+        "name": "Ice and Death, Part III",
+        "scenario_code": "seeping_nightmares",
+        "campaign_code": "eoe",
+        "encounter_codes": ["seeping_nightmares", "ice_and_death", "creatures_in_the_ice", "deadly_weather", "hazards_of_antarctica", "silence_and_mystery", "tekelili", "ancient_evils"],
+        "extra_cards": null
+    },
+    {
+        "name": "Fatal Mirage",
+        "scenario_code": "fatal_mirage",
+        "campaign_code": "eoe",
+        "encounter_codes": ["fatal_mirage", "agents_of_the_unknown", "left_behind", "miasma", "nameless_horrors", "silence_and_mystery", "tekelili", "chilling_cold"],
+        "extra_cards": null
+    },
+    {
+        "name": "To the Forbidden Peaks",
+        "scenario_code": "to_the_forbidden_peaks",
+        "campaign_code": "eoe",
+        "encounter_codes": ["to_the_forbidden_peaks", "deadly_weather", "elder_things", "hazards_of_antarctica", "nameless_horrors", "tekelili"],
+        "extra_cards": null
+    },
+    {
+        "name": "City of the Elder Things",
+        "scenario_code": "city_of_the_elder_things",
+        "campaign_code": "eoe",
+        "encounter_codes": ["city_of_the_elder_things", "elder_things", "miasma", "nameless_horrors", "penguins", "shoggoths", "silence_and_mystery", "tekelili", "locked_doors", "creatures_in_the_ice", "chilling_cold"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Heart of Madness, Part I",
+        "scenario_code": "the_great_seal",
+        "campaign_code": "eoe",
+        "encounter_codes": ["the_great_seal", "the_heart_of_madness", "miasma", "nameless_horrors", "penguins", "shoggoths", "tekelili", "ancient_evils", "locked_doors"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Heart of Madness, Part  II",
+        "scenario_code": "stirring_in_the_deep",
+        "campaign_code": "eoe",
+        "encounter_codes": ["stirring_in_the_deep", "the_heart_of_madness", "agents_of_the_unknown", "miasma", "nameless_horrors", "penguins", "tekelili", "ancient_evils", "chilling_cold"],
+        "extra_cards": ["01164", "01165"]
     }
 ]
