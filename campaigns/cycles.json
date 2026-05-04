@@ -33,5 +33,10 @@
         "code": "tic",
         "name": "The Innsmouth Conspiracy",
         "scenarios": ["the_pit_of_despair", "the_vanishing_of_elina_harper", "in_too_deep", "devil_reef", "horror_in_high_gear", "a_light_in_the_fog", "the_lair_of_dagon", "into_the_maelstrom"]
+    },
+    {
+        "code": "eoe",
+        "name": "Edge of the Earth",
+        "scenarios": ["the_crash", "lost_in_the_night", "seeping_nightmares", "fatal_mirage", "to_the_forbidden_peaks", "city_of_the_elder_things", "the_great_seal", "stirring_in_the_deep"]
     }
 ]
