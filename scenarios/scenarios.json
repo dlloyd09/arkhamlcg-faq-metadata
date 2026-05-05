@@ -10,14 +10,14 @@
         "name": "The Midnight Masks",
         "scenario_code": "the_midnight_masks",
         "campaign_code": "core",
-        "encounter_codes": ["the_midnight_masks", "chilling_cold", "nightgaunts", "pentagram", "locked_doors", "cultists"],
+        "encounter_codes": ["the_midnight_masks", "chilling_cold", "nightgaunts", "dark_cult", "locked_doors", "cult_of_umordhoth"],
         "extra_cards": null
     },
     {
         "name": "The Devourer Below",
         "scenario_code": "the_devourer_below",
         "campaign_code": "core",
-        "encounter_codes": ["the_devourer_below", "ancient_evils", "striking_fear", "ghouls", "pentagram", "agents_of_yog", "agents_of_shub", "agents_of_cthulhu", "agents_of_hastur"],
+        "encounter_codes": ["the_devourer_below", "ancient_evils", "striking_fear", "ghouls", "dark_cult", "agents_of_yog", "agents_of_shub", "agents_of_cthulhu", "agents_of_hastur"],
         "extra_cards": null
     },
     {
@@ -45,7 +45,7 @@
         "name": "The Essex County Express",
         "scenario_code": "the_essex_county_express",
         "campaign_code": "dwl",
-        "encounter_codes": ["the_essex_county_express", "the_beyond", "striking_fear", "ancient_evils", "pentagram"],
+        "encounter_codes": ["the_essex_county_express", "the_beyond", "striking_fear", "ancient_evils", "dark_cult"],
         "extra_cards": null
     },
     {
@@ -93,7 +93,7 @@
         "name": "Echoes of the Past",
         "scenario_code": "echoes_of_the_past",
         "campaign_code": "ptc",
-        "encounter_codes": ["echoes_of_the_past","cult_of_the_yellow_sign", "delusions", "locked_doors", "pentagram"],
+        "encounter_codes": ["echoes_of_the_past","cult_of_the_yellow_sign", "delusions", "locked_doors", "dark_cult"],
         "extra_cards": ["01135", "01136", "03068b"]
     },
     {
@@ -121,7 +121,7 @@
         "name": "Black Stars Rise",
         "scenario_code": "black_stars_rise",
         "campaign_code": "ptc",
-        "encounter_codes": ["black_stars_rise", "evil_portents", "byakhee", "inhabitants_of_carcosa", "the_stranger", "pentagram", "ancient_evils", "the_flood_below", "the_vortex_above"],
+        "encounter_codes": ["black_stars_rise", "evil_portents", "byakhee", "inhabitants_of_carcosa", "the_stranger", "dark_cult", "ancient_evils", "the_flood_below", "the_vortex_above"],
         "extra_cards": ["03069b"]
     },
     {
@@ -149,14 +149,14 @@
         "name": "Threads of Fate",
         "scenario_code": "threads_of_fate",
         "campaign_code": "tfa",
-        "encounter_codes": ["threads_of_fate", "pnakotic_brotherhood", "locked_doors", "nightgaunts", "pentagram"],
+        "encounter_codes": ["threads_of_fate", "pnakotic_brotherhood", "locked_doors", "nightgaunts", "dark_cult"],
         "extra_cards": ["01125", "01129", "01130", "01132", "01134", "01135", "01136"]
     },
     {
         "name": "The Boundary Beyond",
         "scenario_code": "the_boundary_beyond",
         "campaign_code": "tfa",
-        "encounter_codes": ["the_boundary_beyond", "temporal_flux", "poison", "pnakotic_brotherhood", "pentagram", "yigs_venom", "guardians_of_time"],
+        "encounter_codes": ["the_boundary_beyond", "temporal_flux", "poison", "pnakotic_brotherhood", "dark_cult", "yigs_venom", "guardians_of_time"],
         "extra_cards": null
     },
     {
@@ -191,7 +191,7 @@
         "name": "Shattered Aeons",
         "scenario_code": "shattered_aeons",
         "campaign_code": "tfa",
-        "encounter_codes": ["shattered_aeons", "pnakotic_brotherhood", "temporal_flux", "ancient_evils", "pentagram", "agents_of_yig"],
+        "encounter_codes": ["shattered_aeons", "pnakotic_brotherhood", "temporal_flux", "ancient_evils", "dark_cult", "agents_of_yig"],
         "extra_cards": null
     },
     {
@@ -240,7 +240,7 @@
         "name": "For the Greater Good",
         "scenario_code": "for_the_greater_good",
         "campaign_code": "tcu",
-        "encounter_codes": ["for_the_greater_good", "city_of_sins", "silver_twilight_lodge", "ancient_evils", "pentagram", "locked_doors"],
+        "encounter_codes": ["for_the_greater_good", "city_of_sins", "silver_twilight_lodge", "ancient_evils", "dark_cult", "locked_doors"],
         "extra_cards": null
 
     },
@@ -262,7 +262,7 @@
         "name": "Before the Black Throne",
         "scenario_code": "before_the_black_throne",
         "campaign_code": "tcu",
-        "encounter_codes": ["before_the_black_throne", "agents_of_azathoth", "inexorable_fate", "ancient_evils", "pentagram"],
+        "encounter_codes": ["before_the_black_throne", "agents_of_azathoth", "inexorable_fate", "ancient_evils", "dark_cult"],
         "extra_cards": null
     },
     {
@@ -311,7 +311,7 @@
         "name": "Where the Gods Dwell",
         "scenario_code": "where_the_gods_dwell",
         "campaign_code": "tde",
-        "encounter_codes": ["where_the_gods_dwell", "agents_of_nyarlathotep", "dreamers_curse", "whispers_of_hypnos", "pentagram"],
+        "encounter_codes": ["where_the_gods_dwell", "agents_of_nyarlathotep", "dreamers_curse", "whispers_of_hypnos", "dark_cult"],
         "extra_cards": null
     },
     {
@@ -367,7 +367,7 @@
         "name": "The Lair of Dagon",
         "scenario_code": "the_lair_of_dagon",
         "campaign_code": "tic",
-        "encounter_codes": ["the_lair_of_dagon", "agents_of_dagon", "flooded_caverns", "syzygy", "pentagram", "locked_doors"],
+        "encounter_codes": ["the_lair_of_dagon", "agents_of_dagon", "flooded_caverns", "syzygy", "dark_cult", "locked_doors"],
         "extra_cards": ["07076", "07077", "07078", "07079", "07080", "07081"]
     },
     {
@@ -458,7 +458,7 @@
         "name": "Dealings in the Dark",
         "scenario_code": "dealings_in_the_dark",
         "campaign_code": "tsk",
-        "encounter_codes": ["dealings_in_the_dark", "agents_of_yuggoth", "dark_veiling", "ancient_evils", "pentagram", "locked_doors"],
+        "encounter_codes": ["dealings_in_the_dark", "agents_of_yuggoth", "dark_veiling", "ancient_evils", "dark_cult", "locked_doors"],
         "extra_cards": ["01135", "01136"]
     },
     {
@@ -479,7 +479,7 @@
         "name": "Dogs of War",
         "scenario_code": "dogs_of_war",
         "campaign_code": "tsk",
-        "encounter_codes": ["dogs_of_war", "scarlet_sorcery", "spatial_anomaly", "spreading_corruption", "pentagram", "cleanup_crew"],
+        "encounter_codes": ["dogs_of_war", "scarlet_sorcery", "spatial_anomaly", "spreading_corruption", "dark_cult", "cleanup_crew"],
         "extra_cards": null
     },
     {
@@ -612,7 +612,7 @@
         "name": "The Apiary",
         "scenario_code": "the_apiary",
         "campaign_code": "tdc",
-        "encounter_codes": ["the_apiary", "cosmic_legacy", "elder_mist", "the_inescapable", "pilgrims", "pentagram", "striking_fear", "stowaways", "tdc_expedition"],
+        "encounter_codes": ["the_apiary", "cosmic_legacy", "elder_mist", "the_inescapable", "pilgrims", "dark_cult", "striking_fear", "stowaways", "tdc_expedition"],
         "extra_cards": ["11726"]
     },
     {
