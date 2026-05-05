@@ -11,6 +11,7 @@
         "scenario_code": "the_midnight_masks",
         "campaign_code": "core",
         "encounter_codes": ["the_midnight_masks", "chilling_cold", "nightgaunts", "dark_cult", "locked_doors", "cult_of_umordhoth"],
+        "encounter_codes": ["the_midnight_masks", "chilling_cold", "nightgaunts", "pentagram", "locked_doors", "cult_of_umordhoth"],
         "extra_cards": null
     },
     {
