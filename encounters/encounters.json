@@ -1,10 +1,10 @@
 [
     {
-        "code": "torch",
+        "code": "the_gathering",
         "name": "The Gathering"
     },
     {
-        "code": "arkham",
+        "code": "the_midnight_masks",
         "name": "The Midnight Masks"
     },
     {
@@ -12,7 +12,7 @@
         "name": "Cult of Umôrdhoth"
     },
     {
-        "code": "tentacles",
+        "code": "the_devourer_below",
         "name": "The Devourer Below"
     },
     {
@@ -132,7 +132,7 @@
         "name": "The Miskatonic Museum"
     },
     {
-        "code": "essex_county_express",
+        "code": "the_essex_county_express",
         "name": "The Essex County Express"
     },
     {
@@ -188,11 +188,11 @@
         "name": "Cult of the Yellow Sign"
     },
     {
-        "code": "decay",
+        "code": "decay_and_filth",
         "name": "Decay & Filth"
     },
     {
-        "code": "stranger",
+        "code": "the_stranger",
         "name": "The Stranger"
     },
     {
@@ -216,11 +216,11 @@
         "name": "Black Stars Rise"
     },
     {
-        "code": "flood",
+        "code": "the_flood_below",
         "name": "The Flood Below"
     },
     {
-        "code": "vortex",
+        "code": "the_vortex_above",
         "name": "The Vortex Above"
     },
     {
@@ -232,7 +232,7 @@
         "name": "Agents of Yig"
     },
     {
-        "code": "traps",
+        "code": "deadly_traps",
         "name": "Deadly Traps"
     },
     {
@@ -240,7 +240,7 @@
         "name": "Expedition"
     },
     {
-        "code": "ruins",
+        "code": "forgotten_ruins",
         "name": "Forgotten Ruins"
     },
     {
@@ -264,19 +264,19 @@
         "name": "Serpents"
     },
     {
-        "code": "flux",
+        "code": "temporal_flux",
         "name": "Temporal Flux"
     },
     {
-        "code": "eztli",
+        "code": "the_doom_of_eztli",
         "name": "The Doom of Eztli"
     },
     {
-        "code": "wilds",
+        "code": "the_untamed_wilds",
         "name": "The Untamed Wilds"
     },
     {
-        "code": "venom",
+        "code": "yigs_venom",
         "name": "Yig's Venom"
     },
     {

@@ -1,23 +1,23 @@
 [
     {
         "name": "The Gathering",
-        "scenario_code": "torch",
+        "scenario_code": "the_gathering",
         "campaign_code": "core",
-        "encounter_codes": ["torch", "rats", "ghouls", "striking_fear", "ancient_evils", "chilling_cold"],
+        "encounter_codes": ["the_gathering", "rats", "ghouls", "striking_fear", "ancient_evils", "chilling_cold"],
         "extra_cards": null
     },
     {
         "name": "The Midnight Masks",
-        "scenario_code": "arkham",
+        "scenario_code": "the_midnight_masks",
         "campaign_code": "core",
-        "encounter_codes": ["arkham", "chilling_cold", "nightgaunts", "pentagram", "locked_doors", "cultists"],
+        "encounter_codes": ["the_midnight_masks", "chilling_cold", "nightgaunts", "pentagram", "locked_doors", "cultists"],
         "extra_cards": null
     },
     {
         "name": "The Devourer Below",
-        "scenario_code": "tentacles",
+        "scenario_code": "the_devourer_below",
         "campaign_code": "core",
-        "encounter_codes": ["tentacles", "ancient_evils", "striking_fear", "ghouls", "pentagram", "agents_of_yog", "agents_of_shub", "agents_of_cthulhu", "agents_of_hastur"],
+        "encounter_codes": ["the_devourer_below", "ancient_evils", "striking_fear", "ghouls", "pentagram", "agents_of_yog", "agents_of_shub", "agents_of_cthulhu", "agents_of_hastur"],
         "extra_cards": null
     },
     {
@@ -43,9 +43,9 @@
     },
     {
         "name": "The Essex County Express",
-        "scenario_code": "essex_county_express",
+        "scenario_code": "the_essex_county_express",
         "campaign_code": "dwl",
-        "encounter_codes": ["essex_county_express", "the_beyond", "striking_fear", "ancient_evils", "pentagram"],
+        "encounter_codes": ["the_essex_county_express", "the_beyond", "striking_fear", "ancient_evils", "pentagram"],
         "extra_cards": null
     },
     {
@@ -86,7 +86,7 @@
         "name": "The Last King",
         "scenario_code": "the_last_king",
         "campaign_code": "ptc",
-        "encounter_codes": ["the_last_king", "hasturs_gift", "decay", "stranger", "ancient_evils"],
+        "encounter_codes": ["the_last_king", "hasturs_gift", "decay_and_filth", "the_stranger", "ancient_evils"],
         "extra_cards": null
     },
     {
@@ -100,14 +100,14 @@
         "name": "The Unspeakable Oath",
         "scenario_code": "the_unspeakable_oath",
         "campaign_code": "ptc",
-        "encounter_codes": ["the_unspeakable_oath", "hasturs_gift", "inhabitants_of_carcosa", "delusions", "decay", "agents_of_hastur"],
+        "encounter_codes": ["the_unspeakable_oath", "hasturs_gift", "inhabitants_of_carcosa", "delusions", "decay_and_filth", "agents_of_hastur"],
         "extra_cards": ["03065b"]
     },
     {
         "name": "A Phantom of Truth",
         "scenario_code": "a_phantom_of_truth",
         "campaign_code": "ptc",
-        "encounter_codes": ["a_phantom_of_truth", "evil_portents", "byakhee", "stranger", "agents_of_hastur"],
+        "encounter_codes": ["a_phantom_of_truth", "evil_portents", "byakhee", "the_stranger", "agents_of_hastur"],
         "extra_cards": ["01135", "01136", "03066b"]
     },
     {
@@ -121,7 +121,7 @@
         "name": "Black Stars Rise",
         "scenario_code": "black_stars_rise",
         "campaign_code": "ptc",
-        "encounter_codes": ["black_stars_rise", "evil_portents", "byakhee", "inhabitants_of_carcosa", "stranger", "pentagram", "ancient_evils", "flood", "vortex"],
+        "encounter_codes": ["black_stars_rise", "evil_portents", "byakhee", "inhabitants_of_carcosa", "the_stranger", "pentagram", "ancient_evils", "the_flood_below", "the_vortex_above"],
         "extra_cards": ["03069b"]
     },
     {
@@ -133,16 +133,16 @@
     },
     {
         "name": "The Untamed Wilds",
-        "scenario_code": "wilds",
+        "scenario_code": "the_untamed_wilds",
         "campaign_code": "tfa",
-        "encounter_codes": ["wilds", "rainforest", "serpents", "expedition", "guardians_of_time", "agents_of_yig", "poison", "ancient_evils"],
+        "encounter_codes": ["the_untamed_wilds", "rainforest", "serpents", "expedition", "guardians_of_time", "agents_of_yig", "poison", "ancient_evils"],
         "extra_cards": null
     },
     {
         "name": "The Doom of Eztli",
-        "scenario_code": "eztli",
+        "scenario_code": "the_doom_of_eztli",
         "campaign_code": "tfa",
-        "encounter_codes": ["eztli", "agents_of_yig", "venom", "flux", "traps", "ruins", "poison", "chilling_cold"],
+        "encounter_codes": ["the_doom_of_eztli", "agents_of_yig", "yigs_venom", "temporal_flux", "deadly_traps", "forgotten_ruins", "poison", "chilling_cold"],
         "extra_cards": null
     },
     {
@@ -156,7 +156,7 @@
         "name": "The Boundary Beyond",
         "scenario_code": "the_boundary_beyond",
         "campaign_code": "tfa",
-        "encounter_codes": ["the_boundary_beyond", "flux", "poison", "pnakotic_brotherhood", "pentagram", "venom", "guardians_of_time"],
+        "encounter_codes": ["the_boundary_beyond", "temporal_flux", "poison", "pnakotic_brotherhood", "pentagram", "yigs_venom", "guardians_of_time"],
         "extra_cards": null
     },
     {
@@ -170,7 +170,7 @@
         "name": "Heart of the Elders, Part II",
         "scenario_code": "knyan",
         "campaign_code": "tfa",
-        "encounter_codes": ["knyan", "heart_of_the_elders", "agents_of_yig", "venom", "ruins", "traps", "poison"],
+        "encounter_codes": ["knyan", "heart_of_the_elders", "agents_of_yig", "yigs_venom", "forgotten_ruins", "deadly_traps", "poison"],
         "extra_cards": null
     },
     {
@@ -184,21 +184,21 @@
         "name": "The Depths of Yoth",
         "scenario_code": "the_depths_of_yoth",
         "campaign_code": "tfa",
-        "encounter_codes": ["the_depths_of_yoth", "agents_of_yig", "venom", "expedition", "ruins", "poison"],
+        "encounter_codes": ["the_depths_of_yoth", "agents_of_yig", "yigs_venom", "expedition", "forgotten_ruins", "poison"],
         "extra_cards": null
     },
     {
         "name": "Shattered Aeons",
         "scenario_code": "shattered_aeons",
         "campaign_code": "tfa",
-        "encounter_codes": ["shattered_aeons", "pnakotic_brotherhood", "flux", "ancient_evils", "pentagram", "agents_of_yig"],
+        "encounter_codes": ["shattered_aeons", "pnakotic_brotherhood", "temporal_flux", "ancient_evils", "pentagram", "agents_of_yig"],
         "extra_cards": null
     },
     {
         "name": "Turn Back Time",
         "scenario_code": "turn_back_time",
         "campaign_code": "tfa",
-        "encounter_codes": ["turn_back_time", "eztli", "agents_of_yig", "venom", "flux", "traps", "ruins", "poison", "chilling_cold"],
+        "encounter_codes": ["turn_back_time", "the_doom_of_eztli", "agents_of_yig", "yigs_venom", "temporal_flux", "deadly_traps", "forgotten_ruins", "poison", "chilling_cold"],
         "extra_cards": null
     },
     {
