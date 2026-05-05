@@ -502,5 +502,180 @@
         "campaign_code": "tsk",
         "encounter_codes": ["congress_of_the_keys", "red_coterie", "scarlet_sorcery", "spatial_anomaly", "spreading_corruption", "locked_doors", "agents_of_the_outside", "beyond_the_beyond", "outsiders", "secret_war", "ancient_evils"],
         "extra_cards": ["01164", "01165"]
+    },
+    {
+        "name": "Prelude: Welcome to Hemlock Vale!",
+        "scenario_code": "prelude_1",
+        "campaign_code": "fhv",
+        "encounter_codes": ["the_first_day", "day_of_rest", "residents", "the_vale"],
+        "extra_cards": null
+    },
+    {
+        "name": "Written in Rock",
+        "scenario_code": "written_in_rock",
+        "campaign_code": "fhv",
+        "encounter_codes": ["written_in_rock", "horrors_in_the_rock", "refractions", "chilling_cold", "ghouls", "the_first_day", "the_second_day", "the_final_day", "residents"],
+        "extra_cards": null
+    },
+    {
+        "name": "Hemlock House",
+        "scenario_code": "hemlock_house",
+        "campaign_code": "fhv",
+        "encounter_codes": ["hemlock_house", "agents_of_the_colour", "blight", "fire", "transfiguration", "locked_doors", "rats", "the_first_day", "the_second_day", "the_final_day", "residents"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Silent Heath",
+        "scenario_code": "the_silent_heath",
+        "campaign_code": "fhv",
+        "encounter_codes": ["the_silent_heath", "agents_of_the_colour", "blight", "horrors_in_the_rock", "refractions", "transfiguration", "striking_fear", "the_first_day", "the_second_day", "the_final_day", "residents"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Lost Sister",
+        "scenario_code": "the_lost_sister",
+        "campaign_code": "fhv",
+        "encounter_codes": ["the_lost_sister", "blight", "horrors_in_the_rock", "mutations", "myconids", "the_first_day", "the_second_day", "the_final_day", "residents"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Thing in the Depths",
+        "scenario_code": "the_thing_in_the_depths",
+        "campaign_code": "fhv",
+        "encounter_codes": ["the_thing_in_the_depths", "blight", "the_forest", "mutations", "the_first_day", "the_second_day", "the_final_day", "residents"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Twisted Hollow",
+        "scenario_code": "the_twisted_hollow",
+        "campaign_code": "fhv",
+        "encounter_codes": ["the_twisted_hollow", "the_first_day", "the_forest", "myconids", "residents"],
+        "extra_cards": null
+    },
+    {
+        "name": "Prelude: Dawn of the Second Day",
+        "scenario_code": "prelude_2",
+        "campaign_code": "fhv",
+        "encounter_codes": ["the_second_day", "day_of_rain", "residents", "the_vale"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Longest Night",
+        "scenario_code": "the_longest_night",
+        "campaign_code": "fhv",
+        "encounter_codes": ["the_second_day", "the_longest_night", "blight", "transfiguration", "fire", "chilling_cold", "striking_fear", "residents"],
+        "extra_cards": ["01135", "01136"]
+    },
+    {
+        "name": "Prelude: Dawn of the Final Day",
+        "scenario_code": "prelude_3",
+        "campaign_code": "fhv",
+        "encounter_codes": ["the_final_day", "day_of_the_feast", "agents_of_the_colour", "residents", "the_vale"],
+        "extra_cards": null
+    },
+    {
+        "name": "Prelude: The Final Evening",
+        "scenario_code": "prelude_4",
+        "campaign_code": "fhv",
+        "encounter_codes": ["the_final_day", "day_of_the_feast", "residents", "the_vale"],
+        "extra_cards": null
+    },
+    {
+        "name": "Fate of the Vale",
+        "scenario_code": "fate_of_the_vale",
+        "campaign_code": "fhv",
+        "encounter_codes": ["the_final_day", "fate_of_the_vale", "day_of_the_feast", "agents_of_the_colour", "fire", "horrors_in_the_rock", "refractions", "residents", "transfiguration", "the_vale"],
+        "extra_cards": null
+    },
+    {
+        "name": "One Last Job",
+        "scenario_code": "one_last_job",
+        "campaign_code": "tdc",
+        "encounter_codes": ["one_last_job", "dreams", "chilling_cold", "locked_doors", "rats", "striking_fear"],
+        "extra_cards": ["01125", "01129", "01130", "01131", "01132", "01134"]
+    },
+    {
+        "name": "The Western Wall",
+        "scenario_code": "the_western_wall",
+        "campaign_code": "tdc",
+        "encounter_codes": ["the_western_wall", "cosmic_legacy", "deep_ones", "tdc_flood", "rlyeh", "the_inescapable", "undersea_creatures", "agents_of_cthulhu", "tdc_expedition"],
+        "extra_cards": ["11727"]
+    },
+    {
+        "name": "The Drowned Quarter",
+        "scenario_code": "the_drowned_quarter",
+        "campaign_code": "tdc",
+        "encounter_codes": ["the_drowned_quarter", "alien_machinery", "cosmic_legacy", "deep_ones", "elder_mist", "tdc_flood", "rlyeh", "undersea_creatures", "tdc_expedition"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Apiary",
+        "scenario_code": "the_apiary",
+        "campaign_code": "tdc",
+        "encounter_codes": ["the_apiary", "cosmic_legacy", "elder_mist", "the_inescapable", "pilgrims", "pentagram", "striking_fear", "stowaways", "tdc_expedition"],
+        "extra_cards": ["11726"]
+    },
+    {
+        "name": "The Grand Vault",
+        "scenario_code": "the_grand_vault",
+        "campaign_code": "tdc",
+        "encounter_codes": ["the_grand_vault", "alien_machinery", "tdc_flood", "the_inescapable", "rlyeh", "star_spawn", "tdc_expedition"],
+        "extra_cards": null
+    },
+    {
+        "name": "Court of the Ancients",
+        "scenario_code": "court_of_the_ancients",
+        "campaign_code": "tdc",
+        "encounter_codes": ["court_of_the_ancients", "domination", "dreams", "elder_mist", "the_inescapable", "rlyeh", "star_spawn", "stowaways", "pilgrims", "tdc_expedition"],
+        "extra_cards": null
+    },
+    {
+        "name": "Obsidian Canyons",
+        "scenario_code": "obsidian_canyons",
+        "campaign_code": "tdc",
+        "encounter_codes": ["obsidian_canyons", "cosmic_legacy", "elder_mist", "the_inescapable", "rlyeh", "star_spawn", "ancient_evils", "chilling_cold", "nightgaunts", "striking_fear", "tdc_expedition"],
+        "extra_cards": null
+    },
+    {
+        "name": "Sepulchre of the Sleeper",
+        "scenario_code": "sepulchre_of_the_sleeper",
+        "campaign_code": "tdc",
+        "encounter_codes": ["sepulchre_of_the_sleeper", "domination", "dreams", "rlyeh", "star_spawn", "ancient_evils", "striking_fear", "tdc_expedition"],
+        "extra_cards": null
+    },
+    {
+        "name": "The Doom of Arkham Part I",
+        "scenario_code": "the_doom_of_arkham_part_1",
+        "campaign_code": "tdc",
+        "encounter_codes": ["the_doom_of_arkham_part_1", "deep_ones", "domination", "dreams", "star_spawn", "agents_of_cthulhu"],
+        "extra_cards": ["01125", "01126", "01127", "01128", "01129", "01130", "01131", "01132", "01134", "01135", "01136"]
+    },
+    {
+        "name": "The Doom of Arkham Part II",
+        "scenario_code": "the_doom_of_arkham_part_2",
+        "campaign_code": "tdc",
+        "encounter_codes": ["the_doom_of_arkham_part_2", "domination", "elder_mist", "tdc_flood", "star_spawn", "agents_of_cthulhu"],
+        "extra_cards": ["01126", "01127", "01128", "01129", "01130", "01131", "01132", "01134"]
+    },
+    {
+        "name": "Spreading Flames",
+        "scenario_code": "spreading_flames",
+        "campaign_code": "core_ch2",
+        "encounter_codes": ["spreading_flames", "ashen_pilgrims", "bystanders", "cosmic_evils", "eldritch_lore", "fire_ch2", "hallucinations", "mad_science", "miskatonic_university"],
+        "extra_cards": null
+    },
+    {
+        "name": "Smoke and Mirrors",
+        "scenario_code": "smoke_and_mirrors",
+        "campaign_code": "core_ch2",
+        "encounter_codes": ["smoke_and_mirrors", "arcane_lock", "arkham_ch2", "bad_weather", "dead_ends", "flying_terrors", "gangs_of_arkham", "people_of_arkham", "whippoorwills_ch2"],
+        "extra_cards": null
+    },
+    {
+        "name": "Queen of Ash",
+        "scenario_code": "queen_of_ash",
+        "campaign_code": "core_ch2",
+        "encounter_codes": ["queen_of_ash", "ashen_pilgrims", "cosmic_evils", "cultists_ch2", "fire_ch2", "hallucinations", "reeking_decay", "arkham_sewers", "torment"],
+        "extra_cards": null
     }
 ]

@@ -1,7 +1,7 @@
 [
     {
         "code": "core",
-        "name": "Core (2016)",
+        "name": "Night of the Zealot",
         "scenarios": ["torch", "arkham", "tentacles"]
     },
     {
@@ -43,5 +43,20 @@
         "code": "tsk",
         "name": "The Scarlet Keys",
         "scenarios": ["riddles_and_rain", "dead_heat", "sanguine_shadows", "dealings_in_the_dark", "dancing_mad", "on_thin_ice", "dogs_of_war", "shades_of_suffering", "without_a_trace", "congress_of_the_keys"]
+    },
+    {
+        "code": "fhv",
+        "name": "The Feast of Hemlock Vale",
+        "scenarios": ["prelude_1", "prelude_2", "prelude_3", "prelude_4", "written_in_rock", "hemlock_house", "the_silent_heath", "the_lost_sister", "the_thing_in_the_depths", "the_twisted_hollow", "the_longest_night", "fate_of_the_vale"]
+    },
+    {
+        "code": "tdc",
+        "name": "The Drowned City",
+        "scenarios": ["one_last_job", "the_western_wall", "the_drowned_quarter", "the_apiary", "the_grand_vault", "court_of_the_ancients", "obsidian_canyons", "sepulchre_of_the_sleeper", "the_doom_of_arkham_part_1", "the_doom_of_arkham_part_2"]
+    },
+    {
+        "code": "core_ch2",
+        "name": "Brethren of Ash",
+        "scenarios": ["spreading_flames", "smoke_and_mirrors", "queen_of_ash"]
     }
 ]
